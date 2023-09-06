@@ -17,7 +17,7 @@ const Navbar = () => {
                     <li className="nav__item"><a href="#" className="nav__link">Inicio</a></li>
                     <li className="nav__item"><a href="#" className="nav__link">Nosotros</a></li>
                     <li className="nav__item"><a href="#" className="nav__link">Productos</a></li>
-                    <li className="nav__item"><a href="#" className="nav__link">Contacto</a></li>
+                    <li className="nav__item"><a href="/contacto" className="nav__link">Contacto</a></li>
                 </ul>
                 <div onClick={navToggle} className={toggleIcon}>
                     <div className="line1"></div>
