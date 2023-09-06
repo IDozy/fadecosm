@@ -23,9 +23,10 @@ a{
 .nav{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    height: 8vh;
-    background: #000
+    justify-content: space-between;
+    height: 10vh;
+    background: #7375a5;
+    padding: 0 4rem;
 }
 
 .nav__brand{
@@ -61,12 +62,16 @@ transition: .4s ease-in;
         position: fixed;
         top: 7vh;
         right: 0;
-        width: 50%;
-        height: 93vh;
-        background: #000;
+        width: 45%;
+        height: 95vh;
+        background: #7375a5;
         flex-direction: column;
         transform: translate(100%);
         transition: 0.5s ease-in;
+        z-index: 100;
+      /*  justify-content: flex-start;
+        padding: 8rem 0 0 0;*/
+        
     }
 }
 

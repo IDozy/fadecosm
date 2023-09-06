@@ -1,14 +1,16 @@
-import React from 'react'
+  import React from 'react'
 
-import Navbar from './navbar/Navbar'
+  import Navbar from './navbar/Navbar'
+  import Carousel from './carousel/Carousel'
 
-const Home = () => {
-  return (
-   
-    <div>
-    <Navbar></Navbar>
-    </div>
-  )
-}
+  const Home = () => {
+    return (
+    
+      <div>
+      <Navbar></Navbar>
+      <Carousel/>
+      </div>
+    )
+  }
 
-export default Home
+  export default Home
