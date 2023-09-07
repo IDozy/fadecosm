@@ -14,7 +14,7 @@ const Navbar = () => {
             <nav className="nav">
                 <a href="" className="nav__brand">Fadeco SM</a>
                 <ul className={active}>
-                    <li className="nav__item"><a href="#" className="nav__link">Inicio</a></li>
+                    <li className="nav__item"><a href="/inicio" className="nav__link">Inicio</a></li>
                     <li className="nav__item"><a href="#" className="nav__link">Nosotros</a></li>
                     <li className="nav__item"><a href="#" className="nav__link">Productos</a></li>
                     <li className="nav__item"><a href="/contacto" className="nav__link">Contacto</a></li>

@@ -11,7 +11,7 @@ function WhatsAppButton() {
       target="_blank"
       rel="noopener noreferrer"
     >
-      <i className="fa fa-whatsapp"></i> Escríbenos
+      <i className="fa fa-whatsapp"></i> Contáctanos
     </a>
   );
 }
