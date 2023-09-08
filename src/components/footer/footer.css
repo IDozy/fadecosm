@@ -4,6 +4,9 @@
 
 .footer{
     background-color:#2d2d3d;
+  /*  position: fixed;
+    width: 100%;
+    bottom: 0;*/
 }
 
 .sb__footer{
