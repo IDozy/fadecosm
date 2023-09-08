@@ -4,8 +4,8 @@
     right: 20px;
     background-color: #25d366;
     color: #fff;
-    border-radius: 50%;
-    padding: 17px;
+    border-radius: 25px;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
@@ -14,8 +14,14 @@
     align-items: center;
     transition: background-color 0.2s ease-in-out;
     font-size: 20px;
+    width: 180px;
+    font-family:  Yantramanav;
   }
   
+  
+
+
+
   .whatsapp-button i {
     margin-right: 5px;
   }

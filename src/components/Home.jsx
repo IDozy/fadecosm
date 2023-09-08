@@ -1,17 +1,19 @@
-  import React from 'react';
-  import WhatsAppButton from './whatsappbutton/WhatsAppButton';
-  import Navbar from './navbar/Navbar';
-  import Carousel from './carousel/Carousel';
+import React from 'react';
+import WhatsAppButton from './whatsappbutton/WhatsAppButton';
+import Navbar from './navbar/Navbar';
+import Carousel from './carousel/Carousel';
+import Footer from "./footer/Footer";
 
-  const Home = () => {
-    return (
-    
-      <div>
-      <Navbar></Navbar>
-      <Carousel/>
-      <WhatsAppButton></WhatsAppButton>
-      </div>
-    )
-  }
+const Home = () => {
+  return (
 
-  export default Home
+    <div>
+      <Navbar />
+      <Carousel />
+      <WhatsAppButton />
+      <Footer/>
+    </div>
+  )
+}
+
+export default Home
