@@ -26,8 +26,8 @@
 }
 
 .sb__footer-links-div{
-        width: 150px;
-        margin: 1rem;
+        width: 250px;
+        margin: 1rem ;
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
@@ -36,6 +36,7 @@
 
 .sb__footer-links-div > a{
     color: rgb(175, 175, 179);
+    margin-top: .7rem;
 }
 
 .socialmedia{
@@ -69,7 +70,7 @@
 .sb__footer-below{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: .2rem;
 }
 
