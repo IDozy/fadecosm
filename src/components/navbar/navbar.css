@@ -11,13 +11,14 @@ body{
     font-size: 1.6rem;
 }
 
-li{
+.nav li{
     list-style: none;
 }
 
-a{
+.nav a{
     text-decoration: none;
     color: #fff;
+    margin-left: 2rem;
 }
 
 .nav{
@@ -29,9 +30,10 @@ a{
     padding: 0 4rem;
 }
 
-.nav__brand{
+.nav> .nav__brand{
     text-transform: uppercase;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .nav__menu{
