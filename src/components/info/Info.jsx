@@ -14,17 +14,7 @@ const Info = () => {
       subtitle:"ENCONTRARÁS",
       title: "Card-2",
       text:`Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quas minima fugit accusamus asperiores repellendus cum recusandae hic corporis mollitia molestiae, in deleniti saepe ab vel, neque delectus assumenda distinctio.`
-    },
-    { 
-      subtitle:"ENCONTRARÁS",
-      title: "Card-3",
-      text:`Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quas minima fugit accusamus asperiores repellendus cum recusandae hic corporis mollitia molestiae, in deleniti saepe ab vel, neque delectus assumenda distinctio.`
-    },
-    {
-      subtitle:"ENCONTRARÁS",
-      title: "Card-4",
-      text:`Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quas minima fugit accusamus asperiores repellendus cum recusandae hic corporis mollitia molestiae, in deleniti saepe ab vel, neque delectus assumenda distinctio.`
-    },
+    }
   ])
   return (
    
