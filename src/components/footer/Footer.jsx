@@ -102,31 +102,32 @@ const Footer = () => {
     ];
 
     const renderLinks = (title, items) => (
-        <div className="sb__footer-links-div">
+        <div className="sb__footer-links-div" key={title}> {/* Agrega una clave única para cada grupo de enlaces */}
             <h4>{title}</h4>
             {items.map((item, index) => (
-                <a href={`/${item}`} key={index}>
+                <a href={`/${item}`} key={index}> {/* Agrega una clave única para cada enlace */}
                     <p>{item}</p>
                 </a>
             ))}
         </div>
     );
+    
 
     const renderSocialMediaIcons = () => (
         <div className="sb__footer-links-div">
             <h4>Síguenos</h4>
             <div className="socialmedia">
                 {socialMediaIcons.map((item, index) => (
-                    <p>
-                    <a href={getSocialMediaLink(item.icon)} key={index} target="_blank" rel="noopener noreferrer">
-                        <FontAwesomeIcon icon={item.icon} />
-                    </a>
+                    <p key={index}>
+                        <a href={getSocialMediaLink(item.icon)} target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={item.icon} />
+                        </a>
                     </p>
                 ))}
             </div>
         </div>
     );
-
+    
    
     const getSocialMediaLink = (icon) => {
         switch (icon) {

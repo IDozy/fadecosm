@@ -25,5 +25,4 @@ const slider = () => (
     <div data-src={imagen3} />
   </AutoplaySlider>
 );
-
 export default slider;
