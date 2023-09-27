@@ -16,7 +16,7 @@ const Navbar = () => {
                 <ul className={active}>
                     <li className="nav__item"><a href="/inicio" className="nav__link">Inicio</a></li>
                     <li className="nav__item"><a href="/acercade" className="nav__link">Nosotros</a></li>
-                    <li className="nav__item"><a href="#" className="nav__link">Productos</a></li>
+                    <li className="nav__item"><a href="/productos" className="nav__link">Productos</a></li>
                     <li className="nav__item"><a href="/contacto" className="nav__link">Contacto</a></li>
                 </ul>
                 <div onClick={navToggle} className={toggleIcon}>
