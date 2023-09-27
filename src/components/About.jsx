@@ -3,19 +3,19 @@ import Navbar from "./navbar/Navbar";
 import WhatsAppButton from "./whatsappbutton/WhatsAppButton";
 import CarouselAbout from "./carouselAbout/CarouselAbout";
 import ContainerInfo from "./info/ContainerInfo";
-import './info/Containerabout.css';
+import "./info/Containerabout.css";
 
 export const About = () => {
   const [cards] = useState([
     {
       icon: "cube",
-      subtitle: "MISIÓN",
-      title: "Card-1",
+      subtitle: "",
+      title: "MISIÓN",
       text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quas minima fugit accusamus asperiores repellendus cum recusandae hic corporis mollitia molestiae, in deleniti saepe ab vel, neque delectus assumenda distinctio.`,
     },
     {
-      subtitle: "VISIÓN",
-      title: "Card-2",
+      subtitle: "",
+      title: "VISIÓN",
       text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quas minima fugit accusamus asperiores repellendus cum recusandae hic corporis mollitia molestiae, in deleniti saepe ab vel, neque delectus assumenda distinctio.`,
     },
   ]);
