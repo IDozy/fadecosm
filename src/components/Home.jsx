@@ -4,6 +4,7 @@ import Navbar from './navbar/Navbar';
 import Carousel from './carousel/Carousel';
 import Footer from "./footer/Footer";
 import Info from './info/Info';
+import Counter from './count/CounterElement';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Carousel />
       <WhatsAppButton />
       <Info/>
+      <Counter/>
       <Footer/>
     </div>
   )

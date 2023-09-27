@@ -1,0 +1,15 @@
+.container__count{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100%;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.container__item{
+   
+    
+}
