@@ -99,7 +99,7 @@ hr{
     font-weight: 600;
 }
 
-@media screen and(max-width: 550px) {
+@media screen and (max-width: 550px) {
    .sb__footer-below{
     flex-direction: column;
     justify-content: left;
