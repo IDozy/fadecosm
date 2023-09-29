@@ -14,6 +14,10 @@ const CounterElement = () => {
     { title: 'MÁS DE' , end: 50, description: 'Empresas que nos prefieren' },
   ];
 
+  const formatNumber = (value) => {
+    return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, "");
+  };
+
   return (
     <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
       <div className="container__count" style={{
@@ -26,7 +30,7 @@ const CounterElement = () => {
             <div className='container__item' key={index}>
               <h1 className='count-title'>{counter.title}</h1>
               <h2 className='count-number'>
-                <CountUp start={0} end={counter.end} duration={2} delay={0} />
+                <CountUp start={0} end={counter.end} duration={2} delay={0}  formattingFn={(value) => formatNumber(value)} />
               </h2>
               <p className='count-description'>{counter.description}</p>
             </div>

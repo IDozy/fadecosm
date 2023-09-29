@@ -5,6 +5,7 @@ import Carousel from './carousel/Carousel';
 import Footer from "./footer/Footer";
 import Info from './info/Info';
 import Counter from './count/CounterElement';
+import Slider from './Test/Slider';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <WhatsAppButton />
       <Info/>
       <Counter/>
+      <Slider/>
       <Footer/>
     </div>
   )
