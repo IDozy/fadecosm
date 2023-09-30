@@ -1,76 +1,40 @@
-import React, { useState } from 'react'
-import CountUp from 'react-countup/'
+import React, { useState } from 'react';
+import CountUp from 'react-countup/';
 import ScrollTrigger from 'react-scroll-trigger';
 import "./Counter.css"
 
 const CounterElement = () => {
   const [counterOn, setCounterOn] = useState(false);
 
+  // Definir un arreglo de datos para los contadores
+  const countersData = [
+    { title: 'MÁS DE' , end: 15, description: 'Años de experiecia' },
+    { title: 'MÁS DE' , end: 250, description: 'Proyectos realizados' },
+    { title: 'MÁS DE' , end: 1000, description: 'Clientes satisfechos'  },
+    { title: 'MÁS DE' , end: 50, description: 'Empresas que nos prefieren' },
+  ];
 
   return (
-    
-  
-    <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)} >
+    <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
       <div className="container__count" style={{
-       
-        background: "red",
+        background: "#aaafff",
         marginTop: "3rem",
-        padding: "5rem",
+        padding: "7rem 4rem 1.5rem ",
       }}>
-        
-        {counterOn &&
-        < >
-        
-            <div className='container__item'>
-              <h1>mas de</h1>
-              <h2>
-
-                <CountUp start={0} end={150} duration={3} delay={0} />
-
+        {counterOn && (
+          countersData.map((counter, index) => (
+            <div className='container__item' key={index}>
+              <h1 className='count-title'>{counter.title}</h1>
+              <h2 className='count-number'>
+                <CountUp start={0} end={counter.end} duration={2} delay={0} />
               </h2>
-              <p>años de experiencia</p>
+              <p className='count-description'>{counter.description}</p>
             </div>
-
-            <div className='container__item'>
-              <h1>mas de</h1>
-              <h2>
-
-                <CountUp start={0} end={150} duration={3} delay={0} />
-
-              </h2>
-              <p>años de experiencia</p>
-            </div>
-
-            <div className='container__item'>
-              <h1>mas de</h1>
-              <h2>
-
-                <CountUp start={0} end={150} duration={3} delay={0} />
-
-              </h2>
-              <p>años de experiencia</p>
-            </div>
-
-            <div className='container__item'>
-              <h1>mas de</h1>
-              <h2>
-
-                <CountUp start={0} end={150} duration={3} delay={0} />
-
-              </h2>
-              <p>años de experiencia</p>
-            </div>
-
-        </>
-        }
-
+          ))
+        )}
       </div>
-
     </ScrollTrigger>
-
-    
-
   )
 }
 
-export default CounterElement
+export default CounterElement;
