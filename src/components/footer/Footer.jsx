@@ -91,7 +91,7 @@ const Footer = () => {
     const links = [
         { title: "Fadeco San Martin", items: ["Nos dedicamos a la fabricación de productos de concreto prefabricado para el sector industrial y saneamiento.", "Contamos con más de 15 años de experiencia.", "Lunes a viernes:  8.00 am a 5.00 pm. Sábados: 8.00 am a 12.00 pm"] },
         { title: "Nuestros Productos", items: ["– Buzones", "– Cajas de registro para desagüe", "– Caja porta medidor de agua", "– Caja condominial" ,"– Marco de fierro fundido"] },
-        { title: "Contactanos", items: ["link", "link", "link"] },
+        { title: "Contactanos", items: ["+51 955 445 875", "link", "link"] },
     ];
 
     const socialMediaIcons = [
@@ -132,11 +132,11 @@ const Footer = () => {
     const getSocialMediaLink = (icon) => {
         switch (icon) {
             case faFacebook:
-                return "https://www.facebook.com/TuPaginaDeFacebook";
+                return "https://web.facebook.com/profile.php?id=100064091890509";
             case faTwitter:
                 return "https://twitter.com/TuCuentaDeTwitter";
             case faInstagram:
-                return "https://www.instagram.com/TuCuentaDeInstagram";
+                return "https://www.instagram.com/fadeco_san_martin/";
             case faLinkedin:
                 return "https://www.linkedin.com/in/TuPerfilDeLinkedIn";
             default:
