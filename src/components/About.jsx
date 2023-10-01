@@ -3,6 +3,7 @@ import Navbar from "./navbar/Navbar";
 import WhatsAppButton from "./whatsappbutton/WhatsAppButton";
 import CarouselAbout from "./carouselAbout/CarouselAbout";
 import ContainerInfo from "./info/ContainerInfo";
+import mision from './../images/Logos&Iconos/objetivo.svg';
 import "./info/Containerabout.css";
 
 export const About = () => {

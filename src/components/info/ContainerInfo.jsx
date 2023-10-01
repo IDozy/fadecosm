@@ -9,8 +9,7 @@ library.add(fas);
 const ContainerInfo = ({ cards, cardClassName }) => {
   return (
     <div>
-      <section>
-      
+      <section>      
           <div className="cards">
             {cards.map((card, i) => (
               <div key={i} className={cardClassName}>
@@ -21,7 +20,6 @@ const ContainerInfo = ({ cards, cardClassName }) => {
               </div>
             ))}
           </div>
-       
       </section>
     </div>
   );
