@@ -6,7 +6,7 @@ import 'font-awesome/css/font-awesome.min.css';
 function WhatsAppButton() {
   return (
     <a
-      href="https://api.whatsapp.com/send?phone=51982221755"
+      href="https://api.whatsapp.com/send?phone=51955445875"
       className="whatsapp-button"
       target="_blank"
       rel="noopener noreferrer"

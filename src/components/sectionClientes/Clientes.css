@@ -1,0 +1,17 @@
+.client-logos-container {
+    text-align: center; /* Centra las imágenes horizontalmente */
+    margin-top: 2rem;
+  }
+  
+  .client-logo {
+    display: inline-block; /* Muestra las imágenes en línea */
+    width: 240px; /* Establece el ancho deseado para cada imagen */
+    margin-right: 20px; /* Agrega un margen derecho entre las imágenes */
+  }
+  .tiulo-clientes {
+    font-size: 24px; /* Tamaño de fuente */
+    font-weight: bold; /* Grosor de la fuente */
+    color: #333; /* Color del texto */
+    margin-bottom: 16px; /* Margen inferior para separación */
+    text-align: center; /* Alineación al centro */
+  }
