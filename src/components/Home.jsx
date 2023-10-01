@@ -6,6 +6,7 @@ import Footer from "./footer/Footer";
 import Info from './info/Info';
 import Counter from './count/CounterElement';
 import Slider from './Test/Slider';
+import ProductoSlider from './productoSlider/ProductoSlider';
 
 const Home = () => {
   return (
@@ -16,7 +17,7 @@ const Home = () => {
       <WhatsAppButton />
       <Info/>
       <Counter/>
-      <Slider/>
+      <ProductoSlider/>
       <Footer/>
     </div>
   )

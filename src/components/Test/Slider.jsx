@@ -8,12 +8,12 @@ const Slider = () => {
     return (
         <div className='cube-container'>
  <div className='cube'>
-            <img src={imagen1} alt="avatar 1" width={"250px"} height={"250px"} />
-            <img src={imagen2} alt="avatar 1" width={"250px"} height={"250px"}/>
-            <img src={imagen3} alt="avatar 1" width={"250px"} height={"250px"}/>
-            <img src={imagen1} alt="avatar 1" width={"250px"} height={"250px"}/>
-            <img src={imagen2} alt="avatar 1" width={"250px"} height={"250px"}/>
-            <img src={imagen3} alt="avatar 1" width={"250px"} height={"250px"}/>
+            <img src={imagen1} alt="avatar 1"  height={"250px"} />
+            <img src={imagen2} alt="avatar 1"height={"250px"}/>
+            <img src={imagen3} alt="avatar 1"  height={"250px"}/>
+            <img src={imagen1} alt="avatar 1"  height={"250px"}/>
+            <img src={imagen2} alt="avatar 1"  height={"250px"}/>
+            <img src={imagen3} alt="avatar 1" height={"250px"}/>
 
         </div>
         </div>
