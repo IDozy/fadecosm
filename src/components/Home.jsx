@@ -5,8 +5,9 @@ import Carousel from './carousel/Carousel';
 import Footer from "./footer/Footer";
 import Info from './info/Info';
 import Counter from './count/CounterElement';
-import Slider from './Test/Slider';
+
 import ProductoSlider from './productoSlider/ProductoSlider';
+import { Clientes } from './sectionClientes/Clientes';
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <Info/>
       <Counter/>
       <ProductoSlider/>
+      <Clientes />
       <Footer/>
     </div>
   )
