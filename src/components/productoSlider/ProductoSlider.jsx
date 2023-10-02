@@ -21,7 +21,7 @@ const ProductoSlider = () => {
   return (
     <div className='container'>
       <h1 className="heading">
-        Flower Garery </h1>
+        Nuestros Productos </h1>
       <Swiper
         loop={true}
         autoplay={{
