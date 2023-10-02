@@ -10,26 +10,37 @@ import img7 from "../../images/Clientes/Ministerio de cultura.png";
 import img8 from "../../images/Clientes/TECNOFAST.png";
 
 export const Clientes = () => {
+  const images = [
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
+    img6,
+    img7,
+    img8,
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
+    img6,
+    img7,
+    img8,
+  ];
+
   return (
-    <div>
-        <h1 className="tiulo-clientes">Trabajamos con: </h1>
-      <section className="client-logos">
-        <div className="client-logos-container">
-          <img className="client-logo" src={img1} alt="Cliente 1" />
-          <img className="client-logo" src={img2} alt="Cliente 2" />
-          <img className="client-logo" src={img3} alt="Cliente 3" />
-          <img className="client-logo" src={img4} alt="Cliente 4" />
+    <div className="body">
+      <h1>Confiaron en nosotros:</h1>
+      <div className="slider">
+        <div className="slide-track">
+          {images.map((image, index) => (
+            <div className="slide" key={index}>
+              <img src={image} alt={`cliente${index + 1}`} />
+            </div>
+          ))}
         </div>
-      </section>
-      <section className="client-logos">
-        <div className="client-logos-container">
-          <img className="client-logo" src={img5} alt="Cliente 1" />
-          <img className="client-logo" src={img6} alt="Cliente 2" />
-          <img className="client-logo" src={img7} alt="Cliente 3" />
-          <img className="client-logo" src={img8} alt="Cliente 4" />
-        </div>
-      </section>
-      
+      </div>
     </div>
   );
 };
