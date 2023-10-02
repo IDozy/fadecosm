@@ -1,13 +1,10 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Carousel from "react-bootstrap/Carousel";
-import foto1 from "../../images/foto1.jpg";
-import foto2 from "../../images/foto2.jpg";
-import foto3 from "../../images/foto3.jpg";
+
 
 function CarouselAbout() {
   return (
-    <Carousel className="carousel" interval={3000} pause={false}>
+    <div></div>
+    /* <Carousel className="carousel" interval={3000} pause={false}>
       <Carousel.Item>
         <img
           className="d-block w-100 carousel-images"
@@ -41,6 +38,7 @@ function CarouselAbout() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    */
   );
 }
 export default CarouselAbout;
