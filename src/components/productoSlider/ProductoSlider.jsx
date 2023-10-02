@@ -23,16 +23,16 @@ const ProductoSlider = () => {
       <h1 className="heading">
         Flower Garery </h1>
       <Swiper
-       loop={true}
+        loop={true}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
         }}
-        modules={[ Pagination, Navigation, EffectCoverflow,Autoplay]}
+        modules={[Pagination, Navigation, EffectCoverflow, Autoplay]}
         effect={'coverflow'}
         grabCursor={true}
         centeredSlides={true}
-       
+
         slidesPerView={'auto'}
         spaceBetween={0}
         coverflowEffect={{
@@ -41,11 +41,11 @@ const ProductoSlider = () => {
           depth: 150,
           modifier: 2.5
         }}
-        pagination={{el:'.swiper-pagination',clickable:true}}
+        pagination={{ el: '.swiper-pagination', enabled: true }}
         navigation={{
-          prevEl:'.swiper-button-prev',
-          nextEl:'.swiper-button-next',
-          enabled:true
+          prevEl: '.swiper-button-prev',
+          nextEl: '.swiper-button-next',
+          enabled: true
         }}
         className='swiper_container'
       >
@@ -67,16 +67,25 @@ const ProductoSlider = () => {
         <SwiperSlide>
           <img src={image2} alt="" />
         </SwiperSlide>
+        <SwiperSlide>
+          <img src={image1} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={image2} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={image3} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={image4} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={image5} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={image2} alt="" />
+        </SwiperSlide>
 
-        <div className="slider-controler">
-          <div className="swiper-button-prev slider-arrow">
-            <ion-icon name="arrow-back-outline">-</ion-icon>
-          </div>
-          <div className="swiper-button-next slider-arrow">
-            <ion-icon name="arrow-forward-outline">-</ion-icon>
-          </div>
-          <div className="swiper-pagination"></div>
-        </div>
       </Swiper>
 
 
