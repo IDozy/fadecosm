@@ -75,12 +75,14 @@ body {
   height: 52rem;
   padding: 2rem 0;
   position: relative;
+  
 }
 
 .swiper-slide {
   width: 37rem;
   height: 42rem;
   position: relative;
+  
 }
 
 @media (max-width: 500px) {
@@ -102,6 +104,7 @@ body {
   height: 42rem;
   border-radius: 2rem;
   object-fit: cover;
+  border: 2px solid rgb(170, 175, 255);
 }
 
 .swiper-slide-shadow-left,
