@@ -9,7 +9,7 @@ import "react-awesome-slider/dist/captioned.css";
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 const slider = () => (
-  <AutoplaySlider
+  <AutoplaySlider 
     className="aws-btn aws-sld"
     play={true}
     cancelOnInteraction={false}

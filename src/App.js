@@ -4,7 +4,9 @@ import Home from './components/Home';
 import Contact from './components/Contact';
 import { About } from './components/About';
 import { Products } from './components/Products';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
 
 
 const App = () =>{
