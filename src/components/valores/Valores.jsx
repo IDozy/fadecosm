@@ -1,9 +1,9 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faPeopleGroup,
   faBusinessTime,
-  faRankingStar,
+  faHandshake,
+  faPeopleCarryBox,
 } from "@fortawesome/free-solid-svg-icons";
 import "./Valores.css";
 
@@ -19,7 +19,7 @@ export const Valores = () => {
               <div>
               <figure className="valor-icon">
                   <FontAwesomeIcon
-                    icon={faRankingStar}
+                    icon={faHandshake}
                     fade
                     size="lg"
                     style={{ color: "#77859c" }}
@@ -27,7 +27,7 @@ export const Valores = () => {
                 </figure>
               </div>
             </div>
-            <h3 className="titulo-valores">Cálidad</h3>
+            <h3 className="titulo-valores">Responsabilidad</h3>
             <div className="texto-valores">
               <p>
                 Nuestros productos cumplen con metricas de cálidad requeridas
@@ -43,7 +43,7 @@ export const Valores = () => {
               <div>
                 <figure className="valor-icon">
                   <FontAwesomeIcon
-                    icon={faPeopleGroup}
+                    icon={faPeopleCarryBox}
                     beat
                     size="lg"
                     style={{ color: "#77859c" }}
@@ -51,7 +51,7 @@ export const Valores = () => {
                 </figure>
               </div>
             </div>
-            <h3 className="titulo-valores">Trabajo en Equipo</h3>
+            <h3 className="titulo-valores">Honestidad</h3>
             <div className="texto-valores">
               <p>
                 Nuestro equipo de profesionales esta apto para cubrir todo lo
