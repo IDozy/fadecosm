@@ -19,7 +19,8 @@ const Info = () => {
   return (
    
        <div className="container">
-       <h1>Responsive Cards</h1>
+       <h1>¿Por qué elegirnos?</h1>
+       <br />
        <ContainerInfo cards={cards} cardClassName={"card"} /> 
       
      
