@@ -1,0 +1,39 @@
+.nuestros-productos-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .image-carousel {
+    display: flex;
+    overflow: hidden; /* Oculta imágenes adicionales fuera de la vista */
+  }
+  
+  .product-image {
+    max-width: 200px;
+    margin-right: 20px;
+    opacity: 0; /* Oculta todas las imágenes inicialmente */
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .product-image.active {
+    opacity: 1; /* Muestra la imagen activa */
+  }
+  
+  .product-description {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .product-description h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .product-description p {
+    font-size: 14px;
+  }
+  
