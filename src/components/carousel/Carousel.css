@@ -1,7 +1,6 @@
 .aws-btn {
 
   --slider-height-percentage: 46% !important;
-  
   --slider-transition-duration: 600ms;
   --organic-arrow-thickness: 6px;
   --organic-arrow-border-radius: 0px;
