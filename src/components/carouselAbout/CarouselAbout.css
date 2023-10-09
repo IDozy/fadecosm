@@ -1,4 +1,4 @@
-.aws-btn {
+/*.aws-btn {
 
     --slider-height-percentage: 40% !important;
     --slider-transition-duration: 600ms;
@@ -62,4 +62,4 @@
         transform: translate3d(100%, 0, 0) rotateY(var(--fold-out-angle));
       }
     }
-    
+    */

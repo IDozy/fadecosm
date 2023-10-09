@@ -1,27 +1,54 @@
 import React, { useState } from 'react'
-import "./Info.css"
+
 import ContainerInfo from './ContainerInfo'
 import { faRankingStar, faPeopleGroup } from '@fortawesome/free-solid-svg-icons';
 
 const Info = () => {
   const [cards] = useState([
     {
-      icon: faRankingStar,
-      title:"CÁLIDAD",
-      text:`En nuestra fábrica, nos destacamos por mantener los más rigurosos estándares de calidad, de acuerdo con las normativas establecidas por los organismos de supervisión en la industria de la construcción. Nuestro equipo altamente capacitado realiza una evaluación exhaustiva de nuestros productos en todas las etapas del proceso de fabricación.`
+      data: "fade-down",
+      icon:"fa-solid fa-cubes-stacked",
+      subtitle:"ENCONTRARÁS",
+      title:"Variedad de Productos",
+      text:`Tenemos una amplia gama de productos de concreto prefabricado para resolver sus exigencias.`
     },
     {
-      icon: faPeopleGroup,
-      title: "TRABAJO EN EQUIPO",
-      text:`Valoramos la colaboración y la sinergia, lo que nos permite lograr resultados excepcionales en prefabricados. Elegirnos significa optar por un equipo unido y comprometido que trabajará incansablemente para cumplir con sus necesidades en cada proyecto.`
-    }
+      data: "fade-right",
+      subtitle:"OFRECEMOS",
+      icon:"fa-solid fa-city",
+      title: "Adecuada Infraestructura",
+      text:`Planta de producción de más de 5000 m2 y plantas móviles para acercarnos a tu obra. Aseguramos altos volúmenes de producción.`
+    },
+    {
+      data: "fade-up",
+      icon:"fa-solid fa-helmet-safety",
+      subtitle:"CONTAMOS CON",
+      title: "Personal Capacitado",
+      text:`Personal técnico altamente calificado para la elaboración de los productos de acuerdo a sus requerimientos.`
+    },
+    {
+      data: "fade-right",
+      icon:"fa-solid fa-truck-front",
+      subtitle:"CONTAMOS CON",
+      title: "Flota Propia",
+      text:`Personal técnico altamente calificado para la elaboración de los productos de acuerdo a sus requerimientos.`
+    },
+  
+  
   ])
   return (
-   
-       <div className="container">
-       <h1>¿Por qué elegirnos?</h1>
-       <br />
+  
+       <div className="container-info">
+       <div className="subcontainer-1" data-aos="fade-right" data-aos-duration="1500">
+        <div className='card-1'>
+          <h4>Fadeco SM</h4>
+          <h1>¿Por que elegirnos?</h1>
+        </div>
+       </div>
+       <div className='subcontainer-2'>
        <ContainerInfo cards={cards} cardClassName={"card"} /> 
+       </div>
+     
       
      
     </div>

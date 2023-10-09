@@ -1,6 +1,6 @@
 .aws-btn {
 
-  --slider-height-percentage: 40% !important;
+  --slider-height-percentage: 46% !important;
   --slider-transition-duration: 600ms;
   --organic-arrow-thickness: 6px;
   --organic-arrow-border-radius: 0px;
@@ -12,8 +12,9 @@
   --control-bullet-color: #62a4fa;
   --control-bullet-active-color: #538bd5;
   
-  --loader-bar-color: #851515;
-  --loader-bar-height: 5px;
+  --loader-bar-color: #8ABF7A;
+  --loader-bar-height: 4px;
+ 
   }
 
 
