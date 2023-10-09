@@ -1,8 +1,20 @@
-.container{
+:root{
+    --colorText: #8ABF7A;
+}
+
+.container-info{
     max-width: 1450px;
-    width: 100%;
+   
     margin: 3rem;
     padding: 0px 20px;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+}
+
+.subcontainer{
+  
+    padding: 20px;
     flex-direction: column;
     align-items: center;
 }
@@ -32,11 +44,28 @@ h3{
     flex: 0 0 calc(50% - 20px);
     max-width:calc(50% - 20px) ;
     width: 100%;
-    background: #fdf;
+    /*background: #fdf;*/
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 20px;
 }
+
+.card-1{
+  width: 300px; 
+    /*background: #fdf;*/
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    height: 60vh;
+}
+
+.icono{
+    width: 8rem;
+    height: 8rem;
+    padding: 2rem;
+    color:var(--colorText);
+}
+
 
 @media screen and(max-width: 550px){
     section{
@@ -49,8 +78,14 @@ padding: 20px 0px;
     
 }
 @media(max-width: 600px){
-    .card{
+    .card {
         flex: 0 0 100%;
         max-width: 100% ;
+      
+    }
+   
+    .container-info{
+        flex-direction: column;
+        max-width: 90%;
     }
 }

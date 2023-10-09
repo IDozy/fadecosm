@@ -1,8 +1,14 @@
-.body{
-  min-height: 100vh;
+.container-client{
+ min-height: 100vh;
   display: grid;
   place-items: center;
+  gap: 5rem;
+background-color: #B30E74;
+padding-top: 5rem;
+
 }
+
+
 
 .slider{
   height: 250px;
@@ -12,6 +18,7 @@
   display: grid;
   place-items: center;
   overflow: hidden;
+  margin-bottom: 10rem;
 }
 
 .slide-track{

@@ -9,12 +9,14 @@ import "react-awesome-slider/dist/captioned.css";
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 const slider = () => (
+
   <AutoplaySlider 
     className="aws-btn aws-sld"
     play={true}
     cancelOnInteraction={false}
     interval={6000}
     bullets={false}
+    
   >
     <div data-src={imagen1} data-alt="Descripción de la imagen 1">
       <p style={{ position: "relative", zIndex: 900, color: "white" }}>

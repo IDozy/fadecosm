@@ -30,7 +30,7 @@ export const Clientes = () => {
   ];
 
   return (
-    <div className="body">
+    <div className="container-client">
       <h1>Confiaron en nosotros:</h1>
       <div className="slider">
         <div className="slide-track">

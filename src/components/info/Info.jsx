@@ -1,26 +1,53 @@
 import React, { useState } from 'react'
-import "./Info.css"
+
 import ContainerInfo from './ContainerInfo'
 
 const Info = () => {
   const [cards] = useState([
     {
-      icon: 'cube',
+      data: "fade-down",
+      icon:"fa-solid fa-cubes-stacked",
       subtitle:"ENCONTRARÁS",
-      title:"Card-1",
-      text:`Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quas minima fugit accusamus asperiores repellendus cum recusandae hic corporis mollitia molestiae, in deleniti saepe ab vel, neque delectus assumenda distinctio.`
+      title:"Variedad de Productos",
+      text:`Tenemos una amplia gama de productos de concreto prefabricado para resolver sus exigencias.`
     },
     {
-      subtitle:"ENCONTRARÁS",
-      title: "Card-2",
-      text:`Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quas minima fugit accusamus asperiores repellendus cum recusandae hic corporis mollitia molestiae, in deleniti saepe ab vel, neque delectus assumenda distinctio.`
-    }
+      data: "fade-right",
+      subtitle:"OFRECEMOS",
+      icon:"fa-solid fa-city",
+      title: "Adecuada Infraestructura",
+      text:`Planta de producción de más de 5000 m2 y plantas móviles para acercarnos a tu obra. Aseguramos altos volúmenes de producción.`
+    },
+    {
+      data: "fade-up",
+      icon:"fa-solid fa-helmet-safety",
+      subtitle:"CONTAMOS CON",
+      title: "Personal Capacitado",
+      text:`Personal técnico altamente calificado para la elaboración de los productos de acuerdo a sus requerimientos.`
+    },
+    {
+      data: "fade-right",
+      icon:"fa-solid fa-truck-front",
+      subtitle:"CONTAMOS CON",
+      title: "Flota Propia",
+      text:`Personal técnico altamente calificado para la elaboración de los productos de acuerdo a sus requerimientos.`
+    },
+  
+  
   ])
   return (
-   
-       <div className="container">
-       <h1>Responsive Cards</h1>
+  
+       <div className="container-info">
+       <div className="subcontainer-1" data-aos="fade-right" data-aos-duration="1500">
+        <div className='card-1'>
+          <h4>Fadeco SM</h4>
+          <h1>¿Por que elegirnos?</h1>
+        </div>
+       </div>
+       <div className='subcontainer-2'>
        <ContainerInfo cards={cards} cardClassName={"card"} /> 
+       </div>
+     
       
      
     </div>

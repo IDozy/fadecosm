@@ -1,6 +1,18 @@
+ 
+
 *,*::after, *::before{
     margin: 0;
     box-sizing: border-box;
+   
+    padding: 0;
+   
+  
+
+
+}
+
+:root{
+    --color-nav: #A785C7;
 }
 
 html{
@@ -24,11 +36,11 @@ html{
     align-items: center;
     justify-content: space-between;
     height: 10vh;
-    background: #7375a5;
+    background: var(--color-nav);
     padding: 0 4rem;
-  /*  position: fixed;
-    width: 100vw;
-    z-index: 80;*/
+  /*position: fixed;*/
+  
+    z-index: 80;
     
     
 }
