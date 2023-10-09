@@ -4,20 +4,34 @@ import WhatsAppButton from "./whatsappbutton/WhatsAppButton";
 import CarouselAbout from "./carouselAbout/CarouselAbout";
 import ContainerInfo from "./info/ContainerInfo";
 
+import { faMagnifyingGlassChart, faStar } from '@fortawesome/free-solid-svg-icons';
+
 import "./info/Containerabout.css";
+import { Valores } from "./valores/Valores";
+import Footer from "./footer/Footer";
 
 export const About = () => {
   const [cards] = useState([
     {
-      icon: "cube",
+      icon: faMagnifyingGlassChart,
       subtitle: "",
       title: "MISIÓN",
-      text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quas minima fugit accusamus asperiores repellendus cum recusandae hic corporis mollitia molestiae, in deleniti saepe ab vel, neque delectus assumenda distinctio.`,
+      text: `Somos un equipo de trabajadores 
+      enfocados en el bienestar de nuestra 
+      sociedad, por ende, ofreciendo productos 
+      de calidad cumpliendo la normativa de 
+      nuestra empresa.`,
     },
     {
+      icon: faStar,
       subtitle: "",
       title: "VISIÓN",
-      text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quas minima fugit accusamus asperiores repellendus cum recusandae hic corporis mollitia molestiae, in deleniti saepe ab vel, neque delectus assumenda distinctio.`,
+      text: `Ser una empresa reconocida a nivel 
+      nacional ofreciendo productos de calidad 
+      de acuerdo a los estándares de calidad y las 
+      normas vigentes incursionando en los 
+      diversos campos como los de 
+      pavimentación, y servicios de saneamiento.`,
     },
   ]);
   return (
@@ -27,6 +41,8 @@ export const About = () => {
       <div className="card-about">
         <ContainerInfo cards={cards} cardClassName={"card"} />
       </div>
+      <Valores/>
+      <Footer/>
       <WhatsAppButton></WhatsAppButton>
     </div>
   );

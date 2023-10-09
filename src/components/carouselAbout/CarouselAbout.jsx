@@ -1,44 +1,35 @@
 import React from "react";
+import AwesomeSlider from "react-awesome-slider";
+import withAutoplay from "react-awesome-slider/dist/autoplay";
+import "react-awesome-slider/dist/styles.css";
+import img1 from '../../images/foto1.jpg';
+import img2 from '../../images/foto2.jpg';
+import img3 from '../../images/foto3.jpg';
+import './CarouselAbout.css'
+import "react-awesome-slider/dist/captioned.css";
 
-
+const AutoplaySlider = withAutoplay(AwesomeSlider);
 function CarouselAbout() {
+
   return (
-    <div></div>
-    /* <Carousel className="carousel" interval={3000} pause={false}>
-      <Carousel.Item>
-        <img
-          className="d-block w-100 carousel-images"
-          src={foto1}
-          alt="Primera imagen"
-        />
-
-        <Carousel.Caption>
-          <h3>Primera imagen</h3>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100 carousel-images"
-          src={foto2}
-          alt="Segunda imagen"
-        />
-
-        <Carousel.Caption>
-          <h3>Segunda imagen</h3>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100 carousel-images"
-          src={foto3}
-          alt="Tercera imagen"
-        />
-        <Carousel.Caption>
-          <h3>Tercera imagen</h3>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
-    */
+    <div>
+      <AutoplaySlider
+        className="aws-btn aws-sld"
+        play={true}
+        cancelOnInteraction={false}
+        interval={6000}
+        bullets={false}
+      >
+        <div data-src={img1} data-alt="Descripción de la imagen 1">
+          <p style={{ position: "relative", zIndex: 900, color: "white" }}>
+            Empresa Cajamarquina.
+          </p>
+        </div>
+        <div data-src={img2} />
+        <div data-src={img3} />
+      </AutoplaySlider>
+    </div>
+    
   );
 }
 export default CarouselAbout;

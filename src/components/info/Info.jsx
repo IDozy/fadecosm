@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 import ContainerInfo from './ContainerInfo'
+import { faRankingStar, faPeopleGroup } from '@fortawesome/free-solid-svg-icons';
 
 const Info = () => {
   const [cards] = useState([

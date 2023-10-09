@@ -1,7 +1,7 @@
 
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import Home from './components/Home';
-import Contact from './components/Contact';
+import {Contact} from './components/Contact';
 import { About } from './components/About';
 import { Products } from './components/Products';
 import AOS from 'aos';
