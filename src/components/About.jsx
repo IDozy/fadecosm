@@ -9,6 +9,7 @@ import { faMagnifyingGlassChart, faStar } from '@fortawesome/free-solid-svg-icon
 import "./info/Containerabout.css";
 import { Valores } from "./valores/Valores";
 import Footer from "./footer/Footer";
+import { Historia } from "./historia/Historia";
 
 export const About = () => {
   const [cards] = useState([
@@ -41,6 +42,7 @@ export const About = () => {
       <div className="card-about">
         <ContainerInfo cards={cards} cardClassName={"card"} />
       </div>
+      <Historia/>
       <Valores/>
       <Footer/>
       <WhatsAppButton></WhatsAppButton>
