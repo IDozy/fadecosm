@@ -29,30 +29,32 @@ export const NuestrosProductos = () => {
     };
   }, [images.length]);
 
-  const displayImages = images.slice(currentIndex, currentIndex+groupSize);
+  const displayImages = images.slice(currentIndex, currentIndex + groupSize);
 
   return (
-    <div className="nuestros-productos-card">
-      <div className="image-carousel">
-        {displayImages.map((image, index) => (
-          <img
-            key={index}
-            src={image}
-            alt={`Descripción de la imagen ${index + 1}`}
-            className={`product-image ${
-              index === 0 ? "active" : ""
-            }`}
-          />
-        ))}
+    <div className="productos-card">
+      <div className="nuestros-productos-card">
+        <div className="image-carousel">
+          {displayImages.map((image, index) => (
+            <img
+              key={index}
+              src={image}
+              alt={`Descripción de la imagen ${index + 1}`}
+              className={`product-image ${index === 0 ? "active" : ""
+                }`}
+            />
+          ))}
+        </div>
+        <div className="product-description">
+          <h2>Nuestros Productos</h2>
+          <p>
+            Son elaborados con un proceso supervisado desde la preparación del
+            material, hasta los últimos acabados, contamos con la posibilidad de
+            ajustar tú producto acorde a las medidas solicitadas en tus proyectos.
+          </p>
+        </div>
       </div>
-      <div className="product-description">
-        <h2>Nuestros Productos</h2>
-        <p>
-          Son elaborados con un proceso supervisado desde la preparación del
-          material, hasta los últimos acabados, contamos con la posibilidad de
-          ajustar tú producto acorde a las medidas solicitadas en tus proyectos.
-        </p>
-      </div>
+
     </div>
   );
 };

@@ -1,3 +1,8 @@
+.productos-card{
+ margin: 2rem 3rem;
+ 
+}
+
 .nuestros-productos-card {
     display: flex;
     align-items: center;
