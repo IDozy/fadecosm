@@ -1,0 +1,30 @@
+.nuestra-historia-card {
+    display: flex;
+    align-items: center;
+    margin: 20px; /* Espacio entre las tarjetas */
+    border: 1px solid #7173f0; /* Borde de 1 píxel sólido en un color gris claro */
+    box-shadow: 0 2px 4px rgba(202, 119, 238, 0.1); /* Sombreado ligero */
+    padding: 25px; /* Espacio interior alrededor del contenido */
+  }
+  .titulo-historia{
+    text-align: center;
+    
+  }
+  
+  .nuestra-historia-image {
+    flex: 2; /* Ocupa una fracción del espacio disponible */
+    margin-right: 5px; /* Espacio entre la imagen y el texto */
+    margin-left: 20px;
+}
+  
+  .nuestra-historia-image img {
+    max-width: 80%;
+    height: auto;
+  }
+  
+  .nuestra-historia-text {
+    flex: 2; /* Ocupa dos fracciones del espacio disponible */
+    margin-right: 100px;
+    text-align: justify;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
