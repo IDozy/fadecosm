@@ -13,6 +13,10 @@
 
 :root{
     --color-nav: #A785C7;
+    --colorText: #8ABF7A;
+    --colorBlack: #000;
+     --color-nav-darker: hsl(260, 38%, 50%);
+     --colorTextDarker: hsl(120, 40%, 50%);
 }
 
 html{
@@ -27,7 +31,7 @@ html{
 
 .nav a{
     text-decoration: none;
-    color: #fff;
+    color: #000;
     margin-left: 2rem;
 }
 
@@ -38,6 +42,7 @@ html{
     height: 10vh;
     background: var(--color-nav);
     padding: 0 4rem;
+   
   /*position: fixed;*/
   
     z-index: 80;
@@ -56,6 +61,7 @@ html{
     align-items: center;
     justify-content: space-around;
     gap:3.5rem;
+    
 
 }
 
@@ -65,6 +71,7 @@ height: 0.2rem;
 margin: 0.4rem;
 background-color:#fff;
 transition: .4s ease-in;
+ 
 }
 
 .nav__toggler{

@@ -98,14 +98,14 @@ const Footer = () => {
         { icon: faFacebook },
         { icon: faTwitter },
         { icon: faInstagram },
-        { icon: faLinkedin },
+        /*{ icon: faLinkedin },*/
     ];
 
     const renderLinks = (title, items) => (
-        <div className="sb__footer-links-div" key={title}> {/* Agrega una clave única para cada grupo de enlaces */}
+        <div className="sb__footer-links-div" key={title}> 
             <h4>{title}</h4>
             {items.map((item, index) => (
-                <a href={`/${item}`} key={index}> {/* Agrega una clave única para cada enlace */}
+                <a  key={index}>
                     <p>{item}</p>
                 </a>
             ))}

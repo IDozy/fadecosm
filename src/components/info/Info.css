@@ -1,10 +1,13 @@
 :root{
+    --color-nav: #A785C7;
     --colorText: #8ABF7A;
+    --colorBlack: #000;
+    --color-nav-darker: hsl(260, 38%, 50%);
+    --colorTextDarker: hsl(120, 40%, 50%);
 }
 
 .container-info{
-    max-width: 1450px;
-   
+    height: 100vh;
     margin: 3rem;
     padding: 0px 20px;
     flex-direction: row;
@@ -27,11 +30,23 @@ section{
 
 }
 
-h3{
+h3 {
     font-size: 2rem;
     line-height: 60px;
    height: 5rem;
+   color: var(--color-nav-darker);
 }
+
+.text-info {
+    color: var(--colorTextDarker);
+}
+.text-title{
+    color: var(--color-nav-darker);
+    font-size: 3em;
+    font-weight: 400;   
+  
+}
+
 
 
 .cards{
@@ -50,7 +65,7 @@ h3{
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: flex-start; 
     justify-content: center; 
     text-align: center; 
 }
@@ -60,7 +75,7 @@ h3{
     /*background: #fdf;*/
     border-radius: 10px;
     padding: 20px;
-    margin: 20px;
+    margin: 2rem 7rem 0 11rem;
     height: 60vh;
 }
 

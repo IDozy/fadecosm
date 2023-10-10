@@ -3,7 +3,7 @@
 }
 
 .footer{
-    background-color:#2d2d3d;
+    background-color:#272732;
   /*  position: fixed;
     width: 100%;
     bottom: 0;*/
@@ -31,12 +31,14 @@
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
-        color: white;
+        color: var(--colorText);
 }
 
 .sb__footer-links-div > a{
-    color: rgb(175, 175, 179);
+    color: var(--color-nav);
     margin-top: .7rem;
+    text-decoration: none;
+    
 }
 
 .socialmedia{
@@ -49,8 +51,8 @@
     width: 80px;
 }
 .socialmedia p svg{
-   
     height: 2rem;
+    color: var(--colorText)
 }
 
 .sb__footer-links-div h4{
