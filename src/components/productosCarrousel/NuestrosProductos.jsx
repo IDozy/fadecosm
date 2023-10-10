@@ -31,7 +31,6 @@ export const NuestrosProductos = () => {
   }, [images.length]);
 
   const displayImages = images.slice(currentIndex, currentIndex + groupSize);
-  const displayImages = images.slice(currentIndex, currentIndex + groupSize);
 
   return (
     <div className="productos-card">

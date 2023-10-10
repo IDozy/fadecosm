@@ -54,7 +54,7 @@ export const CardProducto = () => {
   ];
 
   return (
-    <div style={{width: "100%" , padding:"5rem auto" , display: "flex", justifyContent: "center", alignItems: "center" }}>
+    <div style={{width: "100%" , padding:"5rem  0 7rem 12rem " , display: "flex", justifyContent: "center", alignItems: "center" }}>
       <Grid container spacing={3} justifyContent={"center"} >
         {products.map((product, index) => (
           <Grid item xs={12} sm={6} md={4} key={index}>
