@@ -1,7 +1,7 @@
 import AwesomeSlider from "react-awesome-slider";
 import withAutoplay from "react-awesome-slider/dist/autoplay";
 import "react-awesome-slider/dist/styles.css";
-import imagen1 from "../../assets/imagen-1.jpg";
+import imagen1 from "../../images/Slides/slide1.png";
 import imagen2 from "../../assets/imagen-2.jpg";
 import imagen3 from "../../assets/imagen-3.jpg";
 import "./Carousel.css";
