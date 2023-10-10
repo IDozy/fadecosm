@@ -7,16 +7,26 @@
     border-radius: 10px;
   }
   
+  .image-description-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; /* Permite que el contenido se ajuste a la pantalla cuando es necesario */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    gap: 20px; /* Espacio entre las imágenes y el texto */
+  }
+  
   .image-carousel {
     display: flex;
     overflow: hidden; /* Oculta imágenes adicionales fuera de la vista */
-
+    flex-basis: calc(60% - 20px); /* Ancho flexible para las imágenes */
   }
   
   .product-image {
-    width: 200px;
-    margin-right: 20px;
-    opacity: 0; /* Oculta todas las imágenes inicialmente */
+    width: 100%;
+    max-width: 100%;
+    max-height: 400px; /* Establece una altura máxima para las imágenes */
+    object-fit: contain; /* Ajusta la imagen para que se ajuste manteniendo su relación de aspecto */
+    opacity: 0;
     transition: opacity 0.5s ease-in-out;
     align-items: center;
   }
@@ -27,7 +37,7 @@
   }
   
   .product-description {
-    flex: 1;
+    flex-basis: calc(40% - 20px); /* Ancho flexible para el texto */
     text-align: center;
   }
   
