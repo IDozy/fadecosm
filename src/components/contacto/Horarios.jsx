@@ -47,7 +47,7 @@ export const Horarios = () => {
         <li>
           <FontAwesomeIcon icon={faPhoneVolume} shake />
           <p className="text-horarios">
-            <a href="https://wa.me/51955445875">955445875 </a>
+            <a href="https://wa.me/51955445875">955445875 / 952066393 / 976631901</a>
           </p>
         </li>
         <li>
