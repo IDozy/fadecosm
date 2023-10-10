@@ -47,7 +47,7 @@ export const NuestrosProductos = () => {
         <p>
           Son elaborados con un proceso supervisado desde la preparación del
           material, hasta los últimos acabados, contamos con la posibilidad de
-          ajustar tu producto acorde a las medidas solicitadas en tus proyectos.
+          ajustar tú producto acorde a las medidas solicitadas en tus proyectos.
         </p>
       </div>
     </div>
