@@ -8,6 +8,8 @@ import img5 from "../../images/Clientes/JINLING.png";
 import img6 from "../../images/Clientes/MPC.png";
 import img7 from "../../images/Clientes/Ministerio de cultura.png";
 import img8 from "../../images/Clientes/TECNOFAST.png";
+import img9 from "../../images/Clientes/EIGR.png";
+import img10 from "../../images/Clientes/SEDACAJ.png";
 
 export const Clientes = () => {
   const images = [
@@ -19,6 +21,8 @@ export const Clientes = () => {
     img6,
     img7,
     img8,
+    img9,
+    img10,
     img1,
     img2,
     img3,
@@ -27,6 +31,8 @@ export const Clientes = () => {
     img6,
     img7,
     img8,
+    img9,
+    img10
   ];
 
   return (
