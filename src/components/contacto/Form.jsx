@@ -4,7 +4,9 @@ import { Horarios } from "./Horarios";
 
 export const Form = () => {
   return (
-    <>
+    <div className="formbody">
+
+    
       <div className="title-contact">
         <h1>¿Dudas o Sugerencias? Comunícate con nosotros</h1>
         
@@ -61,6 +63,7 @@ export const Form = () => {
           </div>
         </form>
       </div>
-    </>
+      </div>
+    
   )
 }

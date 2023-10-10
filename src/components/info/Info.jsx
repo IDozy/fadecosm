@@ -13,7 +13,7 @@ const Info = () => {
       text:`Tenemos una amplia gama de productos de concreto prefabricado para resolver sus exigencias.`
     },
     {
-      data: "fade-right",
+      data: "fade-down",
       subtitle:"OFRECEMOS",
       icon:"fa-solid fa-city",
       title: "Adecuada Infraestructura",
@@ -27,7 +27,7 @@ const Info = () => {
       text:`Personal técnico altamente calificado para la elaboración de los productos de acuerdo a sus requerimientos.`
     },
     {
-      data: "fade-right",
+      data: "fade-up",
       icon:"fa-solid fa-truck-front",
       subtitle:"CONTAMOS CON",
       title: "Flota Propia",
@@ -39,7 +39,7 @@ const Info = () => {
   return (
   
        <div className="container-info">
-       <div className="subcontainer-1" data-aos="fade-right" data-aos-duration="1500">
+       <div className="subcontainer-1" data-aos="fade-down" data-aos-duration="1500">
         <div className='card-1'>
           <h4 className='text-info'>Fadeco SM</h4>
           <h1 className='text-title'>¿Por qué elegirnos?</h1>
