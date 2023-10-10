@@ -6,10 +6,7 @@
   
 }
 
-html {
- 
-  scroll-behavior: smooth;
-}
+
 
 @media (min-width: 1440px) {
   html {
@@ -78,6 +75,12 @@ body {
   height: 42rem;
   position: relative;
   
+}
+
+.swiper-slide img {
+  width: 37rem;
+  height: 42rem;
+  /* Resto de los estilos */
 }
 
 @media (max-width: 500px) {

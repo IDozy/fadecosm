@@ -31,7 +31,7 @@ const ProductoSlider = () => {
   ));
 
   return (
-    <div className='container' data-aos="zoom-in" data-aos-duration="3000"  data-aos-delay="150">
+    <div className='container' data-aos="zoom-in" data-aos-duration="3000"  data-aos-delay="150" style={{ height: "100vh", marginTop:"3em" }}>
       <h1 className="heading">
         Nuestros Productos </h1>
       <Swiper

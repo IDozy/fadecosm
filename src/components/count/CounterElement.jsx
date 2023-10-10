@@ -18,12 +18,16 @@ const CounterElement = () => {
     return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, "");
   };
 
+ 
+
   return (
-    <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
+    <ScrollTrigger  onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)} style={{ marginBottom: "3rem" }} >
       <div className="container__count" style={{
         background: "#aaafff",
         marginTop: "3rem",
         padding: "8rem 4rem 1.5rem ",
+        
+       
       }}>
         {counterOn && (
           countersData.map((counter, index) => (
