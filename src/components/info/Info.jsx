@@ -41,8 +41,8 @@ const Info = () => {
        <div className="container-info">
        <div className="subcontainer-1" data-aos="fade-right" data-aos-duration="1500">
         <div className='card-1'>
-          <h4>Fadeco SM</h4>
-          <h1>¿Por que elegirnos?</h1>
+          <h4 className='text-info'>Fadeco SM</h4>
+          <h1 className='text-title'>¿Por qué elegirnos?</h1>
         </div>
        </div>
        <div className='subcontainer-2'>

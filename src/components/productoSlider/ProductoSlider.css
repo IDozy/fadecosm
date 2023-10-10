@@ -1,6 +1,6 @@
 
 :root {
-  --primary: #6a59ff;
+  
   --white: #ffffff;
   --bg: #f5f5f5;
   
@@ -63,6 +63,7 @@ body {
   padding: 1rem 0;
   font-size: 3.5rem;
   text-align: center;
+  color: var(--color-nav-darker);
 }
 
 .swiper_container {
@@ -98,7 +99,7 @@ body {
   height: 42rem;
   border-radius: 2rem;
   object-fit: cover;
-  border: 2px solid rgb(170, 175, 255);
+  border: 2px solid var(--colorText);
 }
 
 .swiper-slide-shadow-left,

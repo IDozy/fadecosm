@@ -8,7 +8,9 @@
 
 }
 
-
+.container-client h1{
+  color:#2c2c2c ;
+}
 
 .slider {
   height: 250px;

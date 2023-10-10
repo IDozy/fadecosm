@@ -23,7 +23,7 @@ const CounterElement = () => {
       <div className="container__count" style={{
         background: "#aaafff",
         marginTop: "3rem",
-        padding: "7rem 4rem 1.5rem ",
+        padding: "8rem 4rem 1.5rem ",
       }}>
         {counterOn && (
           countersData.map((counter, index) => (

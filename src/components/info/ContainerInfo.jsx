@@ -3,8 +3,6 @@ import './Info.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
-import { useEffect } from 'react';
-
 
 library.add(fas);
 
@@ -20,9 +18,9 @@ const ContainerInfo = ({ cards, cardClassName, }) => {
            
               data-aos-duration="2000">
                {card.icon ? <FontAwesomeIcon icon={card.icon} className='icono'/>:null}
-                <h6>{card.subtitle}</h6>
+                <h6 className='text-info'>{card.subtitle}</h6>
                 <h3>{card.title}</h3>
-                <p>{card.text}</p>
+                <p style={{ textAlign: "left", padding:".5rem " }}>{card.text}</p>
               </div>
             ))}
           </div>
