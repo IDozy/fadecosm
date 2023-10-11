@@ -1,17 +1,14 @@
-import React from 'react'
-import './Form.css';
+import React from "react";
+import "./Form.css";
 import { Horarios } from "./Horarios";
 
 export const Form = () => {
   return (
     <div className="formbody">
-
-    
       <div className="title-contact">
         <h1>¿Dudas o Sugerencias? Comunícate con nosotros</h1>
-        
       </div>
-    <br />
+      <br />
       <div className="page-container">
         <Horarios />
         <div className="map-container">
@@ -63,7 +60,6 @@ export const Form = () => {
           </div>
         </form>
       </div>
-      </div>
-    
-  )
-}
+    </div>
+  );
+};
