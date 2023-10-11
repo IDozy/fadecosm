@@ -51,7 +51,7 @@ export const Valores = () => {
                 </figure>
               </div>
             </div>
-            <h3 className="titulo-valores">Honestidad</h3>
+            <h3 className="titulo-valores">Integridad</h3>
             <div className="texto-valores">
               <p>
                 Nuestro equipo de profesionales esta apto para cubrir todo lo
