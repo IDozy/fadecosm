@@ -8,6 +8,7 @@ import Counter from './count/CounterElement';
 
 import ProductoSlider from './productoSlider/ProductoSlider';
 import { Clientes } from './sectionClientes/Clientes';
+import { Proyectos } from './proyectos/Proyectos';
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <Info/>
       <Counter/>
       <ProductoSlider/>
+      <Proyectos/>
       <Clientes />
       <Footer/>
     </div>
