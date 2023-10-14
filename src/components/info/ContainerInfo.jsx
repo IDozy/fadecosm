@@ -19,7 +19,7 @@ const ContainerInfo = ({ cards, cardClassName, }) => {
               data-aos-duration="2000">
                {card.icon ? <FontAwesomeIcon icon={card.icon} className='icono'/>:null}
                 <h6 className='text-info'>{card.subtitle}</h6>
-                <h3>{card.title}</h3>
+                <h3 className='card-text-title-info' >{card.title}</h3>
                 <p style={{ textAlign: "left", padding:".5rem " }}>{card.text}</p>
               </div>
             ))}
