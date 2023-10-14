@@ -43,7 +43,9 @@
   }
   
   .proyecto:hover .info-proyecto {
-    opacity: 1;
+    opacity: .7;
+    
+    transition: .3s ease-in-out;
   }
   .proyecto-lugar {
     color: bisque;
@@ -57,4 +59,33 @@
     color:antiquewhite;
     text-align: center;
   }
+
+  /*-------------------------------------------------*/
   
+  .proyecto-titulo{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 1.5rem;
+    padding: 1rem;
+  }
+
+  .proyecto-empresa{
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 2rem; 
+   padding: 0 0 0 .7rem;
+  }
+
+
+  
+  .proyecto-proyecto, .proyecto-lugar{
+    font-size: 1.3rem;
+  padding: .3rem 2rem 0 2rem;
+  
+   
+  }
+
+  .proyecto-proyecto{
+    padding-top: 3rem;
+   }
