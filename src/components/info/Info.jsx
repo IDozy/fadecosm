@@ -41,7 +41,7 @@ const Info = () => {
     <div className="container-info">
       <div
         className="subcontainer-1"
-        data-aos="fade-down"
+        data-aos="fade-right"
         data-aos-duration="1500"
       >
         <div className="card-1">
