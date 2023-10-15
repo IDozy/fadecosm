@@ -1,0 +1,41 @@
+.quienes-somos-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .text-section {
+    flex: 1; /* Toma todo el espacio disponible */
+    padding: 10px; /* Agrega espacio interno alrededor del texto */
+  }
+  
+  .image-section {
+    flex: 1; /* Toma todo el espacio disponible */
+  }
+  
+  .company-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px; /* Bordes redondeados para la imagen */
+    transition: opacity 0.3s ease-in-out; /* Efecto de transición de opacidad */
+  }
+  
+  .company-image:hover {
+    opacity: 0.8; /* Opacidad reducida al pasar el mouse por encima */
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #333; /* Color de texto */
+    text-align: justify;
+  }
+  

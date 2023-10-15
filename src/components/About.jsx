@@ -10,6 +10,7 @@ import "./info/Containerabout.css";
 import { Valores } from "./valores/Valores";
 import Footer from "./footer/Footer";
 import { Historia } from "./historia/Historia";
+import { Quienes } from "./quienes/Quienes";
 
 export const About = () => {
   const [cards] = useState([
@@ -39,6 +40,7 @@ export const About = () => {
     <div>
       <Navbar></Navbar>
       <CarouselAbout />
+      <Quienes/>
       <div className="card-about">
         <ContainerInfo cards={cards} cardClassName={"card"} />
       </div>
