@@ -3,17 +3,21 @@
     align-items: center;
     margin-bottom: 20px;
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
+   /* border: 1px solid #ccc;
+    border-radius: 10px;*/
+    margin-top: 5%;
   }
   
   .text-section {
-    flex: 1; /* Toma todo el espacio disponible */
+   /* flex: 1; /* Toma todo el espacio disponible */
     padding: 10px; /* Agrega espacio interno alrededor del texto */
+
+    text-align: center;
   }
   
   .image-section {
-    flex: 1; /* Toma todo el espacio disponible */
+    /*  flex: 1; /* Toma todo el espacio disponible */
+    margin: 20px 7% 0 0;
   }
   
   .company-image {
@@ -22,8 +26,9 @@
     display: block;
     border-radius: 10px; /* Bordes redondeados para la imagen */
     transition: opacity 0.3s ease-in-out; /* Efecto de transición de opacidad */
+   
   }
-  
+
   .company-image:hover {
     opacity: 0.8; /* Opacidad reducida al pasar el mouse por encima */
   }
@@ -33,9 +38,25 @@
     margin-bottom: 10px;
   }
   
-  p {
+  .quienes-text {
     font-size: 16px;
-    /*  color: #333; Color de texto */
     text-align: justify;
   }
   
+
+
+
+
+  /* Medios consultas para pantallas más pequeñas */
+  
+  @media (max-width: 768px) {
+    .quienes-somos-card {
+      flex-direction: column; /* Cambia a diseño de columna */
+      align-items: center;
+    }
+  
+    .image-section {
+      margin-left: 0; /* Elimina el espacio entre el texto y la imagen en pantallas pequeñas */
+      margin-top: 20px; /* Agrega espacio arriba de la imagen */
+    }
+  }
