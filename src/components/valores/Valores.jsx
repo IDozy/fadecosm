@@ -1,87 +1,49 @@
-import React from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBusinessTime,
   faHandshake,
   faPeopleCarryBox,
 } from "@fortawesome/free-solid-svg-icons";
-import "./Valores.css";
+
+import ContainerInfo from "../info/ContainerInfo";
 
 export const Valores = () => {
+  const [cards] = useState([
+    {
+      icon: faHandshake,
+      subtitle: "",
+      title: "Responsabilidad",
+      text: `Nuestros productos cumplen con metricas de cálidad requeridas
+      por el sector construcción.`,
+    },
+    {
+      icon: faPeopleCarryBox,
+      subtitle: "",
+      title: "Integridad",
+      text: `Nuestro equipo de profesionales esta apto para cubrir todo lo
+      requerido en cada proyecto.`,
+    },
+    {
+      icon: faBusinessTime,
+      subtitle: "",
+      title: "Puntualidad",
+      text: `La Puntualidad es nuestra mejor carta de presentación.`,
+    },
+  ]);
+
+
   return (
-    <div>
-      <h2>Valores Empresariales</h2>
-      <br />
-      <ul className="valores-list">
-        <li className="valor-item">
-          <article>
-            <div>
-              <div>
-              <figure className="valor-icon">
-                  <FontAwesomeIcon
-                    icon={faHandshake}
-                    fade
-                    size="lg"
-                    style={{ color: "#77859c" }}
-                  />
-                </figure>
-              </div>
-            </div>
-            <h3 className="titulo-valores">Responsabilidad</h3>
-            <div className="texto-valores">
-              <p>
-                Nuestros productos cumplen con metricas de cálidad requeridas
-                por el sector construcción.
-              </p>
-            </div>
-          </article>
-        </li>
+    <div className="container-valores" style={{ marginTop: "10%",  }}>
+      <h2 className="text-title" style={{ textAlign: "center" }}>Valores Empresariales</h2>
 
-        <li className="valor-item">
-          <article>
-            <div>
-              <div>
-                <figure className="valor-icon">
-                  <FontAwesomeIcon
-                    icon={faPeopleCarryBox}
-                    beat
-                    size="lg"
-                    style={{ color: "#77859c" }}
-                  />
-                </figure>
-              </div>
-            </div>
-            <h3 className="titulo-valores">Integridad</h3>
-            <div className="texto-valores">
-              <p>
-                Nuestro equipo de profesionales esta apto para cubrir todo lo
-                requerido en cada proyecto.
-              </p>
-            </div>
-          </article>
-        </li>
+      <div className="card-about" style={{ marginTop: "3%" }}>
+        <ContainerInfo cards={cards} cardClassName={"valores"}  />
+      </div>
 
-        <li className="valor-item">
-          <article>
-            <div>
-              <div>
-                <figure className="valor-icon">
-                  <FontAwesomeIcon
-                    icon={faBusinessTime}
-                    bounce
-                    size="lg"
-                    style={{ color: "#77859c" }}
-                  />
-                </figure>
-              </div>
-            </div>
-            <h3 className="titulo-valores">Puntualidad</h3>
-            <div className="texto-valores">
-              <p>La Puntualidad es nuestra mejor carta de presentación.</p>
-            </div>
-          </article>
-        </li>
-      </ul>
+
     </div>
   );
 };
+
+

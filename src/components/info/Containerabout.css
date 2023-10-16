@@ -1,4 +1,24 @@
 .card-about{
     
-    margin: 20px 5% 20px 7% ;
+    margin: 10px 5% 10px 7% ;
+   
+}
+
+.container-valores, .container-mision{
+    background-color: var(--colorTextPastel);
+   
+    padding: 3% 0 3% 0;
+}
+
+
+
+
+
+.container-mision  svg{
+    color: white ;
+    margin-bottom: 10px;
+}
+
+.container-valores svg{
+    color: white ;
 }

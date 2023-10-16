@@ -4,6 +4,8 @@
     --colorBlack: #000;
     --color-nav-darker: hsl(260, 38%, 50%);
     --colorTextDarker: hsl(120, 40%, 50%);
+    --colorTextPastel: hsl(120, 40%, 80%);
+
 }
 
 .container-info {
@@ -64,8 +66,21 @@ section {
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    
+    align-items: flex-start; 
+    text-align: center;
+}
+
+.valores {
+    flex: 0 0 calc(30% - 20px);
+    max-width: calc(30% - 20px);
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
     text-align: center;
 }
 
@@ -102,7 +117,7 @@ section {
         
     }
 
-    .card {
+    .card , .valores {
         flex: 0 0 100%;
         max-width: none;
     }
@@ -140,8 +155,4 @@ section {
         margin: 1rem auto; /* Margin ajustado para centrar verticalmente */
         height: auto;
     }
-
-  
-    
-   
 }

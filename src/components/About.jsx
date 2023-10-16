@@ -40,13 +40,16 @@ export const About = () => {
     <div>
       <Navbar></Navbar>
       <CarouselAbout />
-      <Quienes/>
-      <div className="card-about">
-        <ContainerInfo cards={cards} cardClassName={"card"} />
+      <Quienes />
+      <div className="container-mision">
+        <div className="card-about">
+          <ContainerInfo cards={cards} cardClassName={"card"} />
+        </div>
       </div>
-      <Historia/>
-      <Valores/>
-      <Footer/>
+
+      <Historia />
+      <Valores />
+      <Footer />
       <WhatsAppButton></WhatsAppButton>
     </div>
   );
