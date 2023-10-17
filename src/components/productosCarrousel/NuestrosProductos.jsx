@@ -33,5 +33,5 @@ export const NuestrosProductos = () => {
     material, hasta los últimos acabados, contamos con la posibilidad de
     ajustar tú producto acorde a las medidas solicitadas en tus proyectos.`;
 
-  return <SectionPH title={title} image={img} text={text} />;
+  return <SectionPH title={title} image={currentImage} text={text}  />;
 };
