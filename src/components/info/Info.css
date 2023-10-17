@@ -10,13 +10,13 @@
 
 .container-info {
 
-    margin: 7rem 3rem ;
+    margin: 7rem 3rem;
     padding: 0px 20px;
     flex-direction: row;
     align-items: center;
     display: flex;
 
-   
+
 }
 
 
@@ -54,7 +54,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-   
+
 }
 
 .card {
@@ -66,7 +66,7 @@ section {
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start; 
+    align-items: flex-start;
     text-align: center;
 }
 
@@ -77,10 +77,10 @@ section {
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 20px;
-   
+
     display: flex;
     flex-direction: column;
-    align-items: flex-start; 
+    align-items: flex-start;
     text-align: center;
 }
 
@@ -101,8 +101,8 @@ section {
 }
 
 .subcontainer-1 {
-   
-   margin-right: 8%; 
+
+    margin-right: 8%;
 }
 
 
@@ -114,21 +114,25 @@ section {
     .card-text-title-info {
         font-size: 30px;
         line-height: 1.2;
-        
+
     }
 
-    .card , .valores {
+    .card,
+    .valores {
         flex: 0 0 100%;
         max-width: none;
     }
+
     .container-info {
         flex-direction: column;
         max-width: 90%;
-        align-items: center; /* Centrar elementos en dispositivos pequeños */
+        align-items: center;
+        /* Centrar elementos en dispositivos pequeños */
     }
 
     .subcontainer-2 {
-        width: 100%; /* Ocupar el ancho completo */
+        width: 100%;
+        /* Ocupar el ancho completo */
     }
 
     .text-title {
@@ -148,11 +152,73 @@ section {
 
 @media screen and (max-width: 900px) {
     .card-1 {
-        width: 100%; /* Ancho completo */
+        width: 100%;
+        /* Ancho completo */
         max-width: none;
         border-radius: 10px;
         padding: 1rem;
-        margin: 1rem auto; /* Margin ajustado para centrar verticalmente */
+        margin: 1rem auto;
+        /* Margin ajustado para centrar verticalmente */
         height: auto;
     }
+}
+
+
+
+
+
+
+
+@keyframes beat {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+  
+
+.bounce {
+    animation: bounce 1.6s ease infinite;
+}
+
+.beat {
+    animation: beat 1.4s ease infinite;
+}
+
+/* Clase para la animación "fade" */
+.fade {
+    animation: fade 1.4s ease infinite;
 }

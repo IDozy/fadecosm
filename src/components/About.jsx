@@ -16,6 +16,7 @@ export const About = () => {
   const [cards] = useState([
     {
       icon: faMagnifyingGlassChart,
+      
       subtitle: "",
       title: "MISIÓN",
       text: `Somos un equipo de trabajadores 

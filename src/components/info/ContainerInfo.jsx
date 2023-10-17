@@ -8,6 +8,10 @@ library.add(fas);
 
 const ContainerInfo = ({ cards, cardClassName, }) => {
 
+  const animationClasses = {
+    beat: 'beat',
+    fade: 'fade',
+  };
 
   return (
     <div>
@@ -17,7 +21,7 @@ const ContainerInfo = ({ cards, cardClassName, }) => {
               <div key={i} className={cardClassName} data-aos={card.data}
            
               data-aos-duration="2000">
-               {card.icon ? <FontAwesomeIcon icon={card.icon} className='icono'/>:null}
+               {card.icon ? <FontAwesomeIcon icon={card.icon} className={`icono ${card.animation || ''}`} />:null}
                 <h6 className='text-info'>{card.subtitle}</h6>
                 <h3 className='card-text-title-info' >{card.title}</h3>
                 <p style={{ textAlign: "left", padding:".5rem " }}>{card.text}</p>

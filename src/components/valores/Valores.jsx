@@ -12,6 +12,7 @@ export const Valores = () => {
   const [cards] = useState([
     {
       icon: faHandshake,
+      animation: 'fade',
       subtitle: "",
       title: "Responsabilidad",
       text: `Nuestros productos cumplen con metricas de cálidad requeridas
@@ -19,6 +20,7 @@ export const Valores = () => {
     },
     {
       icon: faPeopleCarryBox,
+      animation: 'beat',
       subtitle: "",
       title: "Integridad",
       text: `Nuestro equipo de profesionales esta apto para cubrir todo lo
@@ -26,6 +28,7 @@ export const Valores = () => {
     },
     {
       icon: faBusinessTime,
+      animation: 'bounce',
       subtitle: "",
       title: "Puntualidad",
       text: `La Puntualidad es nuestra mejor carta de presentación.`,
