@@ -7,9 +7,9 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Grid from "@mui/material/Grid";
 import img1 from '../../images/Productos/prod1.jpg'
-import img2 from '../../images/Productos/prod2.jpg'
-import img3 from '../../images/Productos/prod3.jpg'
-import img4 from '../../images/Productos/prod4.jpg'
+import img2 from '../../images/Productos/Prefabricados/Aro y tapa para buzon.png';
+import img3 from '../../images/Productos/Prefabricados/Retenidas.png';
+import img4 from '../../images/Productos/Prefabricados/Adoquines.png';
 import img5 from '../../images/Productos/prod5.jpg'
 import img6 from '../../images/Productos/prod6.jpg'
 
@@ -26,17 +26,17 @@ export const CardProducto = () => {
         "Descripción del producto 1. Lizards are a widespread group of squamate reptiles...",
     },
     {
-      title: "Caja para pozo a tierra",
+      title: "Aro y tapa para buzón",
       description:
         "Descripción del producto 2. Lizards are a widespread group of squamate reptiles...",
     },
     {
-      title: "Aro",
+      title: "Retenidas",
       description:
         "Descripción del producto 3. Lizards are a widespread group of squamate reptiles...",
     },
     {
-      title: "Hornilla para cocina mejorada",
+      title: "Adoquines",
       description:
         "Descripción del producto 4. Lizards are a widespread group of squamate reptiles...",
     },
@@ -61,7 +61,7 @@ export const CardProducto = () => {
             <Card sx={{ maxWidth: 345 }}>
               <CardMedia
                 sx={{ height: 400 }}
-                image={images[index % images.length]} // Debes reemplazarlo con la imagen correcta
+                image={images[index % images.length]} 
                 title={product.title}
               />
               <CardContent>
