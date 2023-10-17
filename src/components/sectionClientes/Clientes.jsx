@@ -32,12 +32,12 @@ export const Clientes = () => {
     img7,
     img8,
     img9,
-    img10
+    img10,
   ];
 
   return (
     <div className="container-client container-valores">
-      <h1>Confiaron en nosotros:</h1>
+      <h1>Confían en nosotros:</h1>
       <div className="slider">
         <div className="slide-track">
           {images.map((image, index) => (
