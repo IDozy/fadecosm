@@ -73,7 +73,7 @@ export const CardProducto = () => {
                 </Typography>
               </CardContent>
               <CardActions style={{ justifyContent: "center" }}>
-                <Button size="small">Ver ficha técnica</Button>
+                <Button variant="contained" disableElevation>Ver ficha técnica</Button>
               </CardActions>
             </Card>
           </Grid>
