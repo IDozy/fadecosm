@@ -1,0 +1,96 @@
+/* Modal Container */
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  bottom: 7rem;
+
+ 
+  border-radius: 5%;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: rgba(255, 255, 255, 0)a(255, 0, 0, 0);
+  border: 1px solid #888;
+  z-index: 1;
+  /* Establece un índice Z mayor que 0 para el contenido */
+  border-radius: 5%;
+  position: relative;
+}
+
+/* Close Button */
+.close {
+  position: absolute;
+  /* Establece la posición absoluta para el botón de cierre */
+  top: -4rem;
+  right: 0;
+  z-index: 2;
+  /* Establece un índice Z mayor que el contenido para que esté por encima */
+  width: 3.2rem;
+  height: 3.2rem;
+  background-color: #4CAF50;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+
+/* Style the button to open the modal */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.modal-section-ventas{
+  background-color: #4CAF50;
+  border-radius: 1rem 1rem 0 0;
+  padding: 2rem 0 1rem 0;
+  text-align: center;
+  margin-bottom: .5px;
+}
+.modal-section-linea{
+  background-color: #4CAF50;
+  border-radius: 0 0 1rem 1rem;
+  text-align: center;
+  height: 6rem;
+justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+
+.img-modal{
+ width: 5.5rem;
+background-color: var(--color-nav-darker); 
+border-radius: 50%;
+}
+
+.text-modal-p{
+
+}
+
+.modal-section-message{
+ background-color: aqua;
+}
+
+.send-button{
+  padding: 0;
+ 
+  font-size: 40px;
+}
+
+.text-send{
+  font-size: 80px;
+}

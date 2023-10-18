@@ -54,7 +54,7 @@ export const CardFierro = () => {
     <div
       style={{
         width: "100%",
-        padding: "5rem  0 7rem 12rem ",
+        padding: "5rem  0 7rem 6% ",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
