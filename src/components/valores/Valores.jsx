@@ -35,18 +35,15 @@ export const Valores = () => {
     },
   ]);
 
-
   return (
-    <div className="container-valores" style={{ marginTop: "10%",  }}>
-      <h2 className="text-title" style={{ textAlign: "center" }}>Valores Empresariales</h2>
+    <div className="container-valores" style={{ marginTop: "10%" }}>
+      <h2 className="text-title" style={{ textAlign: "center" }}>
+        Valores Empresariales
+      </h2>
 
       <div className="card-about" style={{ marginTop: "3%" }}>
-        <ContainerInfo cards={cards} cardClassName={"valores"}  />
+        <ContainerInfo cards={cards} cardClassName={"valores"} />
       </div>
-
-
     </div>
   );
 };
-
-
