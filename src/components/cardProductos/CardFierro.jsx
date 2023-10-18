@@ -7,16 +7,18 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 import img1 from "../../images/Productos/Fierro Fundido/Aro_para_buzon.png";
-import img2 from "../../images/Productos/Fierro Fundido/Aro_y_tapa_de_fierro_fundido_para_buzón.png";
-import img3 from "../../images/Productos/Fierro Fundido/Plancha_de_fierro_fundido_de_2_hornillas.png";
+import img2 from "../../images/Productos/Fierro Fundido/Aro y tapa para buzón.png";
+import img3 from "../../images/Productos/Fierro Fundido/Plancha 2 hornillas.png";
 import img4 from "../../images/Productos/Fierro Fundido/Tapa-galvanizada.png";
 import img5 from "../../images/Productos/Fierro Fundido/Tapa_y_Marco_de_fierro_fundido.png";
-import img6 from "../../images/Productos/Fierro Fundido/Tapas_para_reservorio_sin_fondo.png";
+import img6 from "../../images/Productos/Fierro Fundido/Tapa para reservorio.png";
+import img7 from "../../images/Productos/Fierro Fundido/Tapa galvanizada 30x60.png";
+import img8 from "../../images/Productos/Fierro Fundido/Tapa para.png";
 
 export const CardFierro = () => {
-  const images = [img1, img2, img3, img4, img5, img6];
+  const images = [img1, img2, img3, img4, img5, img6,img7,img8];
 
-  //array de productos
+ 
   const products = [
     {
       title: "Aro para buzon",
@@ -24,9 +26,9 @@ export const CardFierro = () => {
         "Descripción del producto 1. Lizards are a widespread group of squamate reptiles...",
     },
     {
-      title: "Aro y tapa de fierro fundido para buzón",
+      title: "Aro y tapa para buzón",
       description:
-        "Descripción del producto 2. Lizards are a widespread group of squamate reptiles...",
+        "Ambos productos se pueden vender por separado.",
     },
     {
       title: "Plancha de dos hornillas para cocina mejorada",
@@ -34,7 +36,7 @@ export const CardFierro = () => {
         "Descripción del producto 3. Lizards are a widespread group of squamate reptiles...",
     },
     {
-      title: "Tapa galvanizada",
+      title: "Tapa galvanizada para medidor de agua",
       description:
         "Descripción del producto 4. Lizards are a widespread group of squamate reptiles...",
     },
@@ -45,6 +47,16 @@ export const CardFierro = () => {
     },
     {
       title: "Tapa para reservorio de agua",
+      description:
+        "Descripción del producto 6. Lizards are a widespread group of squamate reptiles...",
+    },
+    {
+      title: "Tapa Galvanizada 30 x 60",
+      description:
+        "Descripción del producto 6. Lizards are a widespread group of squamate reptiles...",
+    },
+    {
+      title: "Tapa de ",
       description:
         "Descripción del producto 6. Lizards are a widespread group of squamate reptiles...",
     },
@@ -63,10 +75,10 @@ export const CardFierro = () => {
       <Grid container spacing={3} justifyContent={"center"}>
         {products.map((product, index) => (
           <Grid item xs={12} sm={6} md={4} key={index}>
-            <Card sx={{ maxWidth: 345 }}>
+            <Card sx={{ maxWidth: 500 }}>
               <CardMedia
-                sx={{ height: 400 }}
-                image={images[index % images.length]} // Debes reemplazarlo con la imagen correcta
+                sx={{ height: 450}}
+                image={images[index % images.length]} 
                 title={product.title}
               />
               <CardContent>

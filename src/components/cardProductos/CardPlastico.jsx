@@ -47,8 +47,8 @@ export const CardPlastico = () => {
           <Grid item xs={12} sm={6} md={4} key={index}>
             <Card sx={{ maxWidth: 345 }}>
               <CardMedia
-                sx={{ height: 400 }}
-                image={images[index % images.length]} // Debes reemplazarlo con la imagen correcta
+                sx={{ height: 400, width:"100%" }}
+                image={images[index % images.length]} 
                 title={product.title}
               />
               <CardContent>

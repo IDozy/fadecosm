@@ -10,7 +10,7 @@ import image1 from '../../images/Productos/prod1.jpg'
 import image2 from '../../images/Productos/prod2.jpg'
 import image3 from '../../images/Productos/prod3.jpg'
 import image4 from '../../images/Productos/prod4.jpg'
-import image5 from '../../images/Productos/prod5.jpg'
+import image5 from '../../images/Productos/Prefabricados/Bloc_grass_tipo_michi.jpg';
 import image6 from '../../images/Productos/prod6.jpg'
 import image7 from '../../images/Productos/prod7.jpg'
 
@@ -26,7 +26,7 @@ const ProductoSlider = () => {
   
   const swiperSlides = images.map((image, index) => (
     <SwiperSlide key={index}>
-      <img src={image} alt={`Image ${index + 1}`} />
+      <img src={image} alt={`Imagenes ${index + 1}`} />
     </SwiperSlide>
   ));
 
