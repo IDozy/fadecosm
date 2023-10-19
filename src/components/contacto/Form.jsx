@@ -1,6 +1,6 @@
 import React from "react";
 import "./Form.css";
-import { Horarios } from "./Horarios";
+
 
 export const Form = () => {
   return (
@@ -10,12 +10,11 @@ export const Form = () => {
       </div>
       <br />
       <div className="page-container">
-        <Horarios />
         <div className="map-container">
           <iframe
             title="Mapa de ubicación FADECO SAN MARTIN EIRL"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.40607978500302!2d-78.5051851825409!3d-7.183956650011734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91b25bcd0a17f18f%3A0x279a186f183b1fa6!2sFadeco%20san%20martin!5e0!3m2!1ses!2spe!4v1696651598376!5m2!1ses!2spe"
-            width="800"
+            width="500"
             height="440"
             style={{ border: "0" }}
             allowFullScreen=""
@@ -59,6 +58,7 @@ export const Form = () => {
             <input className="btn" type="submit" value="Enviar" />
           </div>
         </form>
+             
       </div>
     </div>
   );

@@ -1,28 +1,34 @@
 .opening-hours {
-    background-color: #EDFFF0; /* Color de fondo del área de horarios */
-    padding: 20px; /* Espacio interior alrededor del contenido */
+  background-color: #EDFFF0;
+  padding: 20px;
+  width: 600px;
+  margin: 0 auto; 
+  border: 1px solid #d34cf5;
 
-    border: 1px solid #d34cf5; /* Borde alrededor del área */
-   
-  }
-  
-  .opening-hours h2 {
-    font-size: 24px; /* Tamaño de fuente del título */
-    margin-bottom: 10px; /* Espacio inferior debajo del título */
-    text-align: center;
-   
-  }
-  
-  .opening-hours ul {
-    padding: 0;
-    list-style-type: none;
-  }
-  
-  .opening-hours li {
-    font-size: 18px; /* Tamaño de fuente de los elementos de la lista */
-    margin-bottom: 5px; /* Espacio inferior entre elementos de la lista */
-  }
 
-.text-horarios{
-    text-align: center;
+}
+
+.opening-hours h2 {
+  font-size: 24px;
+  /* Tamaño de fuente del título */
+  margin-bottom: 10px;
+  /* Espacio inferior debajo del título */
+  text-align: center;
+
+}
+
+.opening-hours ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.opening-hours li {
+  font-size: 18px;
+  /* Tamaño de fuente de los elementos de la lista */
+  margin-bottom: 5px;
+  /* Espacio inferior entre elementos de la lista */
+}
+
+.text-horarios {
+  text-align: center;
 }

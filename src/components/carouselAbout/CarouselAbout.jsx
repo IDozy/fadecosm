@@ -2,10 +2,10 @@ import React from "react";
 import AwesomeSlider from "react-awesome-slider";
 import withAutoplay from "react-awesome-slider/dist/autoplay";
 import "react-awesome-slider/dist/styles.css";
-import img1 from '../../images/foto1.jpg';
+import img1 from '../../images/Slides/Slide_About.jpg';
 import img2 from '../../images/Slide3.jpg';
-import img3 from '../../images/foto3.jpg';
-import './CarouselAbout.css'
+import img3 from '../../images/Slides/Slide2.jpg';
+
 import "react-awesome-slider/dist/captioned.css";
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);

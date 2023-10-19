@@ -1,7 +1,6 @@
 .formbody{
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
-    
     align-items: center;
     justify-content: center;
 }
@@ -11,7 +10,7 @@ form{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     text-align: center;
-    width: 340px;
+    width: 740px;
 }
 
 .input-group{
@@ -69,6 +68,8 @@ input::placeholder, textarea::placeholder{
     background-color: #51D94C;
     box-shadow: 0 0 20px rgba(25, 254, 0, 0.4);
     cursor: pointer;
+    width: 250px;
+    margin: 0 auto;
 }
 
 .btn:hover{
