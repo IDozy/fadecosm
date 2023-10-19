@@ -6,14 +6,14 @@ import "./modal.css";
 
 const WhatsAppButton = () => {
   const [showModal, setShowModal] = useState(false);
-  const [variable1, setVariable1] = useState(false);
+  const [alterValue, setAlterValue] = useState(false);
 
   const toggleModal = () => {
-    if (!variable1) {
+    if (!alterValue) {
       setShowModal(true);
     }
 
-    setVariable1(!variable1); // Activa variable1
+    setAlterValue(!alterValue); // Activa variable1
 
     setTimeout(() => {
       setShowModal(true);
@@ -30,11 +30,11 @@ const WhatsAppButton = () => {
         <i className="fa fa-whatsapp" style={{marginRight: "1rem" }}></i> Contáctanos
       </button>
       <div className="modal-container">
-        <div className={`modal ${variable1 ? "active" : "disable"}`}>
+        <div className={`modal ${alterValue ? "active" : "disable"}`}>
           {showModal && (
-            <ModalWhatsapp
+            <ModalWhatsapp className={"disable"}
               onClose={() => {
-                setVariable1(false);
+                setAlterValue(false);
                 setShowModal(false);
               }}
             />
