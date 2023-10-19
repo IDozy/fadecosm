@@ -12,7 +12,7 @@ export const Contact = () => {
   return (
     <div>
       <Navbar></Navbar>
-      <h1>Contáctanos</h1>
+    
       <Form/>
       <Horarios/>
       <WhatsAppButton></WhatsAppButton>
