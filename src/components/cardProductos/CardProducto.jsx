@@ -32,7 +32,7 @@ export const CardProducto = () => {
     img9,
     img10,
     img11,
-    img12
+    img12,
   ];
 
   const products = [
@@ -100,11 +100,19 @@ export const CardProducto = () => {
   ];
 
   return (
-    <div style={{width: "100%" , padding:"5rem  0 7rem 6% " , display: "flex", justifyContent: "center", alignItems: "center" }}>
-      <Grid container spacing={3} justifyContent={"center"} >
+    <div
+      style={{
+        width: "100%",
+        padding: "5rem 5% 7rem 5% ",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      <Grid container spacing={3} justifyContent={"center"}>
         {products.map((product, index) => (
           <Grid item xs={12} sm={6} md={4} key={index}>
-            <Card sx={{ maxWidth: 700 }}>
+            <Card sx={{ maxWidth: 700, margin: "3rem" }}>
               <CardMedia
                 sx={{ height: 400 }}
                 image={images[index % images.length]}
