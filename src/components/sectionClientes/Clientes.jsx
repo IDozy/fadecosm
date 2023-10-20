@@ -10,6 +10,9 @@ import img7 from "../../images/Clientes/Ministerio de cultura.png";
 import img8 from "../../images/Clientes/TECNOFAST.png";
 import img9 from "../../images/Clientes/EIGR.png";
 import img10 from "../../images/Clientes/SEDACAJ.png";
+import img11 from "../../images/Clientes/CCA.png";
+import img12 from "../../images/Clientes/YANACOCHA.png";
+import img13 from "../../images/Clientes/SINOHYDRO.png";
 
 export const Clientes = () => {
   const images = [
@@ -23,6 +26,9 @@ export const Clientes = () => {
     img8,
     img9,
     img10,
+    img11,
+    img12,
+    img13,
     img1,
     img2,
     img3,
@@ -33,6 +39,9 @@ export const Clientes = () => {
     img8,
     img9,
     img10,
+    img11,
+    img12,
+    img13,
   ];
 
   return (
