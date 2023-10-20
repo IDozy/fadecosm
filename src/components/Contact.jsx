@@ -14,9 +14,10 @@ export const Contact = () => {
     <div>
       <Navbar></Navbar>
     
-      <Form/>
-      <Horarios/>
+     
+   
       <ContactForm/>
+      <Form/>
       <WhatsAppButton></WhatsAppButton>
       <Footer />
     </div>
