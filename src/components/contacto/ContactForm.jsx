@@ -2,11 +2,10 @@ import {
   faEnvelope,
   faLocationDot,
   faPhone,
-  faPhoneVolume,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import "./ContactForm.css"
+import "./ContactForm.css";
 const ContactForm = () => {
   return (
     <div>
@@ -16,7 +15,6 @@ const ContactForm = () => {
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
             obcaecati non molestias cum reiciendis ratione possimus laboriosam,
-            
           </p>
         </div>
         <div className="container-contact">
@@ -55,26 +53,39 @@ const ContactForm = () => {
             </div>
           </div>
           <div className="contact-form">
-            <form action="">
-              <h2>Enviar mensaje</h2>
+            <form
+              action="https://formsubmit.co/gtobyd17@gmail.com"
+              method="POST"
+            >
+              <h2>Escribenos</h2>
               <div className="inputBox">
-                <input type="text" name="" required="required" />
-                <span>nombre completo</span>
+                <input type="text" id="name" name="name" required="required" />
+                <span>Nombre y Apellidos</span>
               </div>
               <div className="inputBox">
-                <input type="text" name="" required="required" />
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required="required"
+                />
                 <span>Correo Electronico</span>
               </div>
               <div className="inputBox">
-                <input type="text" name="" required="required" />
+                <input
+                  type="text"
+                  id="empresa"
+                  name="empresa"
+                  required="required"
+                />
                 <span>Empresa</span>
               </div>
               <div className="inputBox">
-                <textarea name="" required="required" />
+                <textarea name="message" id="message" cols="30" rows="5" required="required" />
                 <span>Escribe tu mensaje</span>
               </div>
               <div className="inputBox">
-                <input type="submit" name="" value="send" />
+                <input type="submit" name="" value="Enviar" />
               </div>
             </form>
           </div>
