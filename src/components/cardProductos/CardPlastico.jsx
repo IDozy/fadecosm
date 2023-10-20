@@ -9,6 +9,7 @@ import Grid from "@mui/material/Grid";
 import img1 from "../../images/Productos/Plasticos/Caja de válvulas termoplatica 33x26.png";
 import img2 from "../../images/Productos/Plasticos/Tapa termoplática 30x60.png";
 import img3 from "../../images/Productos/Plasticos/Tapa_termoplastica_para_medidor_de_agua.png";
+import ProductCard from "./ProductCard";
 
 export const CardPlastico = () => {
   const images = [img1, img2, img3];
@@ -33,48 +34,30 @@ export const CardPlastico = () => {
   ];
 
   return (
+    <>
+    <h1 className="heading">TERMOPLASTICOS</h1>
     <div
-      style={{
-        width: "100%",
-        padding: "5rem  0 7rem 12rem ",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Grid container spacing={3} justifyContent={"center"}>
-        {products.map((product, index) => (
-          <Grid item xs={12} sm={6} md={4} key={index}>
-            <Card sx={{ maxWidth: 345 }}>
-              <CardMedia
-                sx={{ height: 400, width:"100%" }}
-                image={images[index % images.length]} 
-                title={product.title}
-              />
-              <CardContent>
-                <Typography
-                  gutterBottom
-                  variant="h5"
-                  component="div"
-                  sx={{ fontSize: "16px" }}
-                >
-                  {product.title}
-                </Typography>
-                <Typography
-                  variant="body2"
-                  color="text.secondary"
-                  sx={{ fontSize: "14px" }}
-                >
-                  {product.description}
-                </Typography>
-              </CardContent>
-              <CardActions style={{ justifyContent: "center" }}>
-                <Button variant="contained" disableElevation>Ver ficha técnica</Button>
-              </CardActions>
-            </Card>
-          </Grid>
-        ))}
-      </Grid>
-    </div>
+    style={{
+      width: "100%",
+      padding: "5rem 5% 7rem 5% ",
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+    }}
+  >
+    <Grid container spacing={12} justifyContent={"center"} alignItems="center">
+      {products.map((product, index) => (
+        <Grid item xs={12} sm={6} md={4} key={index}>
+          <ProductCard
+          justifyContent={"center"} alignItems="center"
+            title={product.title}
+            description={product.description}
+            image={images[index % images.length]}
+          />
+        </Grid>
+      ))}
+    </Grid>
+  </div>
+  </>
   );
 };

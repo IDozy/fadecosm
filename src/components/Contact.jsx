@@ -4,6 +4,7 @@ import WhatsAppButton from "./whatsappbutton/WhatsAppButton";
 import Footer from "./footer/Footer";
 import { Form } from "./contacto/Form";
 import { Horarios } from "./contacto/Horarios";
+import ContactForm from "./contacto/ContactForm";
 
 
 
@@ -15,6 +16,7 @@ export const Contact = () => {
     
       <Form/>
       <Horarios/>
+      <ContactForm/>
       <WhatsAppButton></WhatsAppButton>
       <Footer />
     </div>

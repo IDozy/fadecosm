@@ -5,6 +5,16 @@ import enviar from "../../assets/submit.svg";
 
 const ModalWhatsapp = ({ onClose }) => {
   const [message, setMessage] = useState("");
+    const [isAnimating, setIsAnimating] = useState(false);
+  
+    const handleClose = () => {
+      setIsAnimating(true);
+          setTimeout(() => {
+        onClose();
+      }, 1000);
+    };
+  
+
 
   const handleSend = () => {
     const phoneNumber = "982221755"; // Reemplaza con el número de teléfono deseado
@@ -16,8 +26,8 @@ const ModalWhatsapp = ({ onClose }) => {
   };
 
   return (
-    <div className="modal-content">
-      <span className="close" onClick={onClose}>
+    <div className={`modal-content ${isAnimating ? "disable" : ""}`}>
+      <span className="close" onClick={handleClose}>
         &times;
       </span>
 

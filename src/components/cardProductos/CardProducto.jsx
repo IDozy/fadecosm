@@ -18,6 +18,7 @@ import img9 from "../../images/Productos/Prefabricados/Buzón prefabricado.png";
 import img10 from "../../images/Productos/Prefabricados/Bloc Grass_tipo8.png";
 import img11 from "../../images/Productos/Prefabricados/Caja de valbulas.png";
 import img12 from "../../images/Productos/Prefabricados/Dado_de_concreto.png";
+import ProductCard from "./ProductCard";
 
 export const CardProducto = () => {
   const images = [
@@ -100,51 +101,31 @@ export const CardProducto = () => {
   ];
 
   return (
-    <div
-      style={{
-        width: "100%",
-        padding: "5rem 5% 7rem 5% ",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Grid container spacing={3} justifyContent={"center"}>
-        {products.map((product, index) => (
-          <Grid item xs={12} sm={6} md={4} key={index}>
-            <Card sx={{ maxWidth: 700, margin: "3rem" }}>
-              <CardMedia
-                sx={{ height: 400 }}
-                image={images[index % images.length]}
+    <>
+      <h1 className="heading">Pre Fabricados</h1>
+      <div
+        style={{
+          width: "100%",
+          padding: "5rem 5% 7rem 5% ",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <Grid container spacing={12} justifyContent={"center"}>
+          {products.map((product, index) => (
+            <Grid item xs={12} sm={6} md={4} key={index}>
+              <ProductCard
+                justifyContent={"center"}
+                alignItems="center"
                 title={product.title}
-                style={{ objectFit: "cover" }}
+                description={product.description}
+                image={images[index % images.length]}
               />
-              <CardContent>
-                <Typography
-                  gutterBottom
-                  variant="h5"
-                  component="div"
-                  sx={{ fontSize: "16px" }}
-                >
-                  {product.title}
-                </Typography>
-                <Typography
-                  variant="body2"
-                  color="text.secondary"
-                  sx={{ fontSize: "14px" }}
-                >
-                  {product.description}
-                </Typography>
-              </CardContent>
-              <CardActions style={{ justifyContent: "center" }}>
-                <Button variant="contained" disableElevation>
-                  Ver ficha técnica
-                </Button>
-              </CardActions>
-            </Card>
-          </Grid>
-        ))}
-      </Grid>
-    </div>
+            </Grid>
+          ))}
+        </Grid>
+      </div>
+    </>
   );
 };

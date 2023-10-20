@@ -5,7 +5,6 @@
   background-color: rgba(255, 255, 255, 0);
   z-index: 1;
   border-radius: 5%;
-  position: absolute;
   display: block;
   position: absolute;
 
@@ -129,7 +128,7 @@
 /* Agrega las transiciones para la animación */
 .modal {
   height: 30rem;
-  width: 30rem;
+  width: 29rem;
   right: 0rem;
 
   z-index: 10;
@@ -140,11 +139,10 @@
 }
 
 .modal-container {
-  height: 30rem;
-  width: 30rem;
+  width: 29rem;
   right: 0rem;
 
-  bottom: 8rem;
+  bottom: 6.6rem;
   z-index: 10;
   display: block;
 
@@ -158,8 +156,9 @@
   ); /* Muestra el modal al cambiar la clase a "active" */
 }
 
-.modal.disable {
+.modal.disable  {
   transform: translateY(
     140%
   ); /* Oculta el modal al cambiar la clase a "disable" */
 }
+

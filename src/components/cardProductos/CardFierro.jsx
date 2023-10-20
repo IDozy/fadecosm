@@ -15,10 +15,11 @@ import img6 from "../../images/Productos/Fierro Fundido/Tapa para reservorio.png
 import img7 from "../../images/Productos/Fierro Fundido/Tapa galvanizada 30x60.png";
 import img8 from "../../images/Productos/Fierro Fundido/Tapa para.png";
 
-export const CardFierro = () => {
-  const images = [img1, img2, img3, img4, img5, img6,img7,img8];
+import ProductCard from "./ProductCard";
 
- 
+const CardFierro = () => {
+  const images = [img1, img2, img3, img4, img5, img6, img7, img8];
+
   const products = [
     {
       title: "Aro para buzon",
@@ -27,8 +28,7 @@ export const CardFierro = () => {
     },
     {
       title: "Aro y tapa para buzón",
-      description:
-        "Ambos productos se pueden vender por separado.",
+      description: "Ambos productos se pueden vender por separado.",
     },
     {
       title: "Plancha de dos hornillas para cocina mejorada",
@@ -61,50 +61,39 @@ export const CardFierro = () => {
         "Descripción del producto 6. Lizards are a widespread group of squamate reptiles...",
     },
   ];
-
   return (
-    <div
-      style={{
-        width: "100%",
-        padding: "5rem  0 7rem 6% ",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Grid container spacing={3} justifyContent={"center"}>
-        {products.map((product, index) => (
-          <Grid item xs={12} sm={6} md={4} key={index}>
-            <Card sx={{ maxWidth: 500 }}>
-              <CardMedia
-                sx={{ height: 450}}
-                image={images[index % images.length]} 
+    <>
+      <h1 className="heading">Fierro</h1>
+      <div
+        style={{
+          width: "100%",
+          padding: "5rem 5% 7rem 5% ",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <Grid
+          container
+          spacing={12}
+          justifyContent={"center"}
+          alignItems="center"
+        >
+          {products.map((product, index) => (
+            <Grid item xs={12} sm={6} md={4} key={index}>
+              <ProductCard
+                justifyContent={"center"}
+                alignItems="center"
                 title={product.title}
+                description={product.description}
+                image={images[index % images.length]}
               />
-              <CardContent>
-                <Typography
-                  gutterBottom
-                  variant="h5"
-                  component="div"
-                  sx={{ fontSize: "16px" }}
-                >
-                  {product.title}
-                </Typography>
-                <Typography
-                  variant="body2"
-                  color="text.secondary"
-                  sx={{ fontSize: "14px" }}
-                >
-                  {product.description}
-                </Typography>
-              </CardContent>
-              <CardActions style={{ justifyContent: "center" }}>
-                <Button variant="contained" disableElevation>Ver ficha técnica</Button>
-              </CardActions>
-            </Card>
-          </Grid>
-        ))}
-      </Grid>
-    </div>
+            </Grid>
+          ))}
+        </Grid>
+      </div>
+    </>
   );
 };
+
+export default CardFierro;

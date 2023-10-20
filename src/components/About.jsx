@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "./navbar/Navbar";
 import WhatsAppButton from "./whatsappbutton/WhatsAppButton";
-import CarouselAbout from "./carouselAbout/CarouselAbout";
+import CarouselAbout from "./carousel/CarouselAbout";
 import ContainerInfo from "./info/ContainerInfo";
 
 import { faMagnifyingGlassChart, faStar } from '@fortawesome/free-solid-svg-icons';
