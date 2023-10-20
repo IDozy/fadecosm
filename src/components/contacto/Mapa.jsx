@@ -1,5 +1,5 @@
 import React from "react";
-import "./Form.css";
+import "./ContactForm.css"
 
 export const Form = () => {
   return (

@@ -149,3 +149,27 @@
     }
 
 }
+
+
+
+.map-container{
+    width: 100%;
+}
+
+@media(max-width:991px){
+
+    .formbody{
+        padding: 30px;
+    }
+    form{
+        padding: 50px 30px;
+        width: 100%;
+    }
+    input{
+        padding: 15px;
+    }
+
+    .map-container{
+        width: 100%;
+    }
+}
