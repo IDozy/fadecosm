@@ -56,7 +56,7 @@ const ProductoSlider = () => {
         }}
 
         className='swiper_container'
-        {...swiperSlides}
+       
       >
         {swiperSlides}
 

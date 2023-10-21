@@ -1,5 +1,4 @@
 .aws-btn {
-
   --slider-height-percentage: 46% !important;
   --slider-transition-duration: 600ms;
   --organic-arrow-thickness: 6px;
@@ -11,56 +10,142 @@
   --control-button-background: transparent;
   --control-bullet-color: #62a4fa;
   --control-bullet-active-color: #538bd5;
-  
-  --loader-bar-color: #8ABF7A;
+
+  --loader-bar-color: #8abf7a;
   --loader-bar-height: 4px;
+}
+
+.aws-sld {
+  --fold-out-perspective: 2000px;
+  --fold-out-angle: 90deg;
+
+  &__container {
+    perspective: var(--fold-out-perspective);
+  }
+
+  &--exit {
+    &.aws-sld--moveLeft,
+    &.aws-sld--moveRight {
+      transform-style: preserve-3d;
+    }
+    &.aws-sld--moveLeft {
+      transform-origin: 100% 50%;
+      animation: foldLeft var(--slider-transition-duration) both
+        var(--transition-bezier);
+    }
+    &.aws-sld--moveRight {
+      transform-origin: 0% 50%;
+      animation: foldRight var(--slider-transition-duration) both
+        var(--transition-bezier);
+    }
+  }
+}
+
+@keyframes foldLeft {
+  from {
+    transform: translate3d(0, 0, 0) rotateY(0deg);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0)
+      rotateY(calc(var(--fold-out-angle) * -1));
+  }
+}
+
+@keyframes foldRight {
+  from {
+    transform: translate3d(0, 0, 0) rotateY(0deg);
+  }
+  to {
+    transform: translate3d(100%, 0, 0) rotateY(var(--fold-out-angle));
+  }
+}
+
+.slide-container {
+  position: relative;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgb(0, 30, 120) 0%,
+    rgba(45, 90, 220, 0.5) 25%,
+    rgba(75, 110, 225, 0.1) 50%
+  );
+  opacity: 1; /* Controla la opacidad del degradado */
+  z-index: 1;
+}
+
+.text-slide {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  left: -20vw;
+  top: -10vh;
+  font-size: 3vw;
+  font-weight: bold;
+}
+
+@media (max-width: 991px) {
+  .text-slide {
+    position: relative;
+    z-index: 2; 
+    color: white;
+    left: 0;
+    top: 0;
+  }
+  .button-slide {
+    margin-top: 2rem;
+  } 
  
-  }
+}
 
 
 
-  .aws-sld {
-    --fold-out-perspective: 2000px;
-    --fold-out-angle: 90deg;
+.text-slide__buttons a {
+  font-size: 20px;
+  text-decoration: none;
+  color:#000;
+}
+
+.button-slide {
+  text-decoration: none;
+  width: 20rem;
+  height: 5rem;
+  margin-right: 2rem;
+  cursor: pointer;
+  border: none;
+  border-radius: .4rem;
   
-    &__container {
-      perspective: var(--fold-out-perspective);
-    }
-  
-    &--exit {
-      &.aws-sld--moveLeft,
-      &.aws-sld--moveRight {
-        transform-style: preserve-3d;
-      }
-      &.aws-sld--moveLeft {
-        transform-origin: 100% 50%;
-        animation: foldLeft var(--slider-transition-duration) both
-          var(--transition-bezier);
-      }
-      &.aws-sld--moveRight {
-        transform-origin: 0% 50%;
-        animation: foldRight var(--slider-transition-duration) both
-          var(--transition-bezier);
-      }
-    }
+}
+
+.text-slide__buttons button:nth-child(1){
+  background-color: var(--colorTextDarker);
+}
+
+
+.text-slide__buttons button:nth-child(2){
+  background-color: var(--color-nav);
+}
+
+
+
+@media (max-width: 650px) {
+  .button-slide {
+    text-decoration: none;
+    width: 10rem;
+    height: 3rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
   }
   
-  @keyframes foldLeft {
-    from {
-      transform: translate3d(0, 0, 0) rotateY(0deg);
-    }
-    to {
-      transform: translate3d(-100%, 0, 0)
-        rotateY(calc(var(--fold-out-angle) * -1));
-    }
-  }
-  
-  @keyframes foldRight {
-    from {
-      transform: translate3d(0, 0, 0) rotateY(0deg);
-    }
-    to {
-      transform: translate3d(100%, 0, 0) rotateY(var(--fold-out-angle));
-    }
-  }
-  
+.text-slide__buttons a {
+  font-size: 10px;
+}
+
+ 
+}

@@ -11,7 +11,8 @@ const ContactForm = () => {
     <div>
       <section className="contact">
         <div className="content-contact">
-          <h2>Conctacto</h2>
+          <h2>Contacto</h2>
+    
           <p>
             Lunes a Viernes de 7:00 AM - 12:00 PM & 2:00 PM - 6:00 PM Sabados de 7:30 AM - 1:00 PM
           </p>
@@ -36,6 +37,7 @@ const ContactForm = () => {
               <div className="text-contact">
                 <h3>Teléfonos</h3>
                 <p>955445875 / 952066393 / 976631901 </p>
+               
               </div>
             </div>
 
@@ -55,7 +57,7 @@ const ContactForm = () => {
               action="https://formsubmit.co/gtobyd17@gmail.com"
               method="POST"
             >
-              <h2>Escribenos</h2>
+              <h2>Déjanos aquí tus datos</h2>
               <div className="inputBox">
                 <input type="text" id="name" name="name" required="required" />
                 <span>Nombre y Apellidos</span>
@@ -79,8 +81,9 @@ const ContactForm = () => {
                 <span>Empresa</span>
               </div>
               <div className="inputBox">
-                <textarea name="message" id="message" cols="30" rows="5" required="required" />
-                <span>Mensaje</span>
+                <textarea name="message" id="message" cols="30" rows="3" required="required" />
+                <span>Escribe tu mensaje</span>
+                
               </div>
               <div className="inputBox">
                 <input type="submit" name="" value="Enviar" />

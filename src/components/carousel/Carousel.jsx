@@ -6,25 +6,26 @@ import imagen2 from "../../images/Slides/Slide_5.jpg";
 import imagen3 from "../../images/Slides/Slide_1.jpg";
 import "./Carousel.css";
 import "react-awesome-slider/dist/captioned.css";
+import CarouselInfo from "./CarouselInfo";
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 const slider = () => (
-
-  <AutoplaySlider 
+  <AutoplaySlider
     className="aws-btn aws-sld"
-    play={true}
+    play={false}
     cancelOnInteraction={false}
     interval={6000}
     bullets={false}
-    
   >
     <div data-src={imagen1} data-alt="Descripción de la imagen 1">
-      <p style={{ position: "relative", zIndex: 900, color: "white" }}>
-        Información adicional para la imagen 1.
-      </p>
+      <CarouselInfo titulo1={"Mas de 15"} titulo2={"Años de experiencia"} />
     </div>
-    <div data-src={imagen2} />
-    <div data-src={imagen3} />
+    <div data-src={imagen2}>
+      <CarouselInfo titulo1={"Lideres en "} titulo2={"Prefabricado de Concreto "} />
+    </div>
+    <div data-src={imagen3}>
+      <CarouselInfo titulo1={"Presente en los"} titulo2={"Principales Proyectos"} />
+    </div>
   </AutoplaySlider>
 );
 export default slider;

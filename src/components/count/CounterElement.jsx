@@ -21,7 +21,7 @@ const CounterElement = () => {
  
 
   return (
-    <ScrollTrigger  onEnter={() => setCounterOn(true)}  style={{ marginBottom: "3rem" }} >
+    <ScrollTrigger  onEnter={() => setCounterOn(true)}  style={{ marginBottom: "3rem"  }} b >
       <div className="container__count container-valores  " style={{
        
         marginTop: "3rem",

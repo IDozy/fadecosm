@@ -17,10 +17,14 @@
     --colorBlack: #000;
      --color-nav-darker: hsl(260, 38%, 50%);
      --colorTextDarker: hsl(120, 40%, 50%);
+     --colorTextDarker2: hsl(120, 80%, 75%);
+     --colorPruebaNav: #1BAE70;
+     --colorPruebaContraste: #A01B70;
 }
 
 html{
     font-size: 62.5%;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
@@ -40,7 +44,7 @@ html{
     align-items: center;
     justify-content: space-between;
     height: 10vh;
-    background: var(--color-nav);
+    background:var(--color-nav);
     padding: 0 4rem;
    
   /*position: fixed;*/
