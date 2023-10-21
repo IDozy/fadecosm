@@ -44,7 +44,7 @@ html{
     align-items: center;
     justify-content: space-between;
     height: 10vh;
-    background:var(--colorTextDarker);
+    background:var(--color-nav);
     padding: 0 4rem;
    
   /*position: fixed;*/
