@@ -6,8 +6,8 @@
 
 .container-valores, .container-mision{
     background-color: var(--colorTextPastel);
-   
     padding: 3% 0 3% 0;
+ 
 }
 
 
@@ -15,8 +15,9 @@
 
 
 .container-mision  svg{
-    color: white ;
+    color: black ;
     margin-bottom: 10px;
+
 }
 
 .container-valores svg{
