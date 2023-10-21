@@ -13,8 +13,7 @@ const ContactForm = () => {
         <div className="content-contact">
           <h2>Conctacto</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
-            obcaecati non molestias cum reiciendis ratione possimus laboriosam,
+            Lunes a Viernes de 7:00 AM - 12:00 PM & 2:00 PM - 6:00 PM Sabados de 7:30 AM - 1:00 PM
           </p>
         </div>
         <div className="container-contact">
@@ -24,7 +23,7 @@ const ContactForm = () => {
                 <FontAwesomeIcon icon={faLocationDot} />{" "}
               </div>
               <div className="text-contact">
-                <h3>Address</h3>
+                <h3>Ubícanos</h3>
                 <p>Jr. Alfonso Ugarte 2069 y Av. Héroes del Cenepa c17</p>
               </div>
             </div>
@@ -35,9 +34,8 @@ const ContactForm = () => {
                 <FontAwesomeIcon icon={faPhone} />
               </div>
               <div className="text-contact">
-                <h3>Telefono</h3>
+                <h3>Teléfonos</h3>
                 <p>955445875 / 952066393 / 976631901 </p>
-                <p>fadecosanmartin321@gmail.com</p>
               </div>
             </div>
 
@@ -82,7 +80,7 @@ const ContactForm = () => {
               </div>
               <div className="inputBox">
                 <textarea name="message" id="message" cols="30" rows="5" required="required" />
-                <span>Escribe tu mensaje</span>
+                <span>Mensaje</span>
               </div>
               <div className="inputBox">
                 <input type="submit" name="" value="Enviar" />
