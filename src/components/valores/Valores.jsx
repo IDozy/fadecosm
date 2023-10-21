@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBusinessTime,
   faHandshake,
   faPeopleCarryBox,
 } from "@fortawesome/free-solid-svg-icons";
-
+import './Valores.css'
 import ContainerInfo from "../info/ContainerInfo";
 
 export const Valores = () => {
@@ -40,7 +39,6 @@ export const Valores = () => {
       <h2 className="text-title" style={{ textAlign: "center" }}>
         Valores Empresariales
       </h2>
-
       <div className="card-about" style={{ marginTop: "3%" }}>
         <ContainerInfo cards={cards} cardClassName={"valores"} />
       </div>

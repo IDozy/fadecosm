@@ -41,15 +41,14 @@ export const About = () => {
     <div>
       <Navbar></Navbar>
       <CarouselAbout />
-      <Quienes />
       <div className="container-mision">
         <div className="card-about">
           <ContainerInfo cards={cards} cardClassName={"card"} />
         </div>
       </div>
-
+      <Quienes />
       <Historia />
-      <Valores />
+      <Valores /> 
       <Footer />
       <WhatsAppButton></WhatsAppButton>
     </div>
