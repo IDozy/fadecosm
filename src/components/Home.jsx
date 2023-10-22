@@ -6,9 +6,9 @@ import Footer from "./footer/Footer.jsx";
 import Info from './info/Info';
 import Counter from './count/CounterElement';
 
-import ProductoSlider from './productoSlider/ProductoSlider';
 import { Clientes } from './sectionClientes/Clientes';
 import { Proyectos } from './proyectos/Proyectos';
+import { NuestrosProductos } from './productosCarrousel/NuestrosProductos';
 
 const Home = () => {
   return (
@@ -19,7 +19,7 @@ const Home = () => {
       <WhatsAppButton />
       <Info/>
       <Counter/>
-      <ProductoSlider/>
+      <NuestrosProductos/>
       <Proyectos/>
       <Clientes />
       <Footer/>

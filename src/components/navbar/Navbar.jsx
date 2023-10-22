@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./navbar.css"
-import { useEffect } from 'react';
+
 
 
 const Navbar = () => {
