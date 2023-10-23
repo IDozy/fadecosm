@@ -71,7 +71,7 @@ export const Proyectos = () => {
 
   return (
     <section className={styles["nuestros-proyectos"]}>
-      <h2>Nuestros Proyectos</h2>
+      <h2 className="text-title">Nuestros Proyectos</h2>
       <div className={styles["proyectos-container"]}>
         {proyectos.map((proyecto, index) => (
           <article key={index} className={styles["proyecto"]}>

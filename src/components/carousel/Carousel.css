@@ -80,6 +80,24 @@
   z-index: 1;
 }
 
+
+.image-overlay-count {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    
+    rgba(30, 39, 64, 0.81) 20%,
+    rgba(30, 39, 64, 0.81) 20%
+  );
+  opacity: 1; /* Controla la opacidad del degradado */
+  z-index: 0;
+}
+
+
 .text-slide {
   position: relative;
   z-index: 2;
@@ -107,7 +125,7 @@
 
 
 .text-slide__buttons a {
-  font-size: 20px;
+  font-size: 15px;
   text-decoration: none;
   color:#000;
 }
