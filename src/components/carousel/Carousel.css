@@ -89,6 +89,16 @@
   font-size: 3vw;
   font-weight: bold;
 }
+/* ESTILO PARA EL TEXTO DEL CAROUSEL EN ABOUT*/
+.text-slide-infoabout{
+  position: relative;
+  z-index: 2;
+  color: rgba(240, 75, 75, 0.984);
+  left: 5vw;
+  top: 10vh;
+  font-size: 3vw;
+  font-weight: bold;
+}
 
 @media (max-width: 991px) {
   .text-slide {
