@@ -41,3 +41,72 @@
       text-align: center;
     }
   }
+
+  /* Card-NUESTRO PRODUCTOS ESTÁ EN EL HOME */
+.card-product-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white; /* Color de fondo */
+  padding: 50px;
+}
+
+.card-product-content {
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.card-product-image img {
+  max-width: 500px;
+  height: 350px;
+  
+}
+
+.card-product-text {
+  flex: 1;
+  max-width: 600px;
+  padding: 10px;
+  margin-right: 10px;
+  
+  
+}
+
+.card-product-text h1 {
+  font-size: 33px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+
+}
+
+.card-product-text p {
+  font-size: 20px;
+  line-height: 1.5;
+  max-width: 100%;
+  text-align: center;
+}
+
+.card-product-button {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-product-button button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #6ff095; /* Color del botón */
+  color: #fff; /* Color del texto del botón */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  
+}
+
+.card-product-button button:hover {
+  background-color: #c832f1; /* Color de fondo al pasar el ratón */
+}
+
