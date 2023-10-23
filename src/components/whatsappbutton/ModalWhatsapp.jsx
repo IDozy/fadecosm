@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./modal.css";
-import imagen from "../../assets/avatar-de-perfil.png";
-import enviar from "../../assets/submit.svg";
+import imagen from "../../images/Svg/avatar-de-perfil.png";
+
 
 const ModalWhatsapp = ({ onClose }) => {
   const [message, setMessage] = useState("");

@@ -25,13 +25,14 @@ const CounterElement = () => {
       <div className="container__count container-valores  " style={{
        
         marginTop: "3rem",
-        padding: "8rem 4rem 1.5rem ",
+        padding: "3rem 4% ",
         
        
       }}>
+        <div className="image-overlay-count"></div>
         {counterOn && (
           countersData.map((counter, index) => (
-            <div className='container__item' key={index}>
+            <div className='container__item' style={{zIndex:"2"}} key={index}>
               <h1 className='count-title'>{counter.title}</h1>
               <h2 className='count-number'>
                 <CountUp start={0} end={counter.end} duration={2} delay={0}  formattingFn={(value) => formatNumber(value)} />

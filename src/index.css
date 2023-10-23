@@ -1,3 +1,111 @@
-*{
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+:root {
+  --color-nav: #a785c7;
+  --colorText: #8abf7a;
+  --colorBlack: #000;
+  --color-nav-darker: hsl(260, 38%, 50%);
+  --colorTextDarker: hsl(120, 40%, 50%);
+  --colorTextDarker2: hsl(120, 80%, 75%);
+  --colorPruebaNav: #1bae70;
+  --colorPruebaContraste: #a01b70;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@font-face {
+  font-family: "Fuente1";
+  src: url("../src/images/Fonts/BebasNeue-Regular.ttf") format("woff2"),
+    url("../src/images/Fonts/BebasNeue-Regular.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Fuente2";
+  src: url("../src/images/Fonts/BrunoAceSC-Regular.ttf") format("woff2"),
+    url("../src/images/Fonts/BrunoAceSC-Regular.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Fuente3";
+  src: url("../src/images/Fonts/Rajdhani-Medium.ttf") format("woff2"),
+    url("../src/images/Fonts/Rajdhani-Medium.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Fuent4";
+  src: url("../src/images/Fonts/RobotoMono-VariableFont_wght.ttf")
+      format("woff2"),
+    url("../src/images/Fonts/RobotoMono-VariableFont_wght.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.nav {
+  font-family: "Fuente3", sans-serif;
+}
+
+.text-slide__info {
+  font-family: "Fuente1", sans-serif;
+  font-size: larger;
+  font-weight: 1200;
+}
+
+.text-slide__buttons a {
+  font-family: "Fuente2", sans-serif;
+  font-weight: 500;
+}
+
+.text-info {
+  font-family: "Fuente2", sans-serif;
+}
+
+.text-title,
+.card-text-title-info {
+  font-family: "Fuente4", sans-serif;
+  font-weight: bold;
+}
+
+.card p {
+  font-family: "Fuente3", sans-serif;
+  font-size: 20px;
+}
+
+.card .text-info {
+  font-family: "Fuente3", sans-serif;
+}
+
+.count-title {
+  font-family: "Fuente1", sans-serif;
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+
+.count-number {
+  font-family: "Fuente1", sans-serif;
+  letter-spacing: 10px;
+}
+
+.count-description {
+  font-family: "Fuente1", sans-serif;
+  font-size: 25px;
+}
+
+.count-title,
+.count-number,
+.count-description {
+    color: #fff;
 }

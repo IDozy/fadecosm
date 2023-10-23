@@ -12,7 +12,7 @@ const AutoplaySlider = withAutoplay(AwesomeSlider);
 const slider = () => (
   <AutoplaySlider
     className="aws-btn aws-sld"
-    play={false}
+    play={true}
     cancelOnInteraction={false}
     interval={6000}
     bullets={false}
