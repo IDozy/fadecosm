@@ -79,7 +79,7 @@ html {
   font-weight: bold;
 }
 
-.card p {
+.cards p , .card-1 p {
   font-family: "Fuente3", sans-serif;
   font-size: 20px;
 }
@@ -109,3 +109,5 @@ html {
 .count-description {
     color: #fff;
 }
+
+

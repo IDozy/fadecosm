@@ -11,13 +11,15 @@
   }
   
   .proyecto {
-    width: 250px;
+    width: 420px;
+    height: 300px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 10px;
     transition: transform 0.2s;
     position: relative; /* Agrega una posición relativa al proyecto */
     overflow: hidden; /* Oculta el contenido que se desborda */
+    margin-bottom: 3.5rem;
   }
   
   .proyecto img {

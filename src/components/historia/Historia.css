@@ -1,48 +1,48 @@
 .nuestra-historia-card {
-    display: flex;
-    align-items: center;
-    margin: 50px 20px; /* Espacio entre las tarjetas */
-   /* border: 1px solid #7173f0; /* Borde de 1 píxel sólido en un color gris claro */
-   /* box-shadow: 0 2px 4px rgba(202, 119, 238, 0.1); /* Sombreado ligero */
-    padding: 25px; /* Espacio interior alrededor del contenido */
-   box-sizing: border-box;
-  }
-  .titulo-historia{
-    text-align: center;
-  }
-  
-  .nuestra-historia-image {
-    flex: 2; /* Ocupa una fracción del espacio disponible */
-    text-align: center;
-    margin-top: 10%;
+  display: flex;
+  align-items: center;
+  margin: 50px 20px; /* Espacio entre las tarjetas */
+  /* border: 1px solid #7173f0; /* Borde de 1 píxel sólido en un color gris claro */
+  /* box-shadow: 0 2px 4px rgba(202, 119, 238, 0.1); /* Sombreado ligero */
+  padding: 25px; /* Espacio interior alrededor del contenido */
+  box-sizing: border-box;
 }
-  
-  .nuestra-historia-image img {
-    max-width: 75%;
-    height: auto;
-    border-radius: 5%;
-  }
-  
-  .nuestra-historia-text {
-    flex: 2; /* Ocupa dos fracciones del espacio disponible */
-    text-align: justify;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.titulo-historia {
+  text-align: center;
+}
+
+.nuestra-historia-image {
+  flex: 2; /* Ocupa una fracción del espacio disponible */
+  text-align: center;
+  margin-top: 10%;
+}
+
+.nuestra-historia-image img {
+  max-width: 75%;
+  height: auto;
+  border-radius: 5%;
+}
+
+.nuestra-historia-text {
+  flex: 2; /* Ocupa dos fracciones del espacio disponible */
+  text-align: justify;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 768px) {
+  .nuestra-historia-card {
+    flex-direction: column; /* Cambia a diseño de columna */
+    align-items: center;
   }
 
-  @media (max-width: 768px) {
-    .nuestra-historia-card {
-      flex-direction: column; /* Cambia a diseño de columna */
-      align-items: center;
-    }
-  
-    .nuestra-historia-image {
-      margin-left: 0; /* Elimina el espacio entre el texto y la imagen en pantallas pequeñas */
-      margin-top: 20px; /* Agrega espacio arriba de la imagen */
-      text-align: center;
-    }
+  .nuestra-historia-image {
+    margin-left: 0; /* Elimina el espacio entre el texto y la imagen en pantallas pequeñas */
+    margin-top: 20px; /* Agrega espacio arriba de la imagen */
+    text-align: center;
   }
+}
 
-  /* Card-NUESTRO PRODUCTOS ESTÁ EN EL HOME */
+/* Card-NUESTRO PRODUCTOS ESTÁ EN EL HOME */
 .card-product-container {
   display: flex;
   justify-content: center;
@@ -61,7 +61,6 @@
 .card-product-image img {
   max-width: 500px;
   height: 350px;
-  
 }
 
 .card-product-text {
@@ -69,8 +68,6 @@
   max-width: 600px;
   padding: 10px;
   margin-right: 10px;
-  
-  
 }
 
 .card-product-text h1 {
@@ -78,7 +75,6 @@
   font-weight: bold;
   margin-bottom: 15px;
   text-align: center;
-
 }
 
 .card-product-text p {
@@ -103,10 +99,31 @@
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
-  
 }
 
 .card-product-button button:hover {
   background-color: #c832f1; /* Color de fondo al pasar el ratón */
 }
 
+
+
+.contenedor-imagen {
+  flex: 2; /* Ocupa una fracción del espacio disponible */
+  text-align: center;
+  overflow: hidden;
+  transform: skew(-15deg);
+  background-color: #6ff095;
+  margin: 5rem 7rem;
+}
+
+.contenedor-imagen .rotated-container {
+  width: 40vw;
+ max-height:25vw ;
+ transform: skew(15deg);
+}
+
+.imagen-prod {
+ width: 50vw;
+  height: 100%;
+  object-fit: cover; /* Ajusta la imagen al tamaño del contenedor */
+}

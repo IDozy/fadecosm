@@ -19,7 +19,7 @@
     align-items: center;
     justify-content: space-between;
     height: 10vh;
-    background:var(--color-nav);
+    background:#ff0000;
     padding: 0 4rem;
    
     font-size:1.5vw;
