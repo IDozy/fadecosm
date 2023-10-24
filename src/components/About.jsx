@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "./navbar/Navbar";
 import WhatsAppButton from "./whatsappbutton/WhatsAppButton";
-import CarouselAbout from "./carousel/CarouselAbout";
+
 import ContainerInfo from "./info/ContainerInfo";
 
 import { faMagnifyingGlassChart, faStar } from '@fortawesome/free-solid-svg-icons';
@@ -11,6 +11,8 @@ import { Valores } from "./valores/Valores";
 import Footer from "./footer/Footer";
 import { Historia } from "./historia/Historia";
 import { Quienes } from "./quienes/Quienes";
+import { InfoAbout } from "./infoAbout/InfoAbout";
+
 
 export const About = () => {
   const [cards] = useState([
@@ -40,7 +42,7 @@ export const About = () => {
   return (
     <div>
       <Navbar></Navbar>
-      <CarouselAbout />
+      <InfoAbout/>
       <Quienes />
       <div className="container-mision">
         <div className="card-about">

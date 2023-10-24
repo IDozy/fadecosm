@@ -1,0 +1,87 @@
+.background-container {
+    background-image: linear-gradient(180deg, #24568e0a, #1b2e5005), url('../../images/Slide4_mejor.jpg');
+    background-size: 100%, 100%;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.3%;
+ 
+
+  
+    /* Franja izquierda */
+    &::before {
+        content: '';
+        position: absolute;
+        width: 300px; /* Ancho de la franja */
+        height: 100%;
+        background: linear-gradient(180deg, #c046f4b1, #721f8b8f); /* Colores de la franja */
+        top: 0;
+        left: 3%;
+        transform: translateX(-110%) skew(-40deg, 0deg);
+    }
+
+    /* Franja derecha */
+    &::after {
+        content: '';
+        position: absolute;
+        width: 270px; /* Ancho de la franja */
+        height: 100%;
+        background: linear-gradient(180deg, #49eb49, #67f771ba); /* Colores de la franja */
+        top: 0;
+        right: 3%;
+        transform: translateX(120%) skew(40deg, 0deg);
+        opacity: 0.5;
+    }
+  }
+  
+  .content {
+    padding: 50px 0px 95px; 
+    border-radius: 5px;
+    color: #fff;  
+    
+  }
+  
+  .content-h1, .content-h2 {
+    font-size: 36px;
+    margin: 5px 0;
+  }
+  
+  .content-p {
+    font-size: 20px;
+    color: #49eb49;
+    text-align: center; /* Centramos el texto */
+    padding: 20px; /* Agregamos espacio alrededor del texto para centrarlo */
+    max-width: 600px; /* Limitamos el ancho del texto */
+    margin: 0 auto; /* Centramos horizontalmente el texto */
+    
+  }
+  
+  .logo-animation {
+    position: absolute;
+    top: 70%; /* Ajusta la posición vertical según tu diseño */
+    left: 40%; /* Ajusta la posición horizontal según tu diseño */
+    transform: translate(-50%, -30%); /* Centra la imagen en el centro del contenedor */
+    animation: moveLogo 5s linear infinite; 
+    max-width: 17%;
+  }
+
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Agrega margen superior según tus preferencias */
+  }
+  
+  @keyframes moveLogo {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.9); /* Reducción de tamaño del 90% al 50% */
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
