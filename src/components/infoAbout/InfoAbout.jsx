@@ -10,8 +10,8 @@ export const InfoAbout = () => {
         <h2 className="content-h2">Cajamarquina</h2>
       </div>
       <p className="content-p">
-        Generando beneficios a nuestra comunidad al producir y distribuir
-        productos prefabricados, dando el mejor servicio y asesoramiento
+        Buscando generar grandes beneficios a nuestra provincia al producir y distribuir
+        productos prefabricados de calidad, brindando el mejor servicio y asesoramiento
         personalizado para tus proyectos.
       </p>
       <div className="logo-container">
