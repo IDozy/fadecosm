@@ -33,6 +33,12 @@
     
 }
 
+.logo-nav{
+    width: 19%;
+    height: 20%;
+    display: block;
+}
+
 .nav> .nav__brand{
     text-transform: uppercase;
     font-weight: bold;

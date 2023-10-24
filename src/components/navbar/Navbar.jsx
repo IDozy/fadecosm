@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./navbar.css"
-
+import img from "../../images/FadecoLogosinbg.png";
 
 
 const Navbar = () => {
@@ -16,7 +16,9 @@ const Navbar = () => {
     return (
         <div data-aos="fade-rigth"  data-aos-duration="3000" >
             <nav  className="nav">
-                <a href="/" className="nav__brand">Fadeco SM</a>
+                <a href="/" className="nav__brand">
+                    <img className='logo-nav' src={img} alt='Logo de fadeco'/>         
+                </a>
                 <ul className={active}>
                     <li className="nav__item"><a href="/inicio" className="nav__link">Inicio</a></li>
                     <li className="nav__item"><a href="/acercade" className="nav__link">Nosotros</a></li>
