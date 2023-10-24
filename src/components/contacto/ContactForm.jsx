@@ -2,6 +2,7 @@ import {
   faEnvelope,
   faLocationDot,
   faPhone,
+  faClock
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
@@ -12,19 +13,26 @@ const ContactForm = () => {
       <section className="contact">
         <div className="content-contact">
           <h2>Contacto</h2>
-    
-          <p>
-            Lunes a Viernes de 7:00 AM - 12:00 PM & 2:00 PM - 6:00 PM Sabados de 7:30 AM - 1:00 PM
-          </p>
         </div>
         <div className="container-contact">
           <div className="contactInfo">
             <div className="box-contact">
               <div className="icon-contact">
-                <FontAwesomeIcon icon={faLocationDot} />{" "}
+                <FontAwesomeIcon icon={faClock} shake />{" "}
               </div>
               <div className="text-contact">
-                <h3>Ubícanos</h3>
+                <h3>Horarios de Atención</h3>
+                <p> Lunes a Viernes: 7:00 AM - 12:00 PM & 2:00 PM - 5:30 PM </p>
+                <p> Sabados: 7:30 AM - 1:00 PM </p>
+              </div>
+            </div>
+
+            <div className="box-contact">
+              <div className="icon-contact">
+                <FontAwesomeIcon icon={faLocationDot} bounce />{" "}
+              </div>
+              <div className="text-contact">
+                <h3>Dirección</h3>
                 <p>Jr. Alfonso Ugarte 2069 y Av. Héroes del Cenepa c17</p>
               </div>
             </div>
@@ -32,18 +40,17 @@ const ContactForm = () => {
             <div className="box-contact">
               <div className="icon-contact">
                 {" "}
-                <FontAwesomeIcon icon={faPhone} />
+                <FontAwesomeIcon icon={faPhone} beat />
               </div>
               <div className="text-contact">
-                <h3>Teléfonos</h3>
+                <h3>Célulares / Whatsapp </h3>
                 <p>955445875 / 952066393 / 976631901 </p>
-               
               </div>
             </div>
 
             <div className="box-contact">
               <div className="icon-contact">
-                <FontAwesomeIcon icon={faEnvelope} />{" "}
+                <FontAwesomeIcon icon={faEnvelope} flip />{" "}
               </div>
               <div className="text-contact">
                 <h3>Email</h3>
@@ -81,9 +88,14 @@ const ContactForm = () => {
                 <span>Empresa</span>
               </div>
               <div className="inputBox">
-                <textarea name="message" id="message" cols="30" rows="3" required="required" />
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="3"
+                  required="required"
+                />
                 <span>Escribe tu mensaje</span>
-                
               </div>
               <div className="inputBox">
                 <input type="submit" name="" value="Enviar" />
