@@ -4,14 +4,16 @@ import WhatsAppButton from "./whatsappbutton/WhatsAppButton";
 import Footer from "./footer/Footer";
 import { Form } from "./contacto/Mapa";
 import ContactForm from "./contacto/ContactForm";
+import Header from "./contacto/Header";
 
 export const Contact = () => {
   return (
     <div>
-      <Navbar></Navbar>
+      <Header />
+      <Navbar/>
       <ContactForm />
       <Form />
-      <WhatsAppButton></WhatsAppButton>
+      <WhatsAppButton/>
       <Footer />
     </div>
   );
