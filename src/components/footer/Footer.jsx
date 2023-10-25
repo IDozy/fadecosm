@@ -99,7 +99,7 @@ const Footer = () => {
         <hr />
         <div className="sb__footer-below ">
           <div className="sb__footer-copyright" style={{display:"flex", justifyContent:"space-between", width:"55%"}} >
-            <a className="link-desarrollo" href="https://github.com/IDozy" target="_blank">Desarrollado por Dozgson</a>
+            <a className="link-desarrollo" href="https://github.com/IDozy" target="_blank" rel="noopener noreferrer">Desarrollado por Dozgson</a>
             <p>@{year} Fadeco San Martin. All rights reserved.</p>  
           </div>
         </div>
