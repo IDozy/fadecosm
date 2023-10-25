@@ -63,7 +63,7 @@ const CardFierro = () => {
   ];
   return (
     <>
-      <h1 className="heading">Fierro</h1>
+      <h1 className="heading">Fierro Fundido</h1>
       <div
         style={{
           width: "100%",
