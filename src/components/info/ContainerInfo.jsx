@@ -8,10 +8,7 @@ library.add(fas);
 
 const ContainerInfo = ({ cards, cardClassName, }) => {
 
-  const animationClasses = {
-    beat: 'beat',
-    fade: 'fade',
-  };
+  
 
   return (
     <div>

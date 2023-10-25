@@ -4,7 +4,10 @@ import WhatsAppButton from "./whatsappbutton/WhatsAppButton";
 
 import ContainerInfo from "./info/ContainerInfo";
 
-import { faMagnifyingGlassChart, faStar } from '@fortawesome/free-solid-svg-icons';
+import {
+  faMagnifyingGlassChart,
+  faStar,
+} from "@fortawesome/free-solid-svg-icons";
 
 import "./info/Containerabout.css";
 import { Valores } from "./valores/Valores";
@@ -12,13 +15,13 @@ import Footer from "./footer/Footer";
 import { Historia } from "./historia/Historia";
 import { Quienes } from "./quienes/Quienes";
 import { InfoAbout } from "./infoAbout/InfoAbout";
-
+import Header from "./contacto/Header";
 
 export const About = () => {
   const [cards] = useState([
     {
       icon: faMagnifyingGlassChart,
-      
+
       subtitle: "",
       title: "MISIÓN",
       text: `Somos un equipo de trabajadores 
@@ -41,8 +44,9 @@ export const About = () => {
   ]);
   return (
     <div>
-      <Navbar></Navbar>
-      <InfoAbout/>
+      <Header />
+      <Navbar />
+      <InfoAbout />
       <Quienes />
       <div className="container-mision">
         <div className="card-about">
@@ -50,9 +54,9 @@ export const About = () => {
         </div>
       </div>
       <Historia />
-      <Valores /> 
+      <Valores />
       <Footer />
-      <WhatsAppButton></WhatsAppButton>
+      <WhatsAppButton />
     </div>
   );
 };

@@ -54,23 +54,28 @@ html {
   font-style: normal;
 }
 
-.nav {
-  font-family: "Fuente3", sans-serif;
-}
 
-.text-slide__info {
+
+.text-slide__info,
+.count-title,
+.count-number,
+.count-description {
   font-family: "Fuente1", sans-serif;
-  font-size: larger;
-  font-weight: 1200;
 }
 
+.text-info,
 .text-slide__buttons a {
   font-family: "Fuente2", sans-serif;
-  font-weight: 500;
 }
 
-.text-info {
-  font-family: "Fuente2", sans-serif;
+.nav,
+.cards p,
+.card-1 p,
+.card .text-info,
+.sb__footer-links-div h4,
+.sb__footer-links-div p,
+.sb__footer-copyright {
+  font-family: "Fuente3", sans-serif;
 }
 
 .text-title,
@@ -79,35 +84,35 @@ html {
   font-weight: bold;
 }
 
-.cards p , .card-1 p {
-  font-family: "Fuente3", sans-serif;
+.cards p,
+.card-1 p {
   font-size: 20px;
 }
 
-.card .text-info {
-  font-family: "Fuente3", sans-serif;
-}
-
 .count-title {
-  font-family: "Fuente1", sans-serif;
   font-size: 50px;
   letter-spacing: 2px;
 }
 
 .count-number {
-  font-family: "Fuente1", sans-serif;
   letter-spacing: 10px;
 }
 
 .count-description {
-  font-family: "Fuente1", sans-serif;
   font-size: 25px;
 }
 
 .count-title,
 .count-number,
 .count-description {
-    color: #fff;
+  color: #fff;
 }
 
+.text-slide__buttons a {
+  font-weight: 500;
+}
 
+.text-slide__info {
+  font-size: larger;
+  font-weight: 1200;
+}
