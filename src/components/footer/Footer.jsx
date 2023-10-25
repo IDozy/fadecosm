@@ -23,18 +23,15 @@ const Footer = () => {
           alt="Descripción de la imagen"
           key="imagen"
         />,
-        "Contamos con más de 15 años de experiencia.",
-        "Lunes a viernes:  8.00 am a 5.00 pm. Sábados: 8.00 am a 12.00 pm",
+       
       ],
     },
     {
-      title: "Nuestros Productos",
+      title: "Nuestros Horarios",
       items: [
-        "– Buzones",
-        "– Cajas de registro para desagüe",
-        "– Caja porta medidor de agua",
-        "– Caja condominial",
-        "– Marco de fierro fundido",
+        "Lunes a viernes:  8.00 am a 5.00 pm.",
+        "Sábados: 8.00 am a 12.00 pm",
+        
       ],
     },
     { title: "Contactanos", items: ["+51 955 445 875", "link", "link"] },
@@ -42,7 +39,7 @@ const Footer = () => {
 
   const socialMediaIcons = [
     { icon: faFacebook },
-    { icon: faTwitter },
+   /* { icon: faTwitter },*/
     { icon: faInstagram },
     /*{ icon: faLinkedin },*/
   ];
@@ -51,9 +48,9 @@ const Footer = () => {
     <div className="sb__footer-links-div" key={title}>
       <h4>{title}</h4>
       {items.map((item, index) => (
-        <p key={index}>
+        <div key={index}>
           <p>{item}</p>
-        </p>
+        </div>
       ))}
     </div>
   );
@@ -100,9 +97,10 @@ const Footer = () => {
           {renderSocialMediaIcons()}
         </div>
         <hr />
-        <div className="sb__footer-below">
-          <div className="sb__footer-copyright">
-            <p>@{year} Dozgson. All rights reserved.</p>
+        <div className="sb__footer-below ">
+          <div className="sb__footer-copyright" style={{display:"flex", justifyContent:"space-between", width:"55%"}} >
+            <a className="link-desarrollo" href="https://github.com/IDozy" target="_blank">Desarrollado por Dozgson</a>
+            <p>@{year} Fadeco San Martin. All rights reserved.</p>  
           </div>
         </div>
       </div>

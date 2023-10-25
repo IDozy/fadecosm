@@ -13,7 +13,7 @@ import { faEnvelope, faPhoneFlip } from "@fortawesome/free-solid-svg-icons";
 const Header = () => {
   const socialMediaIcons = [
     { icon: faFacebook },
-    { icon: faTwitter },
+    /*{ icon: faTwitter },*/
     { icon: faInstagram },
     /*{ icon: faLinkedin },*/
   ];
@@ -46,6 +46,7 @@ const Header = () => {
       <div className="socialmedia">
         {socialMediaIcons.map((item, index) => (
           <p key={index}>
+            
             <a
               href={getSocialMediaLink(item.icon)}
               target="_blank"
