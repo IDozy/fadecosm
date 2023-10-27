@@ -54,8 +54,6 @@ html {
   font-style: normal;
 }
 
-
-
 .text-slide__info,
 .count-title,
 .count-number,
@@ -74,7 +72,9 @@ html {
 .card .text-info,
 .sb__footer-links-div h4,
 .sb__footer-links-div p,
-.sb__footer-copyright {
+.sb__footer-copyright,
+.whatsapp-button,
+.modal-section-ventas {
   font-family: "Fuente3", sans-serif;
 }
 
@@ -115,4 +115,16 @@ html {
 .text-slide__info {
   font-size: larger;
   font-weight: 1200;
+}
+
+.modal-section-ventas , .close {
+  font-weight: bold;
+}
+
+.close{
+  font-weight: 900;
+}
+
+.message-box:focus {
+  outline: none;
 }
