@@ -6,7 +6,7 @@ export const Quienes = () => {
   return (
     <div className="quienes-somos-card">
      
-        <div className="card-1" style={{width: "auto", marginTop: "2%", marginBottom: "7%" }}>
+        <div className="card-1" style={{width: "auto", marginTop: "2%", marginBottom: "7%" , height:"auto" }}>
         
           <h2 className='text-title'>¿Quiénes Somos?</h2>
           <h4 className='text-info' style={{marginBottom: "2rem", paddingLeft: "2rem"  }}>Fadeco SM</h4>
