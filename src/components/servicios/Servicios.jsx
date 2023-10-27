@@ -20,24 +20,29 @@ const Servicio = ({ title, image, description, imageClassName }) => {
 
 const Servicios = () => {
   return (
-    <div className="servicios-container">
-      <Servicio
-        title="Alquiler de Equipos y Moviliario"
-        image={img}
-        description="En Fadeco tenemos a su disposición equipos topográficos, gruas, moldes para  concreto"
-        imageClassName="grua-image"
-      />
-      <Servicio
-        title="Abastecimineto de agua"
-        image={img1}
-        description="Contamos con cisternas de agua para sus construcciones, brindamos la posibilidad de succionar baños "
-      />
-      <Servicio
-        title="Alquiler de Portátiles"
-        image={img2}
-        description="Al alquilar algún baño portátil puede incluir el servicio de mantenimineto y limpieza, acorde a su  requerimiento. "
-      />
-    </div>
+    <>
+      <h1 className="text-title" style={{ textAlign: "center", margin:"7rem 0 " }} >
+        Ofrecemos También
+      </h1>
+      <div className="servicios-container">
+        <Servicio
+          title="Alquiler de Equipos y Moviliario"
+          image={img}
+          description="En Fadeco tenemos a su disposición equipos topográficos, gruas, moldes para  concreto"
+          imageClassName="grua-image"
+        />
+        <Servicio
+          title="Abastecimineto de agua"
+          image={img1}
+          description="Contamos con cisternas de agua para sus construcciones, brindamos la posibilidad de succionar baños "
+        />
+        <Servicio
+          title="Alquiler de Portátiles"
+          image={img2}
+          description="Al alquilar algún baño portátil puede incluir el servicio de mantenimineto y limpieza, acorde a su  requerimiento. "
+        />
+      </div>
+    </>
   );
 };
 

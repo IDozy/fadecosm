@@ -85,7 +85,7 @@ export const Proyectos = () => {
           </article>
         ))}
       </div>
-      <h1 className="text-title" style={{textAlign:'center'}}>Ofrecemos También</h1>
+    
     </section>
   );
 };
