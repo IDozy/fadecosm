@@ -29,12 +29,12 @@ const Footer = () => {
     {
       title: "Nuestros Horarios",
       items: [
-        "Lunes a viernes:  8.00 am a 5.00 pm.",
-        "Sábados: 8.00 am a 12.00 pm",
+        "Lunes a viernes:  7:00 AM a 12:00PM & 2:00PM a 6.00 PM.",
+        "Sábados: 7:30 AM a 1:00 PM",
         
       ],
     },
-    { title: "Contactanos", items: ["+51 955 445 875", "link", "link"] },
+    { title: "Contactanos", items: ["+51 955 445 875", "+51 952 066 393", "+51 976 631 901" ,"ventas@fadecosanmartin.com.pe","fadecosanmartin321@gmail.com"] },
   ];
 
   const socialMediaIcons = [
