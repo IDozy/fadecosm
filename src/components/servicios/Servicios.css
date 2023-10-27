@@ -4,6 +4,7 @@
     justify-content: space-between;
     margin: 20px;
     flex-wrap: wrap; /* Permite que los servicios se ajusten a la pantalla */
+    text-align: center;
     
   }
   
@@ -18,7 +19,7 @@
     cursor: pointer;
     margin: 5px;
     overflow: hidden;
-    border-radius: 5%
+    
   }
   
   .servicio img {
@@ -65,4 +66,5 @@
     text-align: center;
     color: #000; /* Cambia el color del texto */
   }
+  
   
