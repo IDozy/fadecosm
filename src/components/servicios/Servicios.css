@@ -1,0 +1,68 @@
+/* Estilos generales para el contenedor de servicios */
+.servicios-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    flex-wrap: wrap; /* Permite que los servicios se ajusten a la pantalla */
+    
+  }
+  
+  /* Estilos para cada servicio */
+  .servicio {
+    width: 30%; /* Ajusta el ancho para tres servicios en una fila */
+    max-width: 300px; /* Establece un ancho máximo para cada servicio */
+    height: 300px;
+    perspective: 31905.3px;
+    transition: transform 0.3s;
+    position: relative;
+    cursor: pointer;
+    margin: 5px;
+    overflow: hidden;
+    border-radius: 5%
+  }
+  
+  .servicio img {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del servicio */
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5%;
+  }
+ 
+ 
+  /* Estilos para el estado normal (sin hover) */
+  .servicio .servicio-back {
+    transform: rotateY(90deg);
+    background-color: #ebebeb;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: transform 0.3s;
+  }
+  
+  /* Estilos para el estado hover */
+  .servicio:hover {
+    transform: rotateY(0);
+  }
+  
+  .servicio:hover .servicio-back {
+    transform: rotateY(0);
+  }
+  
+  /* Estilos para los títulos y descripciones */
+  .servicio h2 {
+    text-align: center;
+    color: #000; /* Cambia el color del título */
+  }
+  
+  .servicio p {
+    text-align: center;
+    color: #000; /* Cambia el color del texto */
+  }
+  

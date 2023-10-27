@@ -17,7 +17,7 @@ const ModalWhatsapp = ({ onClose }) => {
 
 
   const handleSend = () => {
-    const phoneNumber = "982221755"; // Reemplaza con el número de teléfono deseado
+    const phoneNumber = "+51955445875"; // Reemplaza con el número de teléfono deseado
     const encodedPhoneNumber = encodeURIComponent(phoneNumber);
     const encodedMessageText = encodeURIComponent(message);
     const whatsappURL = `https://web.whatsapp.com/send?phone=${encodedPhoneNumber}&text=${encodedMessageText}`;

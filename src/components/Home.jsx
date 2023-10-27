@@ -10,6 +10,7 @@ import { Clientes } from "./sectionClientes/Clientes";
 import { Proyectos } from "./proyectos/Proyectos";
 import { NuestrosProductos } from "./productosCarrousel/NuestrosProductos";
 import Header from "./contacto/Header";
+import Servicios from "./servicios/Servicios";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       <Counter />
       <NuestrosProductos />
       <Proyectos />
+      
       <Clientes />
       <Footer />
     </div>
