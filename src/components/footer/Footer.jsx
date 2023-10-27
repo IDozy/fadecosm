@@ -38,9 +38,9 @@ const Footer = () => {
   ];
 
   const socialMediaIcons = [
-    { icon: faFacebook },
+    { icon: faFacebook, description: "Facebook de FADECO San Martin" },
    /* { icon: faTwitter },*/
-    { icon: faInstagram },
+    { icon: faInstagram, description: "Instagram de FADECO San Martin" },
     /*{ icon: faLinkedin },*/
   ];
 
@@ -65,6 +65,7 @@ const Footer = () => {
               href={getSocialMediaLink(item.icon)}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label={item.description}
             >
               <FontAwesomeIcon icon={item.icon} />
             </a>
