@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import "./navbar.css"
 import img from "../../images/FadecoLogosinbg.png";
+import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -20,10 +21,10 @@ const Navbar = () => {
                     <img className='logo-nav' src={img} alt='Logo de fadeco'/>         
                 </a>
                 <ul className={active}>
-                    <li className="nav__item"><a href="/inicio" className="nav__link">Inicio</a></li>
-                    <li className="nav__item"><a href="/acercade" className="nav__link">Nosotros</a></li>
-                    <li className="nav__item"><a href="/productos" className="nav__link">Productos</a></li>
-                    <li className="nav__item"><a href="/contacto" className="nav__link">Contacto</a></li>
+                    <li className="nav__item"><Link to="/inicio" className="nav__link">Inicio</Link></li>
+                    <li className="nav__item"><Link to="/acercade" className="nav__link">Nosotros</Link></li>
+                    <li className="nav__item"><Link to="/productos" className="nav__link">Productos</Link></li>
+                    <li className="nav__item"><Link to="/contacto" className="nav__link">Contacto</Link></li>
                 </ul>
                 <div onClick={navToggle} className={toggleIcon}>
                     <div className="line1"></div>
