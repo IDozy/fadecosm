@@ -17,9 +17,9 @@ const Navbar = () => {
     return (
         <div data-aos="fade-rigth"  data-aos-duration="3000" >
             <nav  className="nav">
-                <a href="/" className="nav__brand">
+                <Link to="/" className="nav__brand">
                     <img className='logo-nav' src={img} alt='Logo de fadeco'/>         
-                </a>
+                </Link>
                 <ul className={active}>
                     <li className="nav__item"><Link to="/inicio" className="nav__link">Inicio</Link></li>
                     <li className="nav__item"><Link to="/acercade" className="nav__link">Nosotros</Link></li>
