@@ -31,7 +31,7 @@ const Header = () => {
   ];
 
   const renderLinks = (title, icon) => (
-    <div className="sb__footer-links-div" key={title}>
+    <div className="sb__footer-links-div" key={title} >
       <h4 style={{marginBottom:"0"}}>
         <FontAwesomeIcon icon={icon} style={{marginRight:"1rem"}} />
         <p style={{display:"inline" }} >
@@ -42,7 +42,7 @@ const Header = () => {
   );
 
   const renderSocialMediaIcons = () => (
-    <div className="sb__footer-links-div" style={{ margin: "0.5rem 0 0 0" }}>
+    <div className="sb__footer-links-div" style={{ margin: "0.5rem 0 0 0", width:"10rem" }}>
       <div className="socialmedia">
         {socialMediaIcons.map((item, index) => (
           <p key={index}>
