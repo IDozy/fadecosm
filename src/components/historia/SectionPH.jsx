@@ -14,8 +14,8 @@ const SectionPH = ({ title, image, text, clase }) => {
       >
         {clase ? (
           <div className="contenedor-imagen">
-            <div className="rotated-container">
-              <img src={image} alt={`Imagen de ${title}`} />
+            <div className="rotated-container" >
+              <img src={image} alt={`Imagen de ${title}`} height={"300px"} />
             </div>
           </div>
         ) : (

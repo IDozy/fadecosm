@@ -25,7 +25,7 @@ export const NuestrosProductos = () => {
     };
   }, [images.length]);
 
-  const currentImage = images[currentIndex];
+  const currentImage = images[0];
 
   const title = "Nuestros Productos";
   const text = `Son elaborados con un proceso supervisado desde la preparación del
