@@ -3,16 +3,19 @@
   --slider-transition-duration: 600ms;
   --organic-arrow-thickness: 6px;
   --organic-arrow-border-radius: 0px;
-  --organic-arrow-height: 40px;
+  --organic-arrow-height: 0;
   --organic-arrow-color: #538bd5;
   --control-button-width: 10%;
   --control-button-height: 25%;
   --control-button-background: transparent;
   --control-bullet-color: #62a4fa;
   --control-bullet-active-color: #538bd5;
-
   --loader-bar-color: #8abf7a;
   --loader-bar-height: 4px;
+}
+
+.awssld__controls button {
+  display: none;
 }
 
 .aws-sld {
@@ -40,7 +43,7 @@
     }
   }
 }
-
+/*
 @keyframes foldLeft {
   from {
     transform: translate3d(0, 0, 0) rotateY(0deg);
@@ -59,7 +62,7 @@
     transform: translate3d(100%, 0, 0) rotateY(var(--fold-out-angle));
   }
 }
-
+*/
 .slide-container {
   position: relative;
 }
@@ -80,7 +83,6 @@
   z-index: 1;
 }
 
-
 .image-overlay-count {
   position: absolute;
   top: 0;
@@ -89,14 +91,12 @@
   height: 100%;
   background: linear-gradient(
     90deg,
-    
     rgba(30, 39, 64, 0.81) 20%,
     rgba(30, 39, 64, 0.81) 20%
   );
   opacity: 1; /* Controla la opacidad del degradado */
   z-index: 0;
 }
-
 
 .text-slide {
   position: relative;
@@ -108,7 +108,7 @@
   font-weight: bold;
 }
 /* ESTILO PARA EL TEXTO DEL CAROUSEL EN ABOUT*/
-.text-slide-infoabout{
+.text-slide-infoabout {
   position: relative;
   z-index: 2;
   color: rgba(240, 75, 75, 0.984);
@@ -121,23 +121,20 @@
 @media (max-width: 991px) {
   .text-slide {
     position: relative;
-    z-index: 2; 
+    z-index: 2;
     color: white;
     left: 0;
     top: 0;
   }
   .button-slide {
     margin-top: 2rem;
-  } 
- 
+  }
 }
-
-
 
 .text-slide__buttons a {
   font-size: 15px;
   text-decoration: none;
-  color:#000;
+  color: #000;
 }
 
 .button-slide {
@@ -147,20 +144,16 @@
   margin-right: 2rem;
   cursor: pointer;
   border: none;
-  border-radius: .4rem;
-  
+  border-radius: 0.4rem;
 }
 
-.text-slide__buttons button:nth-child(1){
+.text-slide__buttons button:nth-child(1) {
   background-color: var(--colorTextDarker);
 }
 
-
-.text-slide__buttons button:nth-child(2){
+.text-slide__buttons button:nth-child(2) {
   background-color: var(--color-nav);
 }
-
-
 
 @media (max-width: 650px) {
   .button-slide {
@@ -170,10 +163,8 @@
     margin-right: 2rem;
     margin-top: 1rem;
   }
-  
-.text-slide__buttons a {
-  font-size: 10px;
-}
 
- 
+  .text-slide__buttons a {
+    font-size: 10px;
+  }
 }

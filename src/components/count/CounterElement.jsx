@@ -57,13 +57,14 @@ const CounterElement = () => {
             >
               <h1 className="count-title">{counter.title}</h1>
               <h2 className="count-number">
-                <CountUp
+                {counter.end}
+                {/* <CountUp
                   start={0}
                   end={counter.end}
                   duration={2}
                   delay={0}
                   formattingFn={(value) => formatNumber(value)}
-                />
+          />*/}
               </h2>
               <p className="count-description">{counter.description}</p>
             </div>
