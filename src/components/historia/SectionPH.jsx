@@ -14,7 +14,7 @@ const SectionPH = ({ title, image, text, clase }) => {
       >
         {clase ? (
           <div className="contenedor-imagen">
-            <div className="rotated-container" >
+            <div className="rotated-container" style={{overflow:"hidden", height:"300px"}} >
               <img src={image} alt={`Imagen de ${title}`} height={"300px"} />
             </div>
           </div>
