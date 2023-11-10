@@ -67,6 +67,13 @@ export const Proyectos = () => {
       lugar: "Pampa alegre - José Sabogal - San Marcos",
       proyecto: "",
     },
+    {
+      titulo: "Rejillas pluviales, barandas, cercos y portones",
+      imagen: img1,
+      empresa: "Nombre de la Empresa 2",
+      lugar: "Pampa alegre - José Sabogal - San Marcos",
+      proyecto: "",
+    },
   ];
 
   return (
@@ -85,7 +92,6 @@ export const Proyectos = () => {
           </article>
         ))}
       </div>
-    
     </section>
   );
 };

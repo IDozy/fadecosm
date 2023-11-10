@@ -9,8 +9,8 @@
 
 /* Estilos para cada servicio */
 .servicio {
-  width: 30%; /* Ajusta el ancho para tres servicios en una fila */
-  max-width: 300px; /* Establece un ancho máximo para cada servicio */
+  width: 60%; /* Ajusta el ancho para tres servicios en una fila */
+  max-width: 400px; /* Establece un ancho máximo para cada servicio */
   height: 300px;
   perspective: 31905.3px;
   transition: transform 0.3s;
@@ -25,6 +25,7 @@
   height: 100%;
   object-fit: cover;
   border-radius: 5%;
+  overflow: hidden;
 }
 
 /* Estilos para el estado normal (sin hover) */
@@ -42,6 +43,7 @@
   left: 0;
   width: 100%;
   transition: transform 0.3s;
+  
 }
 
 /* Estilos para el estado hover */
@@ -62,6 +64,7 @@
 .servicio p {
   text-align: center;
   color: #000; /* Cambia el color del texto */
+  
 }
 
 @media (max-width: 768px) {

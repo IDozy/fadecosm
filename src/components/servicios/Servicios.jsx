@@ -1,10 +1,15 @@
 import React from "react";
-import "./Servicios.css";
+import  "./Servicios.css";
 import img from "../../images/Servicios/Grua.jpg";
 import img1 from "../../images/Servicios/Agua.jpg";
-import img2 from "../../images/Servicios/Baños.jpg";
+import img2 from "../../images/Servicios/Portatiles1.jpg";
+import img3 from "../../images/Servicios/EquiposCalidad2.jpg";
+
 
 const Servicio = ({ title, image, description, imageClassName }) => {
+
+  const descriptionList = description.split("\n").filter(item => item.trim() !== "");
+
   return (
     <div className="servicio">
       <div className="servicio-front">
@@ -12,7 +17,12 @@ const Servicio = ({ title, image, description, imageClassName }) => {
       </div>
       <div className="servicio-back">
         <h2>{title}</h2>
-        <p>{description}</p>
+        {/* Muestra la descripción como una lista */}
+        <ul>
+          {descriptionList.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </ul>
       </div>
     </div>
   );
@@ -26,21 +36,50 @@ const Servicios = () => {
       </h1>
       <div className="servicios-container">
         <Servicio
-          title="Alquiler de Equipos y Moviliario"
+          title="Fabricación y Alquiler de Estructuras Metálicas"
           image={img}
-          description="En Fadeco tenemos a su disposición equipos topográficos, gruas, moldes para  concreto"
+          description={`
+          Moldes para buzón.
+          Moldes para columnas circulares.
+          Moldes para buzo netas.
+          Moldes para andamios.
+          Moldes para buzones eléctricos.`}
           imageClassName="grua-image"
         />
         <Servicio
-          title="Abastecimineto de agua"
-          image={img1}
-          description="Contamos con cisternas de agua para sus construcciones, brindamos la posibilidad de succionar baños "
+          title="Alquiler de Equipos para Construcción"
+          image={img}
+          description={`Saltarín - Compactador.
+          Plancha Compactadora.
+          Mezcladora de Concreto.
+          Vibradores Eléctricos.
+          Balde de Prueba Hidráulico.
+          Motobombas.
+          Percutor - Roto martillo.
+          Martillo Demoledor.`}
         />
         <Servicio
-          title="Alquiler de Portátiles"
-          image={img2}
-          description="Al alquilar algún baño portátil puede incluir el servicio de mantenimineto y limpieza, acorde a su  requerimiento. "
+          title="Alquiler de Equipos Topográficos y Control de Calidad"
+          image={img3}
+          description={`Nivel de Ingeniero.
+          Estación Total.
+          Olla de Washington.
+          Equipo para Prueba Slump.
+          Equipo Medidor Espesor de Pintura.
+          Termómetro Digital.`}
         />
+        <Servicio
+          title="Abastecimiento"
+          image={img1}
+          description={`Agua Potable.`}
+        />
+        <Servicio
+          title="Portátiles"
+          image={img2}
+          description={`Alquiler de Baños Portátiles.
+          Limpieza de Pozos Sépticos.`}
+        />
+        
       </div>
     </>
   );
