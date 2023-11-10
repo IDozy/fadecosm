@@ -83,3 +83,12 @@
 
  
 }
+
+
+@media (max-width: 980px){
+  .servicios-container {
+    
+    justify-content: space-around;
+   
+  }
+}

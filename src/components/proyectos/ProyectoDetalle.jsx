@@ -20,19 +20,21 @@ const ProyectoDetalle = () => {
         <p>Lugar: {proyecto.lugar}</p>
       </section>
       {/* Otros detalles según sea necesario */}
-      <section className="imagenes-section">
-        <h3>Imágenes del proyecto</h3>
-        <div style={{ display: "flex" }}>
-          {proyecto.imagenes.map((imagen, index) => (
-            <img
-              key={index}
-              src={imagen}
-              alt={`Imagen ${index + 1}`}
-              style={{ maxWidth: "200px", margin: "0 10px" }}
-            />
-          ))}
-        </div>
-      </section>
+      {Array.isArray(proyecto.imagenes) && proyecto.imagenes.length > 0 && (
+        <section className="imagenes-section">
+          <h3>Imágenes del proyecto</h3>
+          <div style={{ display: "flex" }}>
+            {proyecto.imagenes.map((imagen, index) => (
+              <img
+                key={index}
+                src={imagen}
+                alt={`Imagen ${index + 1}`}
+                style={{ maxWidth: "200px", margin: "0 10px" }}
+              />
+            ))}
+          </div>
+        </section>
+      )}
     </div>
   );
 };

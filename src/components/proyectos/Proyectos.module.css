@@ -46,7 +46,7 @@
   
   .proyecto:hover .info-proyecto {
     opacity: .7;
-    
+    cursor: pointer;
     transition: .3s ease-in-out;
   }
   .proyecto-lugar {
