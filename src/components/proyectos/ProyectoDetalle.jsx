@@ -4,12 +4,13 @@ import "./ProyectoDetalle.css";
 
 const ProyectoDetalle = () => {
   const { state } = useLocation();
+
   const { id } = useParams();
   // Si no hay estado o si el ID no coincide, puedes manejar el caso apropiado
   if (!state || state.proyecto.id !== id) {
     return <p>Proyecto no encontrado</p>;
   }
-  const proyecto = state.proyecto;
+  const proyecto = state?.proyecto || {};
 
   return (
     <div className="proyecto-detalle-container">
