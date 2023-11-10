@@ -3,6 +3,7 @@ import Home from "./components/Home";
 import { Contact } from "./components/Contact";
 import { About } from "./components/About";
 import { Products } from "./components/Products";
+import ProyectoDetalle from "./components/proyectos/ProyectoDetalle";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./components/productoSlider/ProductoSlider.css";
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/productos" element={<Products />} />
         <Route path="/contacto" element={<Contact />} />
         <Route path="/acercade" element={<About />} />
+        <Route path="/proyectos/:id" element={<ProyectoDetalle />} />
       </Routes>
       <Footer />
       <WhatsAppButton />

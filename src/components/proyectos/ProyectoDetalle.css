@@ -1,0 +1,36 @@
+/* ProyectoDetalle.css */
+
+/* Estilos para el contenedor principal */
+.proyecto-detalle-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos para el título del proyecto */
+  .proyecto-titulo {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: rgb(204, 28, 28);
+  }
+  /* Estilos para los párrafos */
+.proyecto-info p {
+    font-size: 16px;
+    margin-bottom: 8px;
+    line-height: 1.4;
+    color: #333; /* Cambia el color según tus preferencias */
+  }
+  
+  /* Estilos para la sección de imágenes */
+  .imagenes-section {
+    margin-top: 20px;
+
+  }
+  
+  /* Estilos para las imágenes */
+  .imagen-proyecto {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
