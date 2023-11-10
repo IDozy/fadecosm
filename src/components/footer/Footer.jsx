@@ -18,7 +18,7 @@ const Footer = () => {
       title: "Fadeco San Martin",
       items: [
         <img 
-        style={{ width:"70%"}}
+        style={{ width:"90%"}}
           src={logo}
           alt="Descripción de la imagen"
           key="imagen"
@@ -28,10 +28,13 @@ const Footer = () => {
     },
     {
       title: "Nuestros Horarios",
+  
       items: [
-        "Lunes a viernes:  7:00 AM a 12:00PM & 2:00PM a 6.00 PM.",
-        "Sábados: 7:30 AM a 1:00 PM",
-        
+        "Lunes - viernes:",
+        "7:00 AM - 12:00 PM.",
+        "2:00 PM a 6:00 PM.",
+        "Sábados:",
+        "7:30 AM a 1:00 PM"  
       ],
     },
     { title: "Contactanos", items: ["+51 955 445 875", "+51 952 066 393", "+51 976 631 901" ,"ventas@fadecosanmartin.com.pe","fadecosanmartin321@gmail.com"] },
@@ -48,8 +51,9 @@ const Footer = () => {
     <div className="sb__footer-links-div" key={title}>
       <h4>{title}</h4>
       {items.map((item, index) => (
-        <div key={index}>
-          <p>{item}</p>
+        <div key={index} >
+          <br />
+          <p className="sb__footer-link-item">{item}</p>
         </div>
       ))}
     </div>

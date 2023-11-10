@@ -43,18 +43,19 @@
 .socialmedia {
   display: flex;
   flex-direction: row;
+ 
 }
 
 .socialmedia p {
   width: 80px;
 }
 .socialmedia p svg {
-  height: 2rem;
+  height: 3rem;
   color: var(--colorText);
 }
 
 .sb__footer-links-div h4 {
-  font-size: 14px;
+  font-size: 22px;
   line-height: 17px;
   margin-bottom: 0.9rem;
 }
@@ -63,9 +64,14 @@
   font-size: 12px;
   line-height: 15px;
   margin: 0.5rem 0;
-  
   color: var(--color-nav);
 }
+
+.sb__footer-link-item{
+  font-size: 19px !important;
+
+  }
+
 
 .sb__footer-below {
   display: flex;
@@ -80,7 +86,7 @@
 }
 
 .sb__footer-below-links p {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 15px;
   margin-left: 2rem;
   color: white;
@@ -93,7 +99,7 @@ hr {
 }
 
 .sb__footer-copyright {
-  font-size: 13px;
+  font-size: 15px;
   line-height: 15px;
   color: white;
   font-weight: 600;
