@@ -8,7 +8,7 @@ const CounterElement = () => {
 
   // Definir un arreglo de datos para los contadores
   const countersData = [
-    { title: "MÁS DE", end: 15, description: "Años de experiecia" },
+    { title: "MÁS DE", end: 12, description: "Años de experiecia" },
     { title: "MÁS DE", end: 250, description: "Proyectos realizados" },
     { title: "MÁS DE", end: 1000, description: "Clientes satisfechos" },
     { title: "MÁS DE", end: 50, description: "Empresas que nos prefieren" },
@@ -57,14 +57,13 @@ const CounterElement = () => {
             >
               <h1 className="count-title">{counter.title}</h1>
               <h2 className="count-number">
-                {counter.end}
-                {/* <CountUp
+                <CountUp
                   start={0}
                   end={counter.end}
                   duration={2}
                   delay={0}
                   formattingFn={(value) => formatNumber(value)}
-          />*/}
+                />
               </h2>
               <p className="count-description">{counter.description}</p>
             </div>

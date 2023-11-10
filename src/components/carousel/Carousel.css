@@ -3,7 +3,7 @@
   --slider-transition-duration: 600ms;
   --organic-arrow-thickness: 6px;
   --organic-arrow-border-radius: 0px;
-  --organic-arrow-height: 0;
+  --organic-arrow-height: 40px;
   --organic-arrow-color: #538bd5;
   --control-button-width: 10%;
   --control-button-height: 25%;
@@ -13,11 +13,11 @@
   --loader-bar-color: #8abf7a;
   --loader-bar-height: 4px;
 }
-
+/*
 .awssld__controls button {
   display: none;
 }
-
+*/
 .aws-sld {
   --fold-out-perspective: 2000px;
   --fold-out-angle: 90deg;

@@ -12,7 +12,7 @@ const AutoplaySlider = withAutoplay(AwesomeSlider);
 const slider = () => (
   <AutoplaySlider
     className="aws-btn aws-sld"
-    play={false}
+    play={true}
     cancelOnInteraction={false}
     interval={6000}
     bullets={false}
@@ -20,12 +20,12 @@ const slider = () => (
     <div data-src={imagen1} data-alt="Descripción de la imagen 1">
       <CarouselInfo titulo1={"Mas de 15"} titulo2={"Años de experiencia"} />
    </div>
-   {/* <div data-src={imagen2}>
+    <div data-src={imagen2}>
       <CarouselInfo titulo1={"Lideres en "} titulo2={"Prefabricado de Concreto "} />
     </div>
     <div data-src={imagen3}>
       <CarouselInfo titulo1={"Presente en los"} titulo2={"Principales Proyectos"} />
-</div>*/}
+</div>
   </AutoplaySlider>
 );
 export default slider;
