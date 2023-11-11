@@ -60,7 +60,7 @@ const Servicio = ({ title, image, description, imageClassName }) => {
   return (
     <div className="servicio">
       <div className="servicio-front">
-        <img src={image} alt={title} className={imageClassName}  style={{height:"30rem ",/*width:"auto",*/ maxWidth:"40rem"}} />
+        <img src={image} alt={title} className={imageClassName}  style={{height:"30rem ",width:"auto", maxWidth:"40rem"}} />
       </div>
       <div className="servicio-back">
         <h2>{title}</h2>
