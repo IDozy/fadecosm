@@ -18,13 +18,14 @@
   cursor: pointer;
   margin: 5px;
   overflow: hidden;
+  border: 8px solid #d391e4;
+  
 }
 
 .servicio img {
   width: 100%; /* Ajusta el ancho de la imagen al 100% del servicio */
   height: 100%;
   object-fit: cover;
-  border-radius: 5%;
   overflow: hidden;
 }
 

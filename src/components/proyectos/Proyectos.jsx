@@ -13,7 +13,7 @@ export const Proyectos = () => {
   const proyectos = [
     {
       id:"0",
-      titulo: "Fabricación de rejillas pluviales, barandas, portones y cercos.",
+      titulo: "FABRICACIÓN DE REJILLAS PLUVIALES, BARANDAS, PORTONES Y CERCOS.",
       imagen: img1,
       empresa: "E.I.G.R CONTRATISTAS S.R.L",
       lugar: "Pampa alegre - José Sabogal - San Marcos 2023",
@@ -41,7 +41,7 @@ export const Proyectos = () => {
     {
       id:"3",
       titulo:
-        "FABRICACIÓN DE BUZONES, BUZONETAS, TECHOS PREFABRICADOS Y CAJAS DE VÁLVULA",
+        "FABRICACIÓN DE BUZONES ELÉCTRICOS, BUZONETAS",
       imagen: img4,
       empresa: "Consorcio CHAQUICOCHA",
       lugar: "Cajamarca - 2022",
@@ -50,7 +50,7 @@ export const Proyectos = () => {
     },
     {
       id:"4",
-      titulo: "INSTALACIÓN DE POSTE DE ALUMBRADO",
+      titulo: "INSTALACIÓN DE POSTE DE ALUMBRADO PÚBLICO EN EL ",
       imagen: img5,
       empresa: "Nombre de la Empresa 2",
       lugar: "Otuzco Cajamarca - 2023",
@@ -58,7 +58,7 @@ export const Proyectos = () => {
     },
     {
       id:"5",
-      titulo: "Rejillas pluviales, barandas, cercos y portones",
+      titulo: "FABRICACIÓN DE REJILLAS PLUVIALES, BARANDAS, PORTONES Y CERCOS.",
       imagen: img1,
       empresa: "Nombre de la Empresa 2",
       lugar: "Pampa alegre - José Sabogal - San Marcos",
@@ -103,12 +103,9 @@ export const Proyectos = () => {
         {proyectos.map((proyecto, index) => (
           <article key={proyecto.id} className={styles["proyecto"]} onClick={() => handleProyectoClick(proyecto)}>
             <img src={proyecto.imagen} alt={proyecto.titulo} />
-            <div className={styles["info-proyecto"]}>
-              <h3 className={styles["proyecto-titulo"]}>{proyecto.titulo}</h3>
-              <p className={styles["proyecto-proyecto"]}>{proyecto.proyecto}</p>
-              <p className={styles["proyecto-lugar"]}>{proyecto.lugar}</p>
-              <p className={styles["proyecto-empresa"]}>{proyecto.empresa}</p>
-            </div>
+           
+            <h3 className={styles["proyecto-titulo"]}>{proyecto.titulo}</h3>
+         
           </article>
         ))}
       </div>

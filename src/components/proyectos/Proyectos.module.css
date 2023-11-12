@@ -8,6 +8,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 20px;
+    
   }
   
   .proyecto {
@@ -20,6 +21,7 @@
     position: relative; /* Agrega una posición relativa al proyecto */
     overflow: hidden; /* Oculta el contenido que se desborda */
     margin-bottom: 3.5rem;
+    cursor: pointer;
   }
   
   .proyecto img {
@@ -44,11 +46,7 @@
     transition: opacity 0.3s;
   }
   
-  .proyecto:hover .info-proyecto {
-    opacity: .7;
-    cursor: pointer;
-    transition: .3s ease-in-out;
-  }
+ 
   .proyecto-lugar {
     color: bisque;
     text-align: center;
@@ -67,16 +65,25 @@
   .proyecto-titulo{
     font-size: 1.5rem;
     position: absolute;
-    top: 1.5rem;
-    padding: 1rem;
+    top:  26.5rem;
+    left: -0.1rem;
+    background-color: aquamarine;
+    width: 101%;
+    height: 12%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
+
+ 
+  
 
   .proyecto-empresa{
     font-size: 1.5rem;
     position: absolute;
     bottom: 1rem;
     right: 2rem; 
-   padding: 0 0 0 .7rem;
+    padding: 0 0 0 .7rem;
   }
 
 
