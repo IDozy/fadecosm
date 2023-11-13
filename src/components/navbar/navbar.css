@@ -127,7 +127,7 @@ transform: rotate(-45deg) translate(-4px, 5px);
     top: 100%;
     left: 0;
     background-color: #7375a5;
-    width: 100%;
+    width: 130%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -140,7 +140,6 @@ transform: rotate(-45deg) translate(-4px, 5px);
   border-bottom: 1px solid #fff;
   position: relative;
   margin-bottom: 5px;
-  width: 100%;
 }
 
 .categoria span {
