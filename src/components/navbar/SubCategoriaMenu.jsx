@@ -1,17 +1,19 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 import "./SubCategoriaMenu.css";
 
-const SubCategoriaMenu = ({ subcategorias }) => {
+const SubCategoriaMenu = ({ categoria, subcategorias }) => {
   return (
     <ul className="subcategorias">
-    {subcategorias.map((subcategoria) => (
-      <li key={subcategoria}>
-        <Link to={`/productos/${subcategoria}`}>{subcategoria}</Link>
-      </li>
-    ))}
-  </ul>
-  )
-}
+      {subcategorias.map((subcategoria) => (
+        <li key={subcategoria}>
+          <Link to={`/productos/${encodeURIComponent(categoria)}/${encodeURIComponent(subcategoria)}`}>
+            {subcategoria}
+          </Link>
+        </li>
+      ))}
+    </ul>
+  );
+};
 
-export default SubCategoriaMenu
+export default SubCategoriaMenu;

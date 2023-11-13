@@ -40,7 +40,7 @@ const Navbar = () => {
       "Electrificación",
     ],
     Termoplásticos: ["Agua potable", "Saneamiento"],
-    Fierrofundido: ["Saneamiento"],
+    FierroFundido: ["Saneamiento"],
   };
   
 
@@ -99,7 +99,7 @@ const Navbar = () => {
                           {tipo}
                         </span>
                         {showSubMenu[tipo] && (
-                          <SubcategoriaMenu subcategorias={subcategorias} />
+                          <SubcategoriaMenu categoria={encodeURIComponent(tipo)} subcategorias={subcategorias} />
                         )}
                       </div>
                     )

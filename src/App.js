@@ -4,6 +4,7 @@ import { Contact } from "./components/Contact";
 import { About } from "./components/About";
 import { Products } from "./components/Products";
 import ProyectoDetalle from "./components/proyectos/ProyectoDetalle";
+import PaginaSubcategoria from "./components/navbar/PaginaSubcategoria";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./components/productoSlider/ProductoSlider.css";
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/contacto" element={<Contact />} />
         <Route path="/acercade" element={<About />} />
         <Route path="/proyectos/:id" element={<ProyectoDetalle />} />
+        <Route path="/productos/:categoria/:subcategoria" component={PaginaSubcategoria} />
       </Routes>
       <Footer />
       <WhatsAppButton />
