@@ -5,9 +5,11 @@ import { Link } from "react-router-dom";
 import SubcategoriaMenu from "./SubCategoriaMenu";
 
 const Navbar = () => {
+
   const [active, setActive] = useState("nav__menu");
   const [toggleIcon, setToggleIcon] = useState("nav__toggler");
   const [showSubMenu, setShowSubMenu] = useState({});
+
   const navToggle = () => {
     setActive(active === "nav__menu" ? "nav__menu nav__active" : "nav__menu");
     setToggleIcon(
@@ -30,17 +32,35 @@ const Navbar = () => {
   //CATEGORÍAS DE PRODUCTOS
   const categorias = {
     PrefabricadosDeConcreto: [
-      "Agua Potable",
+      "Agua potable",
       "Alcantarillado",
-      "Cercos Perimétricos",
-      "Pistas y Carreteras",
-      "Jardinería para Edificaciones",
+      "Cercos perimétricos",
+      "Pistas y carreteras",
+      "Jardinería para edificaciones",
       "Electrificación",
     ],
-    Plásticos: ["Agua Potable", "Saneamiento"],
-    FierroFundido: ["Saneamiento"],
+    Termoplásticos: ["Agua potable", "Saneamiento"],
+    Fierrofundido: ["Saneamiento"],
+  };
+  
+
+  // Función para generar categorías con espacios
+  const generarCategoriasConEspacios = () => {
+    const categoriasConEspacios = {};
+    for (const [categoria, subcategorias] of Object.entries(categorias)) {
+      const nombreConEspacios = categoria
+        .replace(/([a-z])([A-Z])/g, '$1 $2')
+        .replace(/\b([a-z])\b/g, (_, match) => match.toUpperCase())
+        .replace(/([A-Z][a-z]+)/g, ' $1')
+        .trim();
+      categoriasConEspacios[nombreConEspacios] = subcategorias;
+    }
+    return categoriasConEspacios;
   };
 
+  // Generar categorías con espacios una vez (cuando el componente se monta)
+  const categoriasConEspacios = generarCategoriasConEspacios();
+  
   return (
     <div data-aos="fade-right" data-aos-duration="3000">
       <nav className="nav">
@@ -72,16 +92,18 @@ const Navbar = () => {
               {showSubMenu.Productos && (
                 <div className="dropdown-content">
                   {/* Bloque de código para categorías y subcategorías */}
-                  {Object.entries(categorias).map(([tipo, subcategorias]) => (
-                    <div key={tipo} className="categoria">
-                      <span onMouseEnter={() => toggleSubMenu(tipo)}>
-                        {tipo}
-                      </span>
-                      {showSubMenu[tipo] && (
-                        <SubcategoriaMenu subcategorias={subcategorias} />
-                      )}
-                    </div>
-                  ))}
+                  {Object.entries(categoriasConEspacios).map(
+                    ([tipo, subcategorias]) => (
+                      <div key={tipo} className="categoria">
+                        <span onMouseEnter={() => toggleSubMenu(tipo)}>
+                          {tipo}
+                        </span>
+                        {showSubMenu[tipo] && (
+                          <SubcategoriaMenu subcategorias={subcategorias} />
+                        )}
+                      </div>
+                    )
+                  )}
                   {/* Fin del bloque de código de categorías y subcategorías */}
                 </div>
               )}
