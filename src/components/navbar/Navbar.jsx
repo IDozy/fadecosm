@@ -32,34 +32,18 @@ const Navbar = () => {
   //CATEGORÍAS DE PRODUCTOS
   const categorias = {
     PrefabricadosDeConcreto: [
-      "Agua potable",
+      "Aguapotable",
       "Alcantarillado",
-      "Cercos perimétricos",
-      "Pistas y carreteras",
-      "Jardinería para edificaciones",
+      "Cercosperimétricos",
+      "Pistasycarreteras",
+      "Jardineríaparaedificaciones",
       "Electrificación",
     ],
-    Termoplásticos: ["Agua potable", "Saneamiento"],
+    Termoplasticos: ["Aguapotable", "Saneamiento"],
     FierroFundido: ["Saneamiento"],
   };
   
 
-  // Función para generar categorías con espacios
-  const generarCategoriasConEspacios = () => {
-    const categoriasConEspacios = {};
-    for (const [categoria, subcategorias] of Object.entries(categorias)) {
-      const nombreConEspacios = categoria
-        .replace(/([a-z])([A-Z])/g, '$1 $2')
-        .replace(/\b([a-z])\b/g, (_, match) => match.toUpperCase())
-        .replace(/([A-Z][a-z]+)/g, ' $1')
-        .trim();
-      categoriasConEspacios[nombreConEspacios] = subcategorias;
-    }
-    return categoriasConEspacios;
-  };
-
-  // Generar categorías con espacios una vez (cuando el componente se monta)
-  const categoriasConEspacios = generarCategoriasConEspacios();
   
   return (
     <div data-aos="fade-right" data-aos-duration="3000">
@@ -92,7 +76,7 @@ const Navbar = () => {
               {showSubMenu.Productos && (
                 <div className="dropdown-content">
                   {/* Bloque de código para categorías y subcategorías */}
-                  {Object.entries(categoriasConEspacios).map(
+                  {Object.entries(categorias).map(
                     ([tipo, subcategorias]) => (
                       <div key={tipo} className="categoria">
                         <span onMouseEnter={() => toggleSubMenu(tipo)}>
