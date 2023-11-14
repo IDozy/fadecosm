@@ -36,15 +36,16 @@
   }
 
   .categoria ul {
-
-    width: 200px;
-}
-
+    width: 14vw;
+  }
 }
 
 @media screen and (max-width: 850px) {
   .subcategorias {
     left: -100%;
+  }
+  .categoria ul {
+    width: 12vw !important  ;
   }
 }
 
