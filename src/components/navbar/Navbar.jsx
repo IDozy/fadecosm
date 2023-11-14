@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import SubcategoriaMenu from "./SubCategoriaMenu";
 
 const Navbar = () => {
-
   const [active, setActive] = useState("nav__menu");
   const [toggleIcon, setToggleIcon] = useState("nav__toggler");
   const [showSubMenu, setShowSubMenu] = useState({});
@@ -29,7 +28,7 @@ const Navbar = () => {
     }));
   };
 
-  //CATEGORÍAS DE PRODUCTOS
+  // CATEGORÍAS DE PRODUCTOS
   const categorias = {
     PrefabricadosDeConcreto: [
       "Aguapotable",
@@ -42,9 +41,7 @@ const Navbar = () => {
     Termoplasticos: ["Aguapotable", "Saneamiento"],
     FierroFundido: ["Saneamiento"],
   };
-  
 
-  
   return (
     <div data-aos="fade-right" data-aos-duration="3000">
       <nav className="nav">
@@ -64,7 +61,7 @@ const Navbar = () => {
           </li>
           <li className="nav__item">
             <div
-              className="dropdown"
+              className="dropdown nav__link"
               onMouseEnter={() =>
                 setShowSubMenu((prev) => ({ ...prev, Productos: true }))
               }
@@ -72,23 +69,27 @@ const Navbar = () => {
                 setShowSubMenu((prev) => ({ ...prev, Productos: false }))
               }
             >
-              <span>Productos</span>
+              <Link>Productos</Link>
               {showSubMenu.Productos && (
                 <div className="dropdown-content">
-                  {/* Bloque de código para categorías y subcategorías */}
                   {Object.entries(categorias).map(
                     ([tipo, subcategorias]) => (
-                      <div key={tipo} className="categoria">
-                        <span onMouseEnter={() => toggleSubMenu(tipo)}>
-                          {tipo}
-                        </span>
+                      <div
+                        key={tipo}
+                        className="categoria"
+                        onMouseEnter={() => toggleSubMenu(tipo)}
+                        onMouseLeave={() => toggleSubMenu(tipo)}
+                      >
+                        <Link className="tipo-size">{tipo}</Link>
                         {showSubMenu[tipo] && (
-                          <SubcategoriaMenu categoria={encodeURIComponent(tipo)} subcategorias={subcategorias} />
+                          <SubcategoriaMenu
+                            categoria={encodeURIComponent(tipo)}
+                            subcategorias={subcategorias}
+                          />
                         )}
                       </div>
                     )
                   )}
-                  {/* Fin del bloque de código de categorías y subcategorías */}
                 </div>
               )}
             </div>

@@ -7,7 +7,7 @@ const SubCategoriaMenu = ({ categoria, subcategorias }) => {
     <ul className="subcategorias">
       {subcategorias.map((subcategoria) => (
         <li key={subcategoria}>
-          <Link to={`/productos/${encodeURIComponent(categoria)}/${encodeURIComponent(subcategoria)}`}>
+          <Link className="tipo-size" to={`/productos/${encodeURIComponent(categoria)}/${encodeURIComponent(subcategoria)}`}>
             {subcategoria}
           </Link>
         </li>
