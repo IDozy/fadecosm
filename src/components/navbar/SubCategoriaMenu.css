@@ -32,8 +32,14 @@
 
 @media screen and (max-width: 1600px) {
   .subcategorias {
-    left: -89%;
+    left: -99%;
   }
+
+  .categoria ul {
+
+    width: 200px;
+}
+
 }
 
 @media screen and (max-width: 850px) {
