@@ -1,20 +1,28 @@
-import React from 'react'
+import React from "react";
 
-const ImagenesEspc = ({datosProductos}) => {
+const ImagenesEspc = ({ subcategoria, datosProductos }) => {
+
   if (!datosProductos) {
-    return null;
+    return <div>No hay datos disponibles</div>;
   }
+  const productos = datosProductos;
 
-  const { nombre, imagen, descripcion } = datosProductos;
 
   return (
-   <div>
-      <h3>{nombre}</h3>
-      <img src={imagen} alt={`Imagen de ${nombre}`} />
-      <p>{descripcion}</p>
-      {/* Aquí podrías agregar más elementos visuales relacionados con las especificaciones */}
+    <div>
+      {Object.keys(productos).map((productoId) => {
+        const producto = productos[productoId];
+        return (
+          <div key={productoId}>
+            <h3>{producto.nombre}</h3>
+            <img src={producto.imagen} alt={`Imagen de ${producto.nombre}`} />
+            <p>{producto.descripcion}</p>
+            {/* Aquí podrías agregar más elementos visuales relacionados con las especificaciones */}
+          </div>
+        );
+      })}
     </div>
-  )
-}
+  );
+};
 
-export default ImagenesEspc
+export default ImagenesEspc;
