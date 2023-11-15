@@ -4,7 +4,7 @@ import { Contact } from "./components/Contact";
 import { About } from "./components/About";
 import { Products } from "./components/Products";
 import ProyectoDetalle from "./components/proyectos/ProyectoDetalle";
-import PaginaSubcategoria from "./components/navbar/PaginaSubcategoria";
+import PaginaSubcategoria from "./components/subcategorias/PaginaSubcategoria";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./components/productoSlider/ProductoSlider.css";

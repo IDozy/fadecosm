@@ -3,8 +3,7 @@ import { useParams } from "react-router-dom";
 import DetalleSubcategoria from "./DetalleSubcategoria";
 
 const PaginaSubcategoria = () => {
-  const { categoria } = useParams();
-  const { subcategoria } = useParams();
+  const { categoria,subcategoria } = useParams();
 
   return (
     <div>
