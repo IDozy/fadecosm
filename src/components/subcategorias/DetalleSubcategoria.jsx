@@ -1,6 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
-
+import img from "../../images/Productos/Fierro Fundido/Aro_para_buzon.png";
+import img1 from "../../images/Productos/Plasticos/Tapa termoplática 30x60.png";
 
 
 
