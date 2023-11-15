@@ -1,23 +1,21 @@
 import React from "react";
 
-const ImagenesEspc = ({ subcategoria, datosProductos }) => {
+const ImagenesEspc = ({ datosProductos }) => {
 
-  if (!datosProductos || !subcategoria || !datosProductos[subcategoria]) {
+  if (!datosProductos) {
     return <div>No hay datos disponibles</div>;
   }
-  const productos = datosProductos[subcategoria];
-
+  
 
   return (
     <div>
-      {Object.keys(productos).map((productoId) => {
-        const producto = productos[productoId];
+      {Object.keys(datosProductos).map((productoId) => {
+        const producto = datosProductos[productoId];
         return (
           <div key={productoId}>
             <h3>{producto.nombre}</h3>
             <img src={producto.imagen} alt={`Imagen de ${producto.nombre}`} />
             <p>{producto.descripcion}</p>
-            {/* Aquí podrías agregar más elementos visuales relacionados con las especificaciones */}
           </div>
         );
       })}

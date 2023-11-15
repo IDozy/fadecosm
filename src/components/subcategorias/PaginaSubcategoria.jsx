@@ -15,16 +15,17 @@ const PaginaSubcategoria = () => {
     return <div>No se encontraron datos para la subcategoría</div>;
   }
 
-  const especificaciones = datosSubcategoria.especificaciones || {};
-
+  console.log("Datos subcategoría:", datosSubcategoria);
   return (
     <div>
       <h2>{`Detalles de la subcategoría: ${subcategoria}`}</h2>
       {/* Utiliza el componente ImagenEspecificaciones */}
       <ImagenesEspc datosProductos={datosSubcategoria} />
 
-      {/* Utiliza el componente TablaEspecificaciones */}
-      <TablaEspec datosProductos={especificaciones} />
+      {/* Verifica que hay datos en la propiedad "especificaciones" */}
+      {datosSubcategoria.especificaciones && (
+        <TablaEspec datosProductos={datosSubcategoria.especificaciones} />
+      )}
     </div>
   );
 };
