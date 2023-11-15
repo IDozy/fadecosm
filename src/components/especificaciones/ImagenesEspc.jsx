@@ -2,10 +2,10 @@ import React from "react";
 
 const ImagenesEspc = ({ subcategoria, datosProductos }) => {
 
-  if (!datosProductos) {
+  if (!datosProductos || !subcategoria || !datosProductos[subcategoria]) {
     return <div>No hay datos disponibles</div>;
   }
-  const productos = datosProductos;
+  const productos = datosProductos[subcategoria];
 
 
   return (

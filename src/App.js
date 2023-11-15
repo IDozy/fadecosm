@@ -20,12 +20,12 @@ const App = () => {
       <Header />
       <Navbar />
       <Routes>
+        <Route path="/proyectos/:id" element={<ProyectoDetalle />} />
+        <Route path="/productos/:categoria/:subcategoria" element={<PaginaSubcategoria/>} />
         <Route path="/*" element={<Home />} />
         <Route path="/productos" element={<Products />} />
         <Route path="/contacto" element={<Contact />} />
         <Route path="/acercade" element={<About />} />
-        <Route path="/proyectos/:id" element={<ProyectoDetalle />} />
-        <Route path="/productos/:categoria/:subcategoria" component={PaginaSubcategoria} />
       </Routes>
       <Footer />
       <WhatsAppButton />

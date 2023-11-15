@@ -9,11 +9,13 @@ const PaginaSubcategoria = () => {
 
   
   const datosSubcategoria = datosProductos[categoria]?.[subcategoria];
+
   if (!datosSubcategoria) {
     // Manejar el caso donde no se encuentran datos para la subcategoría
     return <div>No se encontraron datos para la subcategoría</div>;
   }
 
+  const especificaciones = datosSubcategoria.especificaciones || {};
 
   return (
     <div>
@@ -22,7 +24,7 @@ const PaginaSubcategoria = () => {
       <ImagenesEspc datosProductos={datosSubcategoria} />
 
       {/* Utiliza el componente TablaEspecificaciones */}
-      <TablaEspec datosProductos={datosSubcategoria.especificaciones} />
+      <TablaEspec datosProductos={especificaciones} />
     </div>
   );
 };
