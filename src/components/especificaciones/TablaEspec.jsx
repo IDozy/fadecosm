@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './TablaEspec.css';
 
 const TablaEspec = ({ datosProductos }) => {
   console.log('Datos de productos:', datosProductos);
