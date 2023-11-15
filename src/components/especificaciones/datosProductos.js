@@ -1,11 +1,13 @@
 // datosProductos.js
+import img from "../../images/Productos/Prefabricados/Caja de valbulas.png";
+
 const datosProductos = {
   PrefabricadosDeConcreto: {
     Aguapotable: {
       producto1: {
         nombre: "Caja de válvulas 30x30",
-        imagen: "../../images/Productos/Prefabricados/Caja de valbulas.png",
-        descripcion: "Descripción del producto 1",
+        imagen: img,
+        descripcion: "La caja de válvulas es un producto ",
         especificaciones: {
           descripcionCaja: {
             titulo: "DESCRIPCION DE CAJA PORTAMEDIDORA",
@@ -30,7 +32,7 @@ const datosProductos = {
       },
       producto2: {
         nombre: "Producto 2",
-        imagen: "../../images/Productos/Prefabricados/Buzón prefabricado.png",
+        imagen: img,
         descripcion: "Descripción del producto 2",
         especificaciones: {
           descripcionCaja: {
