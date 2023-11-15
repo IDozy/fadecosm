@@ -53,4 +53,7 @@
   .subcategorias {
     left: 100%;
   }
+  .categoria ul {
+    width: 30vw !important  ;
+  }
 }
