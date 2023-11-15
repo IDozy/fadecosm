@@ -27,7 +27,7 @@ const DetalleSubcategoria = () => {
     
   return (
     <div>
-      <h2>Detalles de la subcategoría: {subcategoria}</h2>
+      <h2>{`Detalles de la subcategoría: ${subcategoria}`}</h2>
       <img src={imagenUrl} alt={`Imagen de ${subcategoria}`} />
       {/* Agrega aquí la tabla de especificaciones u otros detalles */}
     </div>
