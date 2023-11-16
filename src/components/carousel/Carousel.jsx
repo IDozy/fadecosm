@@ -19,13 +19,19 @@ const slider = () => (
   >
     <div data-src={imagen1} data-alt="Descripción de la imagen 1">
       <CarouselInfo titulo1={"Mas de 15"} titulo2={"Años de experiencia"} />
-   </div>
+    </div>
     <div data-src={imagen2}>
-      <CarouselInfo titulo1={"Lideres en "} titulo2={"Prefabricado de Concreto "} />
+      <CarouselInfo
+        titulo1={"Lideres en "}
+        titulo2={"Prefabricado de Concreto "}
+      />
     </div>
     <div data-src={imagen3}>
-      <CarouselInfo titulo1={"Presente en los"} titulo2={"Principales Proyectos"} />
-</div>
+      <CarouselInfo
+        titulo1={"Presente en los"}
+        titulo2={"Principales Proyectos"}
+      />
+    </div>
   </AutoplaySlider>
 );
 export default slider;

@@ -40,6 +40,10 @@
     margin-top: 20px; /* Agrega espacio arriba de la imagen */
     text-align: center;
   }
+  .rotated-container , .contenedor-imagen{
+    max-height: 400px !important;
+    transform: none !important;
+  }
 }
 
 /* Card-NUESTRO PRODUCTOS ESTÁ EN EL HOME */
