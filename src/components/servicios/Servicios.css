@@ -18,7 +18,7 @@
   cursor: pointer;
   margin: 2rem 5px;
   overflow: hidden;
-  border: 8px solid #d391e4;
+  border: .8rem ridge var(--colorPruebaNav);
   
 }
 
