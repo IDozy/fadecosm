@@ -18,7 +18,7 @@ const PaginaSubcategoria = () => {
   console.log("Datos subcategoría:", datosSubcategoria);
   return (
     <div>
-      <h2>{`Detalles de la subcategoría: ${subcategoria}`}</h2>
+      <h2 style={{textAlign:"center"}}>{`Detalles de la subcategoría: ${subcategoria}`}</h2>
       {/* Utiliza el componente ImagenEspecificaciones */}
       <ImagenesEspc datosProductos={datosSubcategoria} />
 

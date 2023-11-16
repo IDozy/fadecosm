@@ -24,13 +24,13 @@ const ProyectoDetalle = () => {
       {Array.isArray(proyecto.imagenes) && proyecto.imagenes.length > 0 && (
         <section className="imagenes-section">
           <h3>Imágenes del proyecto</h3>
-          <div style={{ display: "flex" }}>
+          <div className="servicios-container" style={{gap:"5rem", margin:"5rem 0", justifyContent:"space-around", width:"100%"}}>
             {proyecto.imagenes.map((imagen, index) => (
               <img
                 key={index}
                 src={imagen}
                 alt={`Imagen ${index + 1}`}
-                style={{ maxWidth: "200px", margin: "0 10px" }}
+                style={{ maxWidth: "350px", margin: "0 10px", height:"470px" }}
               />
             ))}
           </div>

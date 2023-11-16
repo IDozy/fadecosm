@@ -1,0 +1,39 @@
+.especificacion__card {
+    display: flex;
+    align-items: center;
+    margin: 5rem 8rem; /* Espacio entre las tarjetas */
+    box-sizing: border-box;
+    text-align: center;
+  }
+ 
+  .especificacion__image{
+    flex: 2; /* Ocupa una fracción del espacio disponible */
+    text-align: center;
+   
+  }
+  
+  .especificacion__image img, .especificacion__text img  {
+    max-width: 70%;
+    height: auto;
+    border-radius: 5%;
+  }
+  
+  .especificacion__text {
+    flex: 2; /* Ocupa dos fracciones del espacio disponible */
+    text-align: justify;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  @media (max-width: 768px) {
+    .especificacion__card {
+      flex-direction: column; /* Cambia a diseño de columna */
+      align-items: center;
+    }
+  
+    .especificacion__image {
+      margin-left: 0; /* Elimina el espacio entre el texto y la imagen en pantallas pequeñas */
+      margin-top: 20px; /* Agrega espacio arriba de la imagen */
+      text-align: center;
+    }
+  }
+  
