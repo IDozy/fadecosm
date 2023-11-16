@@ -3,9 +3,10 @@ import styles from "./Proyectos.module.css";
 import { useNavigate } from "react-router-dom";
 import img1 from "../../images/Proyectos/proyecto3.png";
 import img2 from "../../images/Proyectos/proyecto1.jpg";
-import img3 from "../../images/Proyectos/proyecto.jpg";
-import img4 from "../../images/Proyectos/proyecto2.jpg";
-import img5 from "../../images/Proyectos/proyecto4.jpg";
+import eigr1 from "../../images/Proyectos/EIGR/EIGR-1.png";
+import eigr2 from "../../images/Proyectos/EIGR/EIGR-2.png";
+import eigr3 from "../../images/Proyectos/EIGR/EIGR-4.png";
+import eigr4 from "../../images/Proyectos/EIGR/EIGR-5.png";
 
 export const Proyectos = () => {
   const navigate = useNavigate();
@@ -19,7 +20,7 @@ export const Proyectos = () => {
       lugar: "Pampa alegre - José Sabogal - San Marcos 2023",
       proyecto:
         "Entrega 12 intervenciones (IE) en el departamento de Ancash, La Libertad y Cajamarca - Paquete 6",
-      imagenes: [img4, img3, img5],
+      imagenes: [eigr1, eigr2, eigr3,eigr4],
     },
     {
       id:"1",
@@ -28,12 +29,12 @@ export const Proyectos = () => {
       empresa: "TECNOFAST",
       lugar: "Cajamarca - 2022",
       proyecto: "CAMP CONSTRUCTION – YANACOCHA SULFIDES PROJECT",
-      imagenes: [img1, img2, img3],
+      imagenes: [img1, img2, img1],
     },
     {
       id:"2",
       titulo: "FABRICACIÓN DE BLOQUES DE CONCRETO ARMADO",
-      imagen: img3,
+      imagen: img1,
       empresa: "EQUANS Perú",
       lugar: "Cajamarca - 2023 ",
       proyecto: "PROYECTO WTP, Yanacocha ",
@@ -42,7 +43,7 @@ export const Proyectos = () => {
       id:"3",
       titulo:
         "FABRICACIÓN DE BUZONES ELÉCTRICOS, BUZONETAS",
-      imagen: img4,
+      imagen: img1,
       empresa: "Consorcio CHAQUICOCHA",
       lugar: "Cajamarca - 2022",
       proyecto:
@@ -51,7 +52,7 @@ export const Proyectos = () => {
     {
       id:"4",
       titulo: "INSTALACIÓN DE POSTE DE ALUMBRADO PÚBLICO EN EL ",
-      imagen: img5,
+      imagen: img1,
       empresa: "Nombre de la Empresa 2",
       lugar: "Otuzco Cajamarca - 2023",
       proyecto: "INSTALACIÓN DE POSTE",
