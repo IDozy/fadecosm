@@ -9,6 +9,7 @@
   .especificacion__image{
     flex: 2; /* Ocupa una fracción del espacio disponible */
     text-align: center;
+    border: 1px solid #000;
    
   }
   
