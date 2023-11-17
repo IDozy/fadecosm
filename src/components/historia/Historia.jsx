@@ -5,20 +5,19 @@ import SectionPH from "./SectionPH";
 
 export const Historia = () => {
   const title = "Nuestra Historia";
-  const text = `La fábrica de concreto (FADECO) fue creada en el año 2009 , con el fin
-    de beneficiar a la ciudad de Cajamarca en los servicios de saneamiento
-    y alcantarillado, en sus inicios contaba con dos trabajadores y cuya
-    fábrica de concreto no contaba con máquinas tecnológicas para la
-    elaboración de ladrillos de techo y otros productos de concreto, así
-    que, se elaboraban de una manera precaria, es decir, se realizaban en
-    un tronco de madera por vibración con el fin de elaborar los productos
-    de concreto, de manera paulatina se implementó la fábrica con modernos
-    equipos tecnológicos, ya en el año 2012, el número de trabajadores se
-    incrementó a once , por ende ya no solamente se dedicaron a la
-    elaboración de ladrillo de techo, sino también a otros productos de
-    concreto como son: cajas para desagüe, buzón de desagüe, etc. Al
-    incrementarse el nivel de producción la empresa FADECO, fue siendo
-    reconocida en toda la región de Cajamarca.`;
+  const text = `FADECO SAN MARTIN es una empresa que tiene sus inicios en el
+  año 2009, donde iniciaron con la fabricación de ladrillos y
+  bloquetas prefabricadas beneficiando así a la población
+  cajamarquina la cual estaba en sus inicios de habilitación
+  urbana.
+  Después de ello se sumergieron en obras de saneamiento y
+  alcantarillado, dando así paso a la fabricación de cajas de
+  registro de agua y desague, teniendo desde entonces una
+  actividad constante de la fabricación de elementos
+  prefabricados como cajas de registros, tapas de buzón, techos
+  prefabricados y demás elementos.
+  FADECO actualmente es una empresa Cajamarquina, dedicada a
+  la fabricación de elementos prefabricados en general.`;
 
   return <SectionPH title={title} image={img1} text={text} />;
 };

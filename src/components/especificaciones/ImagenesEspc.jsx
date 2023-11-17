@@ -1,5 +1,5 @@
 import React from "react";
-import TablaEspec from "./TablaEspec";
+
 import "./Especificaciones.css";
 
 const ImagenesEspc = ({ datosProductos }) => {
@@ -24,7 +24,7 @@ const ImagenesEspc = ({ datosProductos }) => {
             </div>
             <div className="especificacion__text">
               <img
-                src={producto.imagen}
+                src={producto.especificaciones}
                 alt={`Imagen de ${producto.nombre}`}
               />
             </div>

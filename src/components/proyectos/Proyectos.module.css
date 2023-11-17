@@ -75,9 +75,6 @@
     box-sizing: border-box;
   }
 
- 
-  
-
   .proyecto-empresa{
     font-size: 1.5rem;
     position: absolute;
@@ -90,7 +87,7 @@
   
   .proyecto-proyecto, .proyecto-lugar{
     font-size: 1.3rem;
-  padding: .3rem 2rem 0 2rem;
+    padding: .3rem 2rem 0 2rem;
   
    
   }

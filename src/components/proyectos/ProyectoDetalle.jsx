@@ -30,7 +30,7 @@ const ProyectoDetalle = () => {
                 key={index}
                 src={imagen}
                 alt={`Imagen ${index + 1}`}
-                style={{ maxWidth: "350px", margin: "0 10px", height:"470px" }}
+                style={{ maxWidth: "600px", margin: "0 10px", height:"470px" }}
               />
             ))}
           </div>

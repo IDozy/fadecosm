@@ -13,7 +13,7 @@
    
   }
   
-  .especificacion__image img, .especificacion__text img  {
+  .especificacion__image img  {
     max-width: 70%;
     height: auto;
     border-radius: 5%;
@@ -23,6 +23,12 @@
     flex: 2; /* Ocupa dos fracciones del espacio disponible */
     text-align: justify;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+  .especificacion__text img{
+    max-width: 100%;
+    height: auto;
+    padding-left: 2%;
   }
   
   @media (max-width: 768px) {

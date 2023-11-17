@@ -1,5 +1,39 @@
 // datosProductos.js
 import img from "../../images/Productos/Prefabricados/Caja de valbulas.png";
+//PREFABRICADOS
+import preaguapot from "../../images/Productos/Prefabricados/Aguapotable/Caja_de_agua_con_ceja.jpg";
+import prealcan from "../../images/Productos/Prefabricados/Alcantarillado/Buzón prefabricado.png";
+import cercop from "../../images/Productos/Prefabricados/Cercosperimetricos/cercop1.JPG";
+import jardineria from "../../images/Productos/Prefabricados/JardineriaEdific/Bloc_grass_tipo_michi.png";
+import jardineria1 from "../../images/Productos/Prefabricados/JardineriaEdific/Bloc Grass_tipo8.png";
+import jardineria2 from "../../images/Productos/Prefabricados/JardineriaEdific/Adoquines.jpg";
+//electrificación
+import electric from "../../images/Productos/Prefabricados/Electrificacion/Ducto_cuatro_vias.png";
+import electric1 from "../../images/Productos/Prefabricados/Electrificacion/Ducto_de_dos_vias.png";
+//pistasycarreteras
+import pistas from "../../images/Productos/Prefabricados/PistasyCarreteras/Itos_kilometricos.png";
+//TERMOPLÁSTICOS
+import termo_aguap from "../../images/Productos/Plasticos/Caja de válvulas termoplastica 33x26.png";
+import termo_aguap1 from "../../images/Productos/Plasticos/Tapa_termoplastica_para_medidor_de_agua.png";
+import termo_aguap2 from "../../images/Productos/Plasticos/Caja_termoplastica_para.png";
+//saneamiento
+import termo from "../../images/Productos/Plasticos/Tapa termoplática 30x60.png";
+//F I E R R O F U N D I D O
+//saneamieno
+import ff from "../../images/Productos/Fierro Fundido/Aro y tapa para buzón.png";
+import ff1 from "../../images/Productos/Fierro Fundido/Tapa galvanizada 30x60.png";
+import ff2 from "../../images/Productos/Fierro Fundido/Tapa-galvanizada.png";
+import ff3 from "../../images/Productos/Fierro Fundido/Tapa_y_Marco_de_fierro_fundido.png";
+import ff4 from "../../images/Productos/Fierro Fundido/Tapa para reservorio.png";
+//TABLAS DE  ESPECIFICACIONES
+import tespc from "../../images/TablasEspecificaciones/Valvulas30x30.png";
+import tespc1 from "../../images/TablasEspecificaciones/Caja_de_agua_ceja.png";
+import tespcgras from "../../images/TablasEspecificaciones/Bloc_grass_michi.png";
+import tespecgras8 from "../../images/TablasEspecificaciones/Bloc_grass_8.png";
+import tespecadoquines from "../../images/TablasEspecificaciones/Adoquines.png";
+import tespecducto2v from "../../images/TablasEspecificaciones/Ducto_dos_vias.png";
+
+
 
 const datosProductos = {
   PrefabricadosDeConcreto: {
@@ -8,163 +42,154 @@ const datosProductos = {
         nombre: "Caja de válvulas 30x30",
         imagen: img,
         descripcion: "La caja de válvulas es un producto ",
-        especificaciones: {
-          descripcionCaja: {
-            titulo: "DESCRIPCION DE CAJA PORTAMEDIDORA",
-            datos: [
-              { label: "Dimensiones Exteriores (mm)", medida: "A x B", valor: "400 x 600" },
-              { label: "Abertura para tapa (mm)", medida: "a x b", valor: "205 x 275" },
-              { label: "Altura Total (mm)", medida: "H", valor: "300" },
-              { label: "Espesor (mm)", medida: "e", valor: "50" },
-              { label: "Abertura para paso de tubería", medida: "C x h", valor: "80 x 130" },
-              { label: "Peso (aprox.)", medida: "Kg.", valor: "70" },
-            ],
-          },
-          descripcionSolado: {
-            titulo: "DESCRIPCION DE SOLADO",
-            datos: [
-              { label: "Dimensiones Exteriores (mm)", medida: "A x B", valor: "400 x 600" },
-              { label: "Abertura del solado (mm)", medida: "a x b", valor: "70 x 150" },
-              { label: "Peso aprox.", medida: "Kg.", valor: "26" },
-            ],
-          },
-        },
+        especificaciones: tespc,
       },
       producto2: {
-        nombre: "Producto 2",
-        imagen: img,
-        descripcion: "Descripción del producto 2",
-        especificaciones: {
-          descripcionCaja: {
-            titulo: "DESCRIPCION DE CAJA PORTAMEDIDORA",
-            datos: [
-              { label: "Dimensiones Exteriores (mm)", medida: "A x B", valor: "400 x 600" },
-              { label: "Abertura para tapa (mm)", medida: "a x b", valor: "205 x 275" },
-              { label: "Altura Total (mm)", medida: "H", valor: "300" },
-              { label: "Espesor (mm)", medida: "e", valor: "50" },
-              { label: "Abertura para paso de tubería", medida: "C x h", valor: "80 x 130" },
-              { label: "Peso (aprox.)", medida: "Kg.", valor: "70" },
-            ],
-          },
-          descripcionSolado: {
-            titulo: "DESCRIPCION DE SOLADO",
-            datos: [
-              { label: "Dimensiones Exteriores (mm)", medida: "A x B", valor: "400 x 600" },
-              { label: "Abertura del solado (mm)", medida: "a x b", valor: "70 x 150" },
-              { label: "Peso aprox.", medida: "Kg.", valor: "26" },
-            ],
-          },
-        },
+        nombre: "Caja de agua con ceja",
+        imagen: preaguapot,
+        descripcion: "La caja de agua con ceja es un producto encargado de contener el medidor de agua",
+        especificaciones: tespc1,
+      },
+      producto3:{
+        nombre: "",
+        imagen: "",
+        descripcion: "",
+
       },
       // ... más productos
     },
-    alcantarillado:{
+    Alcantarillado:{
       producto1:{
-        nombre: "Producto 32",
-        imagen: "../../images/Productos/Prefabricados/Caja_para_lodos_remplazable.png",
+        nombre: "Buzón prefabricado de concreto",
+        imagen: prealcan,
         descripcion: "Descripcion breve",
-        especificaciones: {
-          descripcionCaja: {
-            titulo: "DESCRIPCION DE CAJA PORTAMEDIDORA",
-            datos: [
-              { label: "Dimensiones Exteriores (mm)", medida: "A x B", valor: "400 x 600" },
-              { label: "Abertura para tapa (mm)", medida: "a x b", valor: "205 x 275" },
-              { label: "Altura Total (mm)", medida: "H", valor: "300" },
-              { label: "Espesor (mm)", medida: "e", valor: "50" },
-              { label: "Abertura para paso de tubería", medida: "C x h", valor: "80 x 130" },
-              { label: "Peso (aprox.)", medida: "Kg.", valor: "70" },
-            ],
-          },
-          descripcionSolado: {
-            titulo: "DESCRIPCION DE SOLADO",
-            datos: [
-              { label: "Dimensiones Exteriores (mm)", medida: "A x B", valor: "400 x 600" },
-              { label: "Abertura del solado (mm)", medida: "a x b", valor: "70 x 150" },
-              { label: "Peso aprox.", medida: "Kg.", valor: "26" },
-            ],
-          },
-        },
       },
     },
+    Cercosperimétricos:{
+      producto1:{
+        nombre: "Cerco perimétrico tipo cuadrado",
+        imagen:cercop,
+        descripcion:"Los cercos perimétricos son ",
+
+
+      },
+
+    },
+    Pistasycarreteras:{
+      producto1:{
+        nombre:"Hitos kilométricos",
+        imagen:pistas,
+        descripcion:"Los hitos kilométricos son utilizados para indicar la distancia entre el inicio de una vía y un punto específico a lo largo de la misma. ",
+
+      },
+
+    },
+    Jardineríaparaedificaciones:{
+      producto1:{
+        nombre:"Bloc grass Tipo #",
+        imagen:jardineria,
+        descripcion:"",
+        especificaciones:tespcgras,
+      },
+      producto2:{
+        nombre:"Bloc Grass tipo 8",
+        imagen:jardineria1,
+        descripcion:"",
+        especificaciones:tespecgras8,
+      },
+      producto3:{
+        nombre: "Adoquines",
+        imagen:jardineria2,
+        descripcion:"",
+        especificaciones:tespecadoquines,
+
+      },
+
+    },
+    Electrificación:{
+      producto1:{
+        nombre:"Ducto de cuatro vias",
+        imagen:electric,
+        descripcion:"Los ductos de cuatro vias son esenciales para trabajos con cableado eléctrico y fibra óptica",
+
+      },
+      producto2:{
+        nombre:"Ductos de dos vías",
+        imagen:electric1,
+        descripcion:"Los ductos de dos vías son empleados en trabajos con cableado eléctrico y fibra óptica",
+        especificaciones: tespecducto2v,
+      },
+
+    },
+
     // ... más subcategorías
   },
-  termoplasticos: {
-    aguapotable: {
+  Termoplasticos: {
+    Aguapotable: {
       producto1: {
-        nombre: "Producto 1",
-        imagen: "../../images/Productos/Plasticos/Tapa termoplática 30x60.png",
+        nombre: "Caja de válvulas termoplástica 33 x 26",
+        imagen: termo_aguap,
         descripcion: "Descripción del producto 1",
-        especificaciones: {
-          descripcionCaja: {
-            titulo: "DESCRIPCION DE CAJA PORTAMEDIDORA",
-            datos: [
-              { label: "Dimensiones Exteriores (mm)", medida: "A x B", valor: "400 x 600" },
-              { label: "Abertura para tapa (mm)", medida: "a x b", valor: "205 x 275" },
-              { label: "Altura Total (mm)", medida: "H", valor: "300" },
-              { label: "Espesor (mm)", medida: "e", valor: "50" },
-              { label: "Abertura para paso de tubería", medida: "C x h", valor: "80 x 130" },
-              { label: "Peso (aprox.)", medida: "Kg.", valor: "70" },
-            ],
-          },
-          descripcionSolado: {
-            titulo: "DESCRIPCION DE SOLADO",
-            datos: [
-              { label: "Dimensiones Exteriores (mm)", medida: "A x B", valor: "400 x 600" },
-              { label: "Abertura del solado (mm)", medida: "a x b", valor: "70 x 150" },
-              { label: "Peso aprox.", medida: "Kg.", valor: "26" },
-            ],
-          },
-        },
+      },
+      producto2:{
+        nombre: "Tapa termoplásica para medidor de agua",
+        imagen: termo_aguap1,
+        descripcion: "",
+      },
+      productos3:{
+        nombre: "Caja de válvulas para ",
+        imagen: termo_aguap2,
+        descripcion: "",
+
       },
       // ... más productos
     },
-    saneamiento: {
+    Saneamiento: {
       producto1: {
-        nombre: "Producto 1",
-        imagen: "../../images/Productos/Plasticos/Tapa_termoplastica_para_medidor_de_agua.png",
+        nombre: "Tapa termoplstica 30 x 60 para desagüe",
+        imagen: termo,
         descripcion: "Descripción del producto 1",
-        especificaciones: {
-          descripcionCaja: {
-            dimensionesExteriores: { aXB: "400 x 600", aberturaTapa: "205 x 275", alturaTotal: 300, espesor: 50, aberturaPasoTuberia: "80 x 130", peso: 70 },
-          },
-          descripcionSolado: {
-            dimensionesExteriores: { aXB: "400 x 600", aberturaSolado: "70 x 150", peso: 26 },
-          },
-        },
       },
+
       producto2: {
         nombre:"Caja de válvulas plastico",
-        imagen:"../../images/Productos/Plasticos/Caja de válvulas termoplatica 33x26.png",
+        imagen: termo,
         descripcion:"Caja de valvulas 33x26",
-        especificaciones:{
-          descripcionCaja: {
-            dimensionesExteriores: { aXB: "400 x 600", aberturaTapa: "205 x 275", alturaTotal: 300, espesor: 50, aberturaPasoTuberia: "80 x 130", peso: 70 },
-          },
-          descripcionSolado: {
-            dimensionesExteriores: { aXB: "400 x 600", aberturaSolado: "70 x 150", peso: 26 },
-          },
-
-        },
-
+      
       },
       // ... más productos
     },
     // ... más subcategorías
   },
-  fierroFundido: {
-    saneamiento: {
+  FierroFundido: {
+    Saneamiento: {
       producto1: {
-        nombre: "Producto 1",
-        imagen: "../../images/Productos/Fierro Fundido/Tapa para reservorio.png",
+        nombre: "Aro y Tapa para buzón ",
+        imagen: ff,
         descripcion: "Tapa para reservorio de agua ",
-        especificaciones: {
-          descripcionCaja: {
-            dimensionesExteriores: { aXB: "400 x 600", aberturaTapa: "205 x 275", alturaTotal: 300, espesor: 50, aberturaPasoTuberia: "80 x 130", peso: 70 },
-          },
-          descripcionSolado: {
-            dimensionesExteriores: { aXB: "400 x 600", aberturaSolado: "70 x 150", peso: 26 },
-          },
-        },
+      },
+      producto2:{
+        nombre: "Tapa galvanizada 30x60",
+        imagen: ff1,
+        descripcion: "",
+
+      },
+      producto3:{
+        nombre: "Tapa galvanizada",
+        imagen: ff2,
+        descripcion: "",
+
+      },
+      producto4:{
+        nombre: "Tapa y marco de Fierro Fundido",
+        imagen: ff3,
+        descripcion: "",
+      },
+      producto5:{
+        nombre: "Tapa para reservorio de agua",
+        imagen: ff4,
+        descripcion:"",
+
       },
       // ... más productos
     },
