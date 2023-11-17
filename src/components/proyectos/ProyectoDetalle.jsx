@@ -1,16 +1,28 @@
-import React from "react";
-import { useLocation, useParams } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 import "./ProyectoDetalle.css";
+import proyectos from "./datosProyectos";
 
 const ProyectoDetalle = () => {
-  const { state } = useLocation();
-
   const { id } = useParams();
-  // Si no hay estado o si el ID no coincide, puedes manejar el caso apropiado
-  if (!state || state.proyecto.id !== id) {
-    return <p>Proyecto no encontrado</p>;
+  const [proyecto, setProyecto] = useState(null);
+
+
+
+  useEffect(() => {
+    // Lógica para cargar el proyecto con el id correspondiente
+  
+    const proyectoEncontrado = proyectos.find((proy) => proy.id === id);
+
+    if (proyectoEncontrado) {
+      setProyecto(proyectoEncontrado);
+    }
+  }, [id]);
+
+  // Si el proyecto aún no se ha cargado, puedes mostrar un mensaje de carga
+  if (!proyecto) {
+    return <p>Cargando...</p>;
   }
-  const proyecto = state?.proyecto || {};
 
   return (
     <div className="proyecto-detalle-container">
