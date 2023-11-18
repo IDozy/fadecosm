@@ -185,6 +185,7 @@ transition: 0.4s ease-in;
     .dropdown-content {
         left: 12rem;
         top: -40px;
+      
       }
 
       .tipo-size{

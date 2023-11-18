@@ -88,7 +88,7 @@ const Navbar = () => {
                         onMouseEnter={() => toggleSubMenu(tipo)}
                         onMouseLeave={() => toggleSubMenu(tipo)}
                       >
-                        <Link className="tipo-size" to={`/productos/${encodeURIComponent(tipo)}`}>{formatCategoria(tipo)}</Link>
+                        <Link className="tipo-size" style={{margin:"0"}} to={`/productos/${encodeURIComponent(tipo)}`}>{formatCategoria(tipo)}</Link>
                         {showSubMenu[tipo] && (
                           <SubcategoriaMenu
                             categoria={tipo}
