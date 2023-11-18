@@ -68,7 +68,7 @@ const datosProductos = {
     Cercosperimétricos:{
       producto1:{
         nombre: "Cerco perimétrico tipo cuadrado",
-        imagen:cercop,
+        imagen: cercop ,
         descripcion:"Los cercos perimétricos son ",
 
 
