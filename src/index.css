@@ -128,3 +128,7 @@ html {
 .message-box:focus {
   outline: none;
 }
+
+body{
+  background: #fff;
+}
