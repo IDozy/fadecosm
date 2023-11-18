@@ -62,7 +62,7 @@ const ContactForm = () => {
           </div>
           <div className="contact-form">
             <form
-              action="https://formsubmit.co/gtobyd17@gmail.com"
+              action="https://formsubmit.co/ventas@fadecosanmartin.com.pe"
               method="POST"
             >
               <h2>Déjanos aquí tus datos</h2>
