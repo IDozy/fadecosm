@@ -36,7 +36,7 @@ import tespecducto2v from "../../images/TablasEspecificaciones/Ducto_dos_vias.pn
 
 
 const datosProductos = {
-  PrefabricadosDeConcreto: {
+  "Prefabricados-De-Concreto": {
     Aguapotable: {
       producto1: {
         nombre: "Caja de válvulas 30x30",
@@ -75,7 +75,7 @@ const datosProductos = {
       },
 
     },
-    Pistasycarreteras:{
+    "Pistas-y-carreteras":{
       producto1:{
         nombre:"Hitos kilométricos",
         imagen:pistas,
@@ -84,7 +84,7 @@ const datosProductos = {
       },
 
     },
-    Jardineríaparaedificaciones:{
+    "Jardinería-para-edificaciones":{
       producto1:{
         nombre:"Bloc grass Tipo #",
         imagen:jardineria,
@@ -124,7 +124,7 @@ const datosProductos = {
 
     // ... más subcategorías
   },
-  Termoplasticos: {
+  "Termoplásticos": {
     Aguapotable: {
       producto1: {
         nombre: "Caja de válvulas termoplástica 33 x 26",
@@ -161,7 +161,7 @@ const datosProductos = {
     },
     // ... más subcategorías
   },
-  FierroFundido: {
+  "Fierro-Fundido": {
     Saneamiento: {
       producto1: {
         nombre: "Aro y Tapa para buzón ",

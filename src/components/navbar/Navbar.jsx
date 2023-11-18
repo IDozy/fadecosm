@@ -30,17 +30,25 @@ const Navbar = () => {
 
   // CATEGORÍAS DE PRODUCTOS
   const categorias = {
-    PrefabricadosDeConcreto: [
+    "Prefabricados-De-Concreto": [
       "Aguapotable",
       "Alcantarillado",
       "Cercosperimétricos",
-      "Pistasycarreteras",
-      "Jardineríaparaedificaciones",
+      "Pistas-y-carreteras",
+      "Jardinería-para-edificaciones",
       "Electrificación",
     ],
-    Termoplasticos: ["Aguapotable", "Saneamiento"],
-    FierroFundido: ["Saneamiento"],
+    "Termoplásticos": ["Aguapotable", "Saneamiento"],
+    "Fierro-Fundido": ["Saneamiento"],
   };
+
+  //FUNCION PARA EL TEXTO EN CATEGORÍAS
+  const formatCategoria = (categoria) => {
+    const palabras = categoria.split('-').filter(Boolean).map(word => word.trim());
+    return palabras.map((palabra) => palabra.charAt(0).toUpperCase() + palabra.slice(1)).join(' ');
+  };
+  //FUNCION PARA EL TEXTO EN SUBCATEGORÍAS
+
 
   return (
     <div data-aos="fade-right" data-aos-duration="3000">
@@ -80,10 +88,10 @@ const Navbar = () => {
                         onMouseEnter={() => toggleSubMenu(tipo)}
                         onMouseLeave={() => toggleSubMenu(tipo)}
                       >
-                        <Link className="tipo-size">{tipo}</Link>
+                        <Link className="tipo-size" to={`/productos/${encodeURIComponent(tipo)}`}>{formatCategoria(tipo)}</Link>
                         {showSubMenu[tipo] && (
                           <SubcategoriaMenu
-                            categoria={encodeURIComponent(tipo)}
+                            categoria={tipo}
                             subcategorias={subcategorias}
                           />
                         )}
