@@ -17,7 +17,7 @@
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 10px;
-    transition: transform 0.2s;
+    transition: transform 0.2s, border-color 0.3s;
     position: relative; /* Agrega una posición relativa al proyecto */
     overflow: hidden; /* Oculta el contenido que se desborda */
     margin-bottom: 3.5rem;
@@ -44,6 +44,14 @@
     justify-content: center;
     opacity: 0;
     transition: opacity 0.3s;
+  }
+  .proyecto:hover {
+    transform: scale(1.05); /* Efecto de escala al pasar el cursor */
+    border-color: #6ff095; /* Cambio de color del borde al pasar el cursor */
+  }
+  
+  .proyecto:hover .info-proyecto {
+    opacity: 1; /* Muestra la información al pasar el cursor */
   }
   
  
