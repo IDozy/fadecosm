@@ -32,14 +32,14 @@ const SectionPH = ({ title, image, text, clase }) => {
             className="text-info"
             style={{ marginBottom: ".5rem", paddingLeft: "1rem" }}
           >
-            Fadedo SM
+            Fadedo San Martin
           </h4>
           <p>{text}</p>
           {clase ? (
             <div className="text-slide__buttons" style={{ marginTop: "2rem" }}>
-              <button className="button-slide">
+             {/* <button className="button-slide">
                 <a href="/productos">Mas Productos</a>
-              </button>
+                </button>*/}
             </div>
           ) : null}
         </div>
