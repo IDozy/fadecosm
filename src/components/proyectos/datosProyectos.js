@@ -29,11 +29,14 @@ import mpc5 from "../../images/Proyectos/MPC/proyec1.png";
 import chaq from "../../images/Proyectos/Chaquicocha/chaquicocha.png";
 import chaq1 from "../../images/Proyectos/Chaquicocha/chaquicocha-1.png";
 import chaq2 from "../../images/Proyectos/Chaquicocha/Chaquicocha-2.png";
+import chaq3 from "../../images/Proyectos/Chaquicocha/Chaquicocha-3.png";
+import chaq4 from "../../images/Proyectos/Chaquicocha/Chaquicocha-4.png";
 
 
 //BALIP
 import balip from "../../images/Proyectos/BALIP/Balip.png";
 import balip1 from "../../images/Proyectos/BALIP/Balip-2.png";
+import balip2 from "../../images/Proyectos/BALIP/Balip-3.png";
 //CAM
 /*import cam from "../../images/Proyectos/CAM/CAM.png";*/
 
@@ -75,7 +78,7 @@ const proyectos = [
       lugar: "Cajamarca - 2022",
       proyecto:
         "INSTALACIONES DE REDES DE AGUA, RED DESAGÜE, RED PLUVIAL CAMPAMENTO Km 52 - PROYECTO SULFUROS",
-      imagenes:[chaq, chaq1,chaq2],
+      imagenes:[chaq, chaq1, chaq2, chaq3, chaq4],
     },
     {
       id:"4",
@@ -90,10 +93,10 @@ const proyectos = [
       id:"5",
       titulo: "BALIP FOTOS",
       imagen: balip,
-      empresa: "Nombre de la Empresa 2",
-      lugar: "Pampa alegre - José Sabogal - San Marcos",
+      empresa: "BALIP",
+      lugar: "Cajamarca",
       proyecto: "",
-      imagenes: [balip1],
+      imagenes: [balip1,balip2],
     },
      /*
     {
