@@ -133,6 +133,6 @@ html {
 }
 
 body{
-  background: rgb(247, 252, 255);
+  background: rgba(203, 236, 255, 0.633);
   color: var(--color-text-default);
 }
