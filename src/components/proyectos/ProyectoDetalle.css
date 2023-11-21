@@ -14,12 +14,22 @@
     margin-bottom: 10px;
     color: rgb(204, 28, 28);
   }
+
+  .proyecto-empresa{
+    color: #6ff095;
+    font-size: 24px;
+  }
+  .proyecto-lugar{
+    color: #c832f1;
+    font-size: 22px;
+  }
+
   /* Estilos para los párrafos */
 .proyecto-info p {
-    font-size: 16px;
+   
     margin-bottom: 8px;
     line-height: 1.4;
-    color: #333; /* Cambia el color según tus preferencias */
+     /* Cambia el color según tus preferencias */
   }
   
   /* Estilos para la sección de imágenes */
@@ -35,3 +45,19 @@
     margin-bottom: 10px;
   }
   
+/* Estilos para el boton */
+.button-regresar {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #6ff095; /* Color del botón */
+  color: #fff; /* Color del texto del botón */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.button-regresar:hover{
+  background-color: #c832f1;
+}
+.button-regresar a {
+  text-decoration: none;
+}

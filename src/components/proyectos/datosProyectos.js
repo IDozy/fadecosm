@@ -8,9 +8,13 @@ import eigr6 from "../../images/Proyectos/EIGR/EIGR-7.png";
 import eigr5 from "../../images/Proyectos/EIGR/EIGR-9.png";
 //TECNOFAST
 import tecnof from "../../images/Proyectos/TECNOFAST/tecnofast.png";
-import tecnof1 from "../../images/Proyectos/TECNOFAST/tecnofast-2.png";
-import tecnof2 from "../../images/Proyectos/TECNOFAST/tecnofast-3.png";
-import img1 from "../../images/Proyectos/proyecto3.png";
+import tecnof1 from "../../images/Proyectos/TECNOFAST/tecnofast-1.png";
+import tecnof2 from "../../images/Proyectos/TECNOFAST/tecnofast-2.png";
+import tecnof3 from "../../images/Proyectos/TECNOFAST/tecnofast-3.png";
+import tecnof4 from "../../images/Proyectos/TECNOFAST/tecnofast-4.png";
+import tecnof5 from "../../images/Proyectos/TECNOFAST/tecnofast-5.png";
+
+
 //EQUANS
 import equans from "../../images/Proyectos/EQUANS/bloques.png";
 
@@ -23,14 +27,18 @@ import mpc4 from "../../images/Proyectos/MPC/mpc-4.png";
 import mpc5 from "../../images/Proyectos/MPC/proyec1.png";
 //CHAQUICOCHA
 import chaq from "../../images/Proyectos/Chaquicocha/chaquicocha.png";
-import chaq1 from "../../images/Proyectos/Chaquicocha/Chaquicocha-2.png";
+import chaq1 from "../../images/Proyectos/Chaquicocha/chaquicocha-1.png";
+import chaq2 from "../../images/Proyectos/Chaquicocha/Chaquicocha-2.png";
+import chaq3 from "../../images/Proyectos/Chaquicocha/Chaquicocha-3.png";
+import chaq4 from "../../images/Proyectos/Chaquicocha/Chaquicocha-4.png";
 
 
 //BALIP
 import balip from "../../images/Proyectos/BALIP/Balip.png";
 import balip1 from "../../images/Proyectos/BALIP/Balip-2.png";
+import balip2 from "../../images/Proyectos/BALIP/Balip-3.png";
 //CAM
-import cam from "../../images/Proyectos/CAM/CAM.png";
+/*import cam from "../../images/Proyectos/CAM/CAM.png";*/
 
 const proyectos = [
     {
@@ -40,7 +48,7 @@ const proyectos = [
       empresa: "E.I.G.R CONTRATISTAS S.R.L",
       lugar: "Pampa alegre - José Sabogal - San Marcos 2023 Cajamarca",
       proyecto:
-        "Entrega 12 intervenciones (IE) en el departamento de Ancash, La Libertad y Cajamarca - Paquete 6",
+        "ENTREGA 12 INTERVENCIONES (INSTITUCIONES EDUCATIVAS) EN EL DEPARTAMENTO DE ANCASH, LA LIBERTAD Y CAJAMARCA – PAQUETE 6",
       imagenes: [eigr1, eigr2, eigr3,eigr4,eigr5,eigr6],
     },
     {
@@ -50,7 +58,7 @@ const proyectos = [
       empresa: "TECNOFAST",
       lugar: "Cajamarca - 2022",
       proyecto: "CAMP CONSTRUCTION  YANACOCHA SULFIDES PROJECT",
-      imagenes: [img1, tecnof1, tecnof2],
+      imagenes: [tecnof1, tecnof2,tecnof3,tecnof4,tecnof5],
     },
     {
       id:"2",
@@ -70,7 +78,7 @@ const proyectos = [
       lugar: "Cajamarca - 2022",
       proyecto:
         "INSTALACIONES DE REDES DE AGUA, RED DESAGÜE, RED PLUVIAL CAMPAMENTO Km 52 - PROYECTO SULFUROS",
-      imagenes:[chaq, chaq1],
+      imagenes:[chaq, chaq1, chaq2, chaq3, chaq4],
     },
     {
       id:"4",
@@ -85,11 +93,12 @@ const proyectos = [
       id:"5",
       titulo: "BALIP FOTOS",
       imagen: balip,
-      empresa: "Nombre de la Empresa 2",
-      lugar: "Pampa alegre - José Sabogal - San Marcos",
+      empresa: "BALIP",
+      lugar: "Cajamarca",
       proyecto: "",
-      imagenes: [balip1],
+      imagenes: [balip1,balip2],
     },
+     /*
     {
       id:"6",
       titulo: "CAM ",
@@ -98,6 +107,7 @@ const proyectos = [
       lugar: "No hay",
       proyecto: "",
     },
+   
     {
       id:"7",
       titulo: "Rejillas pluviales, barandas, cercos y portones",
@@ -113,6 +123,6 @@ const proyectos = [
       empresa: "Nombre de la Empresa 2",
       lugar: "None",
       proyecto: "",
-    },
+    },*/
   ];
   export default proyectos;
