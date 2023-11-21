@@ -28,6 +28,7 @@ const ProyectoDetalle = () => {
       <section className="proyecto-info">
         <p>{proyecto.proyecto}</p>
         <p className="proyecto-empresa">{proyecto.empresa}</p>
+        <p className="proyecto-producto">{proyecto.producto}</p>
         <p className="proyecto-lugar">{proyecto.lugar}</p>
       </section>
       {/* Otros detalles según sea necesario */}
@@ -48,7 +49,7 @@ const ProyectoDetalle = () => {
                 key={index}
                 src={imagen}
                 alt={`Imagen ${index + 1}`}
-                style={{ maxWidth: "680px", margin: "0 10px", height: "470px" }}
+                style={{ maxWidth: "700px", margin: "0 10px", height: "600px" }}
               />
             ))}
           </div>
