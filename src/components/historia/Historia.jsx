@@ -4,7 +4,7 @@ import img1 from "../../images/fotocorp.png";
 import SectionPH from "./SectionPH";
 
 export const Historia = () => {
-  const title = "Nuestra Historia";
+  const title = "Nuestro Origen";
   const text = `FADECO SAN MARTIN es una empresa que tiene sus inicios en el
   año 2009, donde iniciaron con la fabricación de ladrillos y
   bloquetas prefabricadas beneficiando así a la población

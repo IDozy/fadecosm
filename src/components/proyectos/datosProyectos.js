@@ -18,14 +18,14 @@ import tecnof4 from "../../images/Proyectos/TECNOFAST/tecnofast-4.png";
 
 //EQUANS
 import equans from "../../images/Proyectos/EQUANS/CAM-2.png";
-import equans2 from "../../images/Proyectos/EQUANS/bloques.png";
+import equans2 from "../../images/Proyectos/EQUANS/CAM-3.png";
 import equans1 from "../../images/Proyectos/EQUANS/CAM.png";
 
 
 //MPC
 import mpc from "../../images/Proyectos/MPC/mpc-5.png";
 import mpc1 from "../../images/Proyectos/MPC/mpc-1.png";
-import mpc2 from "../../images/Proyectos/MPC/mpc2.png";
+import mpc2 from "../../images/Proyectos/MPC/mpc-2.png";
 import mpc3 from "../../images/Proyectos/MPC/mpc-3.png";
 import mpc4 from "../../images/Proyectos/MPC/mpc-4.png";
 import mpc5 from "../../images/Proyectos/MPC/proyec1.png";
@@ -40,6 +40,7 @@ import balip from "../../images/Proyectos/BALIP/Balip.png";
 import balip1 from "../../images/Proyectos/BALIP/Balip-2.png";
 import balip2 from "../../images/Proyectos/BALIP/Balip-3.png";
 import balip3 from "../../images/Proyectos/BALIP/Balip-4.png";
+import balip4 from "../../images/Proyectos/BALIP/Balip-5.png";
 //STHELEC 
 import sthelec from "../../images/Proyectos/STHELEC/STHELEC.png";
 import sthelec1 from "../../images/Proyectos/STHELEC/STHELEC-1.png";
@@ -110,7 +111,7 @@ const proyectos = [
       producto: "AGREGAR UN PRODUCTO",
       lugar: "Baños del Inca - Cajamarca 2023",
       proyecto: "",
-      imagenes: [balip1,balip2,balip3],
+      imagenes: [balip1,balip2,balip3,balip4],
     },
      
     {

@@ -37,6 +37,7 @@ const Navbar = () => {
       "Pistas-y-carreteras",
       "Jardinería-para-edificaciones",
       "Electrificación",
+      "Separadores",
     ],
     "Termoplásticos": ["Aguapotable", "Saneamiento"],
     "Fierro-Fundido": ["Saneamiento"],
