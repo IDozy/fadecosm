@@ -67,7 +67,7 @@ const ContactForm = () => {
             >
               <h2>Déjanos aquí tus datos</h2>
               <div className="inputBox">
-                <label htmlFor="name">Su nombre completo</label>
+                <label htmlFor="name">Su nombre:</label>
                 <input
                   type="text"
                   id="name"
@@ -78,7 +78,7 @@ const ContactForm = () => {
                 />
               </div>
               <div className="inputBox">
-                <label htmlFor="email">Su correo electronico</label>
+                <label htmlFor="email">Su correo electrónico:</label>
                 <input
                   type="email"
                   id="email"
@@ -90,7 +90,7 @@ const ContactForm = () => {
                 
               </div>
               <div className="inputBox">
-                <label htmlFor="empresa">Su empresa</label>
+                <label htmlFor="empresa">Su empresa:</label>
                 <input
                   type="text"
                   id="empresa"
@@ -101,7 +101,7 @@ const ContactForm = () => {
                 
               </div>
               <div className="inputBox">
-                <label htmlFor="message">Comentanos</label>
+                <label htmlFor="message">Coméntanos:</label>
                 <textarea
                   name="message"
                   id="message"

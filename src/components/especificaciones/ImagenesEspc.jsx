@@ -22,12 +22,14 @@ const ImagenesEspc = ({ datosProductos }) => {
               />
               <p className="text-info" style={{width:"50%", textAlign:"center", margin:"auto"}}>{producto.descripcion}</p>
             </div>
-            <div className="especificacion__text">
-              <img
-                src={producto.especificaciones}
-                alt={`Imagen de ${producto.nombre}`}
-              />
-            </div>
+            {producto.especificaciones && (
+              <div className="especificacion__text">
+                <img
+                  src={producto.especificaciones}
+                  alt={`Imagen de ${producto.nombre}`}
+                />
+              </div>
+            )}
             {/* Descomenta la siguiente línea si necesitas renderizar TablaEspec */}
             {/* <TablaEspec datosProductos={producto.especificaciones} /> */}
           </div>

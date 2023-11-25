@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import ImagenesEspc from "../especificaciones/ImagenesEspc";
-import TablaEspec from "../especificaciones/TablaEspec";
+
 import datosProductos from "../especificaciones/datosProductos";
 
 const PaginaSubcategoria = () => {
@@ -18,14 +18,11 @@ const PaginaSubcategoria = () => {
   console.log("Datos subcategoría:", datosSubcategoria);
   return (
     <div>
-      <h2 className="text-title title-categoria" >{`Detalles de la subcategoría: ${subcategoria}`}</h2>
+      <h2 className="text-title title-categoria" >{`Subcategoría: ${subcategoria}`}</h2>
       {/* Utiliza el componente ImagenEspecificaciones */}
       <ImagenesEspc datosProductos={datosSubcategoria} />
 
-      {/* Verifica que hay datos en la propiedad "especificaciones" */}
-      {datosSubcategoria.especificaciones && (
-        <TablaEspec datosProductos={datosSubcategoria.especificaciones} />
-      )}
+      
     </div>
   );
 };

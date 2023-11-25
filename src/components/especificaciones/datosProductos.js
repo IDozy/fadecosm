@@ -157,7 +157,6 @@ const datosProductos = {
         nombre:"Ducto de cuatro vias",
         imagen:electric,
         descripcion:"Los ductos de cuatro vias son esenciales para trabajos con cableado eléctrico y fibra óptica",
-
       },
       producto2:{
         nombre:"Ductos de dos vías",
