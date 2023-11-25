@@ -8,7 +8,7 @@
 
 :root {
   --color-nav: #a785c7;
-  --colorText:#62e368;
+  --colorText: #62e368;
   --colorText1: #8abf7a;
   --colorBlack: #000;
   --color-nav-darker: hsl(260, 60%, 40%);
@@ -120,11 +120,12 @@ html {
   font-weight: 1200;
 }
 
-.modal-section-ventas , .close {
+.modal-section-ventas,
+.close {
   font-weight: bold;
 }
 
-.close{
+.close {
   font-weight: 900;
 }
 
@@ -132,7 +133,21 @@ html {
   outline: none;
 }
 
-body{
+body {
   background: rgba(203, 236, 255, 0.633);
   color: var(--color-text-default);
+}
+@media screen and (min-width: 1500px) and (max-width: 1920px) {
+  .nav__letter {
+    
+    margin: 0 4rem;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    font-size: 1.5vw;
+    letter-spacing: 1rem;
+  }
+}
+.dropdown-content {
+  letter-spacing: 0;
 }
