@@ -57,17 +57,17 @@ const Navbar = () => {
           <img className="logo-nav" src={img} alt="Logo de fadeco" />
         </Link>
         <ul className={active}>
-          <li className="nav__item">
+          <li className="nav__item nav__letter">
             <Link to="/inicio" className="nav__link" onClick={closeMenu}>
               Inicio
             </Link>
           </li>
-          <li className="nav__item">
+          <li className="nav__item nav__letter">
             <Link to="/acercade" className="nav__link" onClick={closeMenu}>
               Nosotros
             </Link>
           </li>
-          <li className="nav__item">
+          <li className="nav__item nav__letter">
             <div
               className="dropdown nav__link"
               onMouseEnter={() =>
@@ -102,7 +102,7 @@ const Navbar = () => {
               )}
             </div>
           </li>
-          <li className="nav__item">
+          <li className="nav__item nav__letter">
             <Link to="/contacto" className="nav__link" onClick={closeMenu}>
               Contacto
             </Link>
