@@ -54,7 +54,7 @@ const ProyectoDetalle = () => {
             ))}
           </div>
           <button className="button-regresar">
-            <a href="/home"> ← Regresar</a>
+            <a href="/inicio"> ← Regresar</a>
           </button>
         </section>
       )}
