@@ -12,6 +12,8 @@ import electric from "../../images/Productos/Prefabricados/Electrificacion/Ducto
 import electric1 from "../../images/Productos/Prefabricados/Electrificacion/Ducto_de_dos_vias.png";
 //pistasycarreteras
 import pistas from "../../images/Productos/Prefabricados/PistasyCarreteras/Itos_kilometricos.png";
+//separadores
+import sepa from "../../images/Productos/Prefabricados/Separadores/Separadores.png";
 //TERMOPLÁSTICOS
 import termo_aguap from "../../images/Productos/Plasticos/Caja de válvulas termoplastica 33x26.png";
 import termo_aguap1 from "../../images/Productos/Plasticos/Tapa_termoplastica_para_medidor_de_agua.png";
@@ -32,7 +34,7 @@ import tespcgras from "../../images/TablasEspecificaciones/Bloc_grass_michi.png"
 import tespecgras8 from "../../images/TablasEspecificaciones/Bloc_grass_8.png";
 import tespecadoquines from "../../images/TablasEspecificaciones/Adoquines.png";
 import tespecducto2v from "../../images/TablasEspecificaciones/Ducto_dos_vias.png";
-
+import separadores from "../../images/TablasEspecificaciones/Separadores.png";
 
 
 const datosProductos = {
@@ -119,6 +121,15 @@ const datosProductos = {
         descripcion:"Los ductos de dos vías son empleados en trabajos con cableado eléctrico y fibra óptica",
         especificaciones: tespecducto2v,
       },
+
+    },
+    Separadores:{
+      producto1:{
+        nombre: "Separadores de concreto",
+        imagen:sepa,
+        descripcion:"Los separadores de concreto son empleados",
+        especificaciones: separadores,
+      }
 
     },
 
