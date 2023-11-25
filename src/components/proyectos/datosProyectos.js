@@ -47,6 +47,10 @@ import sthelec1 from "../../images/Proyectos/STHELEC/STHELEC-1.png";
 import sthelec2 from "../../images/Proyectos/STHELEC/STHELEC-2.png";
 import sthelec3 from "../../images/Proyectos/STHELEC/STHELEC-3.png";
 import sthelec4 from "../../images/Proyectos/STHELEC/STHELEC-4.png";
+//O & C
+import oyc from "../../images/Proyectos/OyC/oyc.png";
+import oyc1 from "../../images/Proyectos/OyC/oyc1.png";
+import oyc2 from "../../images/Proyectos/OyC/oyc2.png";
 
 const proyectos = [
     {
@@ -119,21 +123,23 @@ const proyectos = [
       titulo: "FABRICACION DE BUZONES ELECTRICOS, PEDESTALES Y PODIOS PREFABRICADOS",
       imagen: sthelec,
       empresa: "STHELEC INGENIEROS E.I.R.L",
-      producto: "AGREGAR UN PRODUCTO",
+      producto: "Buzones eléctricos, pedestales y podios.",
       lugar: "Yanacocha KM 32 - Cajamrca 2023",
       proyecto: "''Yanacocha Sulfides Definitive Feasibility Study''",
       imagenes: [sthelec1,sthelec2,sthelec3,sthelec4],
     },
-   /*
+  
     {
       id:"7",
-      titulo: "Rejillas pluviales, barandas, cercos y portones",
-      imagen: img1,
+      titulo: "CONSTRUCCIÓN DEL PRIMER POZO TUBULAR EN EL COMPLEJO QHAPAQ ÑAN",
+      imagen: oyc,
       empresa: "Consorcio O &c C",
-      producto: "AGREGAR UN PRODUCTO",
-      lugar: "Capaqñam - Cajamarca 2023",
-      proyecto: " ",
+      producto: "Buzones prefabricados",
+      lugar: "Qhapaq Ñan - Cajamarca 2023",
+      proyecto: "''Construcción del primer pozo tubular en el complejo  gran Qhapaq Ñan''",
+      imagenes: [oyc1,oyc2],
     },
+     /*
     {
       id:"8",
       titulo: "Rejillas pluviales, barandas, cercos y portones",
