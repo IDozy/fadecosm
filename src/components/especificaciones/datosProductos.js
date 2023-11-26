@@ -2,47 +2,47 @@
 //PREFABRICADOS
 //aguapotable
 import preaguapot from "../../images/Productos/Prefabricados/Aguapotable/Caja_de_valvulas_30x30.png";
-import preaguapot1 from "../../images/Productos/Prefabricados/Aguapotable/Caja para medidor de agua 30x60.png";
+import preaguapot1 from "../../images/Productos/Prefabricados/Aguapotable/Caja_para_medidor_de_agua_30x60.png";
 import preaguapot2 from "../../images/Productos/Prefabricados/Aguapotable/Caja_para_valvula_30x40.png";
 //alcatarillado
-import prealcan from "../../images/Productos/Prefabricados/Alcantarillado/Buzón prefabricado.png";
+import prealcan from "../../images/Productos/Prefabricados/Alcantarillado/Buzon_prefabricado.png";
 import prealcan1 from "../../images/Productos/Prefabricados/Alcantarillado/Aro_FF_Tapa_de_concreto.png";
-import prealcan2 from "../../images/Productos/Prefabricados/Alcantarillado/Caja Condominial.png";
-import prealcan3 from "../../images/Productos/Prefabricados/Alcantarillado/Conexión_prefabriacada_40x70.png";
-import prealcan4 from "../../images/Productos/Prefabricados/Alcantarillado/Conexión_Prefabricada_caja_de_lodos_60x60.png";
+import prealcan2 from "../../images/Productos/Prefabricados/Alcantarillado/Caja_Condominial.png";
+import prealcan3 from "../../images/Productos/Prefabricados/Alcantarillado/Conexion_prefabriacada_40x70.png";
+import prealcan4 from "../../images/Productos/Prefabricados/Alcantarillado/Conexion_Prefabricada_caja_de_lodos_60x60.png";
 import prealcan5 from "../../images/Productos/Prefabricados/Alcantarillado/Conexion_Prefabricada_35_x_60.png";
 //cercos perimetricos
 import cercop from "../../images/Productos/Prefabricados/Cercosperimetricos/cercop1.JPG";
 //jardineria y edificaciones
 import jardineria from "../../images/Productos/Prefabricados/JardineriaEdific/Bloc_grass_tipo_michi.png";
-import jardineria1 from "../../images/Productos/Prefabricados/JardineriaEdific/Bloc Grass_tipo8.png";
+import jardineria1 from "../../images/Productos/Prefabricados/JardineriaEdific/Bloc_Grass_tipo8.png";
 import jardineria2 from "../../images/Productos/Prefabricados/JardineriaEdific/Adoquines.jpg";
 //electrificación
 import electric from "../../images/Productos/Prefabricados/Electrificacion/Ducto_cuatro_vias.png";
 import electric1 from "../../images/Productos/Prefabricados/Electrificacion/Ducto_de_dos_vias.png";
 import electric2 from "../../images/Productos/Prefabricados/Electrificacion/Pozo_a_tierra_circular.png";
-import electric3 from "../../images/Productos/Prefabricados/Electrificacion/Pozo a tierra cuadrado.png";
+import electric3 from "../../images/Productos/Prefabricados/Electrificacion/Pozo_a_tierra_cuadrado.png";
 import electric4 from "../../images/Productos/Prefabricados/Electrificacion/Retenidas.png";
 //pistasycarreteras
 import pistas from "../../images/Productos/Prefabricados/PistasyCarreteras/Hitos_Kilometricos.png";
 //separadores
 import sepa from "../../images/Productos/Prefabricados/Separadores/Separadores.png";
 //TERMOPLÁSTICOS
-import termo_aguap from "../../images/Productos/Plasticos/Caja de válvulas termoplastica 33x26.png";
+import termo_aguap from "../../images/Productos/Plasticos/Caja_de_valvulas_termoplastica_33x26.png";
 import termo_aguap1 from "../../images/Productos/Plasticos/Tapa_sin_visor_para_agua.png";
 import termo_aguap2 from "../../images/Productos/Plasticos/Tapa_con_visor_para_agua.png";
 import termo_aguap3 from "../../images/Productos/Plasticos/Caja_de_pared_para_medidor.png";
 import termo_aguap4 from "../../images/Productos/Plasticos/Caja_termoplastica_para.png";
-import termo_aguap5 from "../../images/Productos/Plasticos/Tapa_para_registro_de_desagüe.png";
+import termo_aguap5 from "../../images/Productos/Plasticos/Tapa_para_registro_de_desague.png";
 //saneamiento
-import termo_san from "../../images/Productos/Plasticos/Tapa_para_registro_de_desagüe.png";
+import termo_san from "../../images/Productos/Plasticos/Tapa_para_registro_de_desague.png";
 //F I E R R O F U N D I D O
 //saneamieno
 import ff from "../../images/Productos/Fierro Fundido/Marco_y_Tapa_de_FF_para_buzon.png";
-import ff1 from "../../images/Productos/Fierro Fundido/Tapa_de_FF_para_registro_de_desagüe.png";
-import ff2 from "../../images/Productos/Fierro Fundido/Tapa_de_FF_para_válvula.png";
+import ff1 from "../../images/Productos/Fierro Fundido/Tapa_de_FF_para_registro_de_desague.png";
+import ff2 from "../../images/Productos/Fierro Fundido/Tapa_de_FF_para_valvula.png";
 import ff3 from "../../images/Productos/Fierro Fundido/Tapa_y_Marco_de_fierro_fundido.png";
-import ff4 from "../../images/Productos/Fierro Fundido/Tapa para reservorio.png";
+import ff4 from "../../images/Productos/Fierro Fundido/Tapa_para_reservorio.png";
 //TABLAS DE  ESPECIFICACIONES
 import tespc from "../../images/TablasEspecificaciones/Valvulas30x30.png";
 import tespc1 from "../../images/TablasEspecificaciones/Caja_de_agua_ceja.png";
