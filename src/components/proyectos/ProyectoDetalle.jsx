@@ -1,11 +1,19 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import "./ProyectoDetalle.css";
 import proyectos from "./datosProyectos";
 
 const ProyectoDetalle = () => {
   const { id } = useParams();
   const [proyecto, setProyecto] = useState(null);
+
+ 
+    const scrollToTop = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth' // Hace que el desplazamiento sea suave
+      });
+    };
 
   useEffect(() => {
     // Lógica para cargar el proyecto con el id correspondiente
@@ -54,7 +62,7 @@ const ProyectoDetalle = () => {
             ))}
           </div>
           <button className="button-regresar">
-            <a href="/home"> ← Regresar</a>
+            <Link to="/" onClick={scrollToTop}> ← Regresar</Link>
           </button>
         </section>
       )}
