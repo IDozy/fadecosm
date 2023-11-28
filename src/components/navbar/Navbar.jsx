@@ -64,7 +64,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="nav__item nav__letter">
-            <Link to="/acercade" className="nav__link" onClick={closeMenu}>
+            <Link to="/nosotros" className="nav__link" onClick={closeMenu}>
               Nosotros
             </Link>
           </li>

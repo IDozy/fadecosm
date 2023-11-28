@@ -9,6 +9,7 @@ import { Valores } from "./valores/Valores";
 import { Historia } from "./historia/Historia";
 import { Quienes } from "./quienes/Quienes";
 import { InfoAbout } from "./infoAbout/InfoAbout";
+import { Helmet } from "react-helmet";
 
 export const About = () => {
   const [cards] = useState([
@@ -37,6 +38,13 @@ export const About = () => {
   ]);
   return (
     <div>
+      <Helmet>
+      <title>FADECO SAN MARTIN - Nosotros</title>
+        <meta
+          name="description"
+          content="Conoce más sobre FADECO SAN MARTIN. Somos un equipo de profesionales y técnicos con más de 10 años de experiencia en la fabricación de prefabricados de concreto. Comprometidos con el desarrollo de Cajamarca y el país."
+        />
+      </Helmet>
       <InfoAbout />
       <Quienes />
       <div className="container-mision">
