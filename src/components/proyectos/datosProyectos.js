@@ -51,7 +51,13 @@ import sthelec4 from "../../images/Proyectos/STHELEC/STHELEC-4.png";
 import oyc from "../../images/Proyectos/OyC/oyc.png";
 import oyc1 from "../../images/Proyectos/OyC/oyc1.png";
 import oyc2 from "../../images/Proyectos/OyC/oyc2.png";
-
+import oyc3 from "../../images/Proyectos/OyC/oyc3.png";
+//SENCICO
+import sencico from "../../images/Proyectos/SENCICO/Sencico.png";
+import sencico1 from "../../images/Proyectos/SENCICO/Sencico-1.png";
+import sencico2 from "../../images/Proyectos/SENCICO/Sencico-2.png";
+import sencico3 from "../../images/Proyectos/SENCICO/Sencico-3.png";
+import sencico4 from "../../images/Proyectos/SENCICO/Sencico-4.png";
 const proyectos = [
     {
       id:"0",
@@ -137,17 +143,18 @@ const proyectos = [
       producto: "Buzones prefabricados",
       lugar: "Qhapaq Ñan - Cajamarca 2023",
       proyecto: "''Construcción del primer pozo tubular en el complejo  gran Qhapaq Ñan''",
-      imagenes: [oyc1,oyc2],
+      imagenes: [oyc1,oyc2,oyc3],
     },
-     /*
+     
     {
       id:"8",
-      titulo: "Rejillas pluviales, barandas, cercos y portones",
-      imagen: img1,
+      titulo: "MEJORAMIENTO Y AMPLIACIÓN DE SENCICO CAJAMARCA",
+      imagen: sencico,
       empresa: "Nombre de la Empresa 2",
-      producto: "AGREGAR UN PRODUCTO",
-      lugar: "None",
-      proyecto: "",
-    },*/
+      producto: "Cerco Tipo UNI",
+      lugar: "Cajamarca ",
+      proyecto: "''Mejoramineto y ampliación del servicio de capacitación en la industria de la construcción de la unidad operativo SENCICO Cajamarca''",
+      imagenes: [sencico1,sencico4,sencico2,sencico3],
+    },
   ];
   export default proyectos;
