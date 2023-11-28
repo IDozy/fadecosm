@@ -27,7 +27,7 @@
   flex: 2; /* Ocupa dos fracciones del espacio disponible */
   text-align: justify;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
+} 
 
 @media (max-width: 768px) {
   .nuestra-historia-card {
@@ -115,15 +115,15 @@
   flex: 2; /* Ocupa una fracción del espacio disponible */
   text-align: center;
   overflow: hidden;
-  transform: skew(-15deg);
+ 
   background-color: #6ff095;
-  margin: 5rem 7rem;
+  margin: 5rem 10rem;
 }
 
 .contenedor-imagen .rotated-container {
   width: 40vw;
- max-height:25vw ;
- transform: skew(15deg);
+ max-height:30vw ;
+ 
 }
 
 .imagen-prod {
