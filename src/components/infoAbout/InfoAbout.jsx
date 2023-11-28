@@ -1,6 +1,5 @@
 import React from "react";
 import "./InfoAbout.css";
-import img from "../../images/FadecoLogosinbg.png";
 
 export const InfoAbout = () => {
   return (
