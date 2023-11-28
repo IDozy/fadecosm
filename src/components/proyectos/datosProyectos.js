@@ -72,7 +72,7 @@ const proyectos = [
     },
     {
       id:"1",
-      titulo: "FABRICACION DE DADOS DE CONCRETO ARMADO ",
+      titulo: "FABRICACIÓN DE DADOS DE CONCRETO ARMADO ",
       imagen: tecnof,
       empresa: "TECNOFAST",
       producto: "Dados de concreto Tipo F1",
@@ -115,18 +115,18 @@ const proyectos = [
     },
     {
       id:"5",
-      titulo: "BALIP FOTOS",
+      titulo: "FABRICACIÓN DE PREFABRICADOS PARA EL CONDOMINIO SANTUARIO DEL VALLE",
       imagen: balip,
-      empresa: "BALIP",
-      producto: "AGREGAR UN PRODUCTO",
-      lugar: "Baños del Inca - Cajamarca 2023",
-      proyecto: "",
+      empresa: "BALIP E.I.R.L",
+      producto: "Buzones eléctricos, techos prefabricados y ductos de cuatro vías",
+      lugar: " Baños del Inca Cajamarca 2023",
+      proyecto: "Condominio Santuario Del Valle - Baños del Inca Cajamarca",
       imagenes: [balip1,balip2,balip3,balip4],
     },
      
     {
       id:"6",
-      titulo: "FABRICACION DE BUZONES ELECTRICOS, PEDESTALES Y PODIOS PREFABRICADOS",
+      titulo: "FABRICACIÓN DE BUZONES ELÉCTRICOS, PEDESTALES Y PODIOS PREFABRICADOS",
       imagen: sthelec,
       empresa: "STHELEC INGENIEROS E.I.R.L",
       producto: "Buzones eléctricos, pedestales y podios.",

@@ -16,7 +16,7 @@ const CarouselInfo = ({ titulo1, titulo2 }) => {
             </a>
           </button>
           <button className="button-slide">
-            <a href="/acercade">mas informacion</a>
+            <a href="/acercade">más información</a>
           </button>
         </div>
       </div>
