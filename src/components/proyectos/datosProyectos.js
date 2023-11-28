@@ -1,40 +1,38 @@
 //EIGR
 import eigr from "../../images/Proyectos/EIGR/EIGR-5.png";
-import eigr1 from "../../images/Proyectos/EIGR/EIGR-1.png";
-import eigr2 from "../../images/Proyectos/EIGR/EIGR-2.png";
-import eigr3 from "../../images/Proyectos/EIGR/EIGR-4.png";
-import eigr4 from "../../images/Proyectos/EIGR/EIGR-6.png";
+import eigr1 from "../../images/Proyectos/EIGR/EIGR-1.jpg";
+import eigr2 from "../../images/Proyectos/EIGR/EIGR-2.jpg";
+import eigr3 from "../../images/Proyectos/EIGR/EIGR-4.jpg";
+import eigr4 from "../../images/Proyectos/EIGR/EIGR6.jpg";
 import eigr5 from "../../images/Proyectos/EIGR/EIGR-8.png";
 import eigr6 from "../../images/Proyectos/EIGR/EIGR-7.png";
 
 //TECNOFAST
 import tecnof from "../../images/Proyectos/TECNOFAST/tecnofast.png";
-import tecnof1 from "../../images/Proyectos/TECNOFAST/tecnofast-1.png";
+import tecnof1 from "../../images/Proyectos/TECNOFAST/tecnofast-1.jpg";
 import tecnof2 from "../../images/Proyectos/TECNOFAST/tecnofast-2.png";
 import tecnof3 from "../../images/Proyectos/TECNOFAST/tecnofast-3.png";
 import tecnof4 from "../../images/Proyectos/TECNOFAST/tecnofast-4.png";
 
 
+//CAM - EQUANS
+import equans from "../../images/Proyectos/EQUANS/CAM2.png";
+import equans2 from "../../images/Proyectos/EQUANS/CAM3.png";
+import equans1 from "../../images/Proyectos/EQUANS/CAM1.png";
 
-//EQUANS
-import equans from "../../images/Proyectos/EQUANS/CAM-2.png";
-import equans2 from "../../images/Proyectos/EQUANS/CAM-3.png";
-import equans1 from "../../images/Proyectos/EQUANS/CAM.png";
-
-
-//MPC
-import mpc from "../../images/Proyectos/MPC/mpc-5.png";
-import mpc1 from "../../images/Proyectos/MPC/mpc-1.png";
-import mpc2 from "../../images/Proyectos/MPC/mpc-2.png";
-import mpc3 from "../../images/Proyectos/MPC/mpc-3.png";
-import mpc4 from "../../images/Proyectos/MPC/mpc-4.png";
-import mpc5 from "../../images/Proyectos/MPC/proyec1.png";
 //CHAQUICOCHA
 import chaq from "../../images/Proyectos/Chaquicocha/chaquicocha.png";
-import chaq1 from "../../images/Proyectos/Chaquicocha/chaquicocha-1.png";
-import chaq2 from "../../images/Proyectos/Chaquicocha/Chaquicocha-2.png";
-import chaq3 from "../../images/Proyectos/Chaquicocha/Chaquicocha-3.png";
-import chaq4 from "../../images/Proyectos/Chaquicocha/Chaquicocha-4.png";
+import chaq1 from "../../images/Proyectos/Chaquicocha/chaquicocha1.png";
+import chaq2 from "../../images/Proyectos/Chaquicocha/chaquicocha2.png";
+import chaq3 from "../../images/Proyectos/Chaquicocha/chaquicocha3.png";
+import chaq4 from "../../images/Proyectos/Chaquicocha/chaquicocha4.png";
+//MPC
+import mpc from "../../images/Proyectos/MPC/mpc5.png";
+import mpc1 from "../../images/Proyectos/MPC/mpc1.jpg";
+import mpc2 from "../../images/Proyectos/MPC/mpc2.png";
+import mpc3 from "../../images/Proyectos/MPC/mpc3.jpg";
+import mpc4 from "../../images/Proyectos/MPC/mpc4.jpg";
+import mpc5 from "../../images/Proyectos/MPC/mpc6.jpg";
 //BALIP
 import balip from "../../images/Proyectos/BALIP/Balip.png";
 import balip1 from "../../images/Proyectos/BALIP/Balip-2.png";
@@ -101,7 +99,7 @@ const proyectos = [
       lugar: "Cajamarca - 2022",
       proyecto:
         "INSTALACIONES DE REDES DE AGUA, RED DESAGÜE, RED PLUVIAL CAMPAMENTO Km 52 - PROYECTO SULFUROS",
-      imagenes:[chaq, chaq1, chaq2, chaq3, chaq4],
+      imagenes:[chaq1, chaq2, chaq3, chaq4],
     },
     {
       id:"4",

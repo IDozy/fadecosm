@@ -1,9 +1,9 @@
 import AwesomeSlider from "react-awesome-slider";
 import withAutoplay from "react-awesome-slider/dist/autoplay";
 import "react-awesome-slider/dist/styles.css";
-import imagen1 from "../../images/Slides/Slide5.jpg";
-import imagen2 from "../../images/Slides/Slide_5.jpg";
-import imagen3 from "../../images/Slides/Slide_1.jpg";
+import imagen1 from "../../images/Slides/Slide1.jpg";
+import imagen2 from "../../images/Slides/Slide2.jpg";
+import imagen3 from "../../images/Slides/Slide3.jpg";
 import "./Carousel.css";
 import "react-awesome-slider/dist/captioned.css";
 import CarouselInfo from "./CarouselInfo";
