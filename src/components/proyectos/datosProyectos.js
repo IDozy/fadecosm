@@ -51,7 +51,13 @@ import sthelec4 from "../../images/Proyectos/STHELEC/STHELEC-4.png";
 import oyc from "../../images/Proyectos/OyC/oyc.png";
 import oyc1 from "../../images/Proyectos/OyC/oyc1.png";
 import oyc2 from "../../images/Proyectos/OyC/oyc2.png";
-
+import oyc3 from "../../images/Proyectos/OyC/oyc3.png";
+//SENCICO
+import sencico from "../../images/Proyectos/SENCICO/Sencico.png";
+import sencico1 from "../../images/Proyectos/SENCICO/Sencico-1.png";
+import sencico2 from "../../images/Proyectos/SENCICO/Sencico-2.png";
+import sencico3 from "../../images/Proyectos/SENCICO/Sencico-3.png";
+import sencico4 from "../../images/Proyectos/SENCICO/Sencico-4.png";
 const proyectos = [
     {
       id:"0",
@@ -66,7 +72,7 @@ const proyectos = [
     },
     {
       id:"1",
-      titulo: "FABRICACION DE DADOS DE CONCRETO ARMADO ",
+      titulo: "FABRICACIÓN DE DADOS DE CONCRETO ARMADO ",
       imagen: tecnof,
       empresa: "TECNOFAST",
       producto: "Dados de concreto Tipo F1",
@@ -109,18 +115,18 @@ const proyectos = [
     },
     {
       id:"5",
-      titulo: "BALIP FOTOS",
+      titulo: "FABRICACIÓN DE PREFABRICADOS PARA EL CONDOMINIO SANTUARIO DEL VALLE",
       imagen: balip,
-      empresa: "BALIP",
-      producto: "AGREGAR UN PRODUCTO",
-      lugar: "Baños del Inca - Cajamarca 2023",
-      proyecto: "",
+      empresa: "BALIP E.I.R.L",
+      producto: "Buzones eléctricos, techos prefabricados y ductos de cuatro vías",
+      lugar: " Baños del Inca Cajamarca 2023",
+      proyecto: "Condominio Santuario Del Valle - Baños del Inca Cajamarca",
       imagenes: [balip1,balip2,balip3,balip4],
     },
      
     {
       id:"6",
-      titulo: "FABRICACION DE BUZONES ELECTRICOS, PEDESTALES Y PODIOS PREFABRICADOS",
+      titulo: "FABRICACIÓN DE BUZONES ELÉCTRICOS, PEDESTALES Y PODIOS PREFABRICADOS",
       imagen: sthelec,
       empresa: "STHELEC INGENIEROS E.I.R.L",
       producto: "Buzones eléctricos, pedestales y podios.",
@@ -137,17 +143,18 @@ const proyectos = [
       producto: "Buzones prefabricados",
       lugar: "Qhapaq Ñan - Cajamarca 2023",
       proyecto: "''Construcción del primer pozo tubular en el complejo  gran Qhapaq Ñan''",
-      imagenes: [oyc1,oyc2],
+      imagenes: [oyc1,oyc2,oyc3],
     },
-     /*
+     
     {
       id:"8",
-      titulo: "Rejillas pluviales, barandas, cercos y portones",
-      imagen: img1,
+      titulo: "MEJORAMIENTO Y AMPLIACIÓN DE SENCICO CAJAMARCA",
+      imagen: sencico,
       empresa: "Nombre de la Empresa 2",
-      producto: "AGREGAR UN PRODUCTO",
-      lugar: "None",
-      proyecto: "",
-    },*/
+      producto: "Cerco Tipo UNI",
+      lugar: "Cajamarca ",
+      proyecto: "''Mejoramineto y ampliación del servicio de capacitación en la industria de la construcción de la unidad operativo SENCICO Cajamarca''",
+      imagenes: [sencico1,sencico4,sencico2,sencico3],
+    },
   ];
   export default proyectos;

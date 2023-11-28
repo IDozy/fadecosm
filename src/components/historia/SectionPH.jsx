@@ -32,7 +32,7 @@ const SectionPH = ({ title, image, text, clase }) => {
             className="text-info"
             style={{ marginBottom: ".5rem", paddingLeft: "1rem" }}
           >
-            Fadedo San Martin
+            FADECO San Martin
           </h4>
           <p>{text}</p>
           {clase ? (

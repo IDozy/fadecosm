@@ -220,7 +220,7 @@ const datosProductos = {
 
       },
       producto5:{
-        nombre: "Caja termoplática de ...",
+        nombre: "Caja termoplática para registro de agua",
         imagen: termo_aguap4,
         descripcion: "",
 
