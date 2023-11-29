@@ -9,7 +9,7 @@ export const InfoAbout = () => {
         <h1 className="content-h1">Empresa Cajamarquina</h1>
         <div className="about__content-p">
           <p className="content-p">
-            Que busca generar un gran beneficio a nuestra provincia al producir
+            Buscando generar el mayor beneficio a nuestra provincia al producir
             y distribuir variedad de productos de calidad, brindando el mejor
             servicio y asesoramiento personalizado para todos tus proyectos.
           </p>
