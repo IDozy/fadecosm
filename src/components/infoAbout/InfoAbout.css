@@ -53,18 +53,20 @@
   }
   
   .content-h1 {
-    font-size: 36px;
-    margin: 18px 0;
+    font-size: 4vw;
+    margin: 100px 0;
   }
   
   .content-p {
-    font-size:24px;
-    color: #49eb49;
+    font-size: 1.3vw;
+    color: var(--color-nav-darker);
     text-align: center; /* Centramos el texto */
-    padding: 20px; /* Agregamos espacio alrededor del texto para centrarlo */
-    max-width: 600px; /* Limitamos el ancho del texto */
-    margin: 128px auto; /* Centramos horizontalmente el texto */
-    
+    padding: 15px; /* Agregamos espacio alrededor del texto para centrarlo */
+    max-width: 550px; /* Limitamos el ancho del texto */
+    margin: 100px auto; /* Centramos horizontalmente el texto */
+    letter-spacing: 1px;
+    font-weight: bold;
+    background: #ffffff50;
   }
   
   .logo-animation {
