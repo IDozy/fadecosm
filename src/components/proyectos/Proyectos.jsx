@@ -18,7 +18,7 @@ export const Proyectos = () => {
 
   return (
     <section className={styles["nuestros-proyectos"]}>
-      <h2 className="text-title" style={{marginBottom:"5rem"}}>Últimos Proyectos </h2>
+      <h2 className="text-title" style={{marginBottom:"5rem"}}>ÚLTIMOS PROYECTOS </h2>
       <div className={styles["proyectos-container"]}>
         {proyectos.map((proyecto, index) => (
           <article key={proyecto.id} className={styles["proyecto"]} onClick={() => handleProyectoClick(proyecto)}>

@@ -16,18 +16,18 @@ import tecnof4 from "../../images/Proyectos/TECNOFAST/tecnofast-4.png";
 
 
 //CAM - EQUANS
-import equans from "../../images/Proyectos/EQUANS/CAM2.png";
+import equans from "../../images/Proyectos/EQUANS/Cam2.png";
 import equans2 from "../../images/Proyectos/EQUANS/CAM3.png";
 import equans1 from "../../images/Proyectos/EQUANS/CAM1.png";
 
 //CHAQUICOCHA
-import chaq from "../../images/Proyectos/Chaquicocha/chaquicocha.png";
+import chaq from "../../images/Proyectos/Chaquicocha/chaqui.png";
 import chaq1 from "../../images/Proyectos/Chaquicocha/chaquicocha1.png";
 import chaq2 from "../../images/Proyectos/Chaquicocha/chaquicocha2.png";
 import chaq3 from "../../images/Proyectos/Chaquicocha/chaquicocha3.png";
 import chaq4 from "../../images/Proyectos/Chaquicocha/chaquicocha4.png";
 //MPC
-import mpc from "../../images/Proyectos/MPC/mpc5.png";
+import mpc from "../../images/Proyectos/MPC/mpc5.jpg";
 import mpc1 from "../../images/Proyectos/MPC/mpc1.jpg";
 import mpc2 from "../../images/Proyectos/MPC/mpc2.png";
 import mpc3 from "../../images/Proyectos/MPC/mpc3.jpg";
@@ -35,10 +35,11 @@ import mpc4 from "../../images/Proyectos/MPC/mpc4.jpg";
 import mpc5 from "../../images/Proyectos/MPC/mpc6.jpg";
 //BALIP
 import balip from "../../images/Proyectos/BALIP/Balip.png";
-import balip1 from "../../images/Proyectos/BALIP/Balip-2.png";
-import balip2 from "../../images/Proyectos/BALIP/Balip-3.png";
-import balip3 from "../../images/Proyectos/BALIP/Balip-4.png";
-import balip4 from "../../images/Proyectos/BALIP/Balip-5.png";
+import balip1 from "../../images/Proyectos/BALIP/Balip2.png";
+import balip2 from "../../images/Proyectos/BALIP/Balip3.png";
+import balip3 from "../../images/Proyectos/BALIP/Balip4.png";
+import balip4 from "../../images/Proyectos/BALIP/Balip5.png";
+import balip5 from "../../images/Proyectos/BALIP/Balip6.png";
 //STHELEC 
 import sthelec from "../../images/Proyectos/STHELEC/STHELEC.png";
 import sthelec1 from "../../images/Proyectos/STHELEC/STHELEC-1.png";
@@ -92,7 +93,7 @@ const proyectos = [
     {
       id:"3",
       titulo:
-        "FABRICACIÓN DE BUZONES Y BUZONETAS PARA ALCANTARILLADO",
+        "BUZONES Y BUZONETAS PREFABRICADO PARA ALCANTARILLADO",
       imagen: chaq,
       empresa: "Consorcio CHAQUICOCHA",
       producto: "Buzones, buzonetas, caja de válvulas con tapas metálicas",
@@ -103,7 +104,7 @@ const proyectos = [
     },
     {
       id:"4",
-      titulo: "CREACIÓN DEL SERVICIO DE MOVILIDAD URBANA",
+      titulo: "ABASTECIMIENTO DE BUZONES PREFABRICADOS ",
       imagen: mpc,
       empresa: "Consorcio la Roca",
       producto: "Buzones prefabricados, Techos prefabricados, Conexiones domiciliarias",
@@ -113,18 +114,18 @@ const proyectos = [
     },
     {
       id:"5",
-      titulo: "FABRICACIÓN DE PREFABRICADOS PARA EL CONDOMINIO SANTUARIO DEL VALLE",
+      titulo: "BUZONES ELÉCTRICOS PARA EL CONDOMINIO ''SANTUARIO DEL VALLE''",
       imagen: balip,
       empresa: "BALIP E.I.R.L",
       producto: "Buzones eléctricos, techos prefabricados y ductos de cuatro vías",
       lugar: " Baños del Inca Cajamarca 2023",
       proyecto: "Condominio Santuario Del Valle - Baños del Inca Cajamarca",
-      imagenes: [balip1,balip2,balip3,balip4],
+      imagenes: [balip1,balip2,balip3,balip4,balip5],
     },
      
     {
       id:"6",
-      titulo: "FABRICACIÓN DE BUZONES ELÉCTRICOS, PEDESTALES Y PODIOS PREFABRICADOS",
+      titulo: "BUZONES ELÉCTRICOS, PEDESTALES Y PODIOS PREFABRICADOS",
       imagen: sthelec,
       empresa: "STHELEC INGENIEROS E.I.R.L",
       producto: "Buzones eléctricos, pedestales y podios.",
@@ -135,22 +136,22 @@ const proyectos = [
   
     {
       id:"7",
-      titulo: "CONSTRUCCIÓN DEL PRIMER POZO TUBULAR EN EL COMPLEJO QHAPAQ ÑAN",
+      titulo: "ABASTECIMIENTO PARA EL PRIMER POZO TUBULAR EN EL COMPLEJO QHAPAQ ÑAN",
       imagen: oyc,
-      empresa: "Consorcio O &c C",
+      empresa: "Consorcio O & C",
       producto: "Buzones prefabricados",
       lugar: "Qhapaq Ñan - Cajamarca 2023",
-      proyecto: "''Construcción del primer pozo tubular en el complejo  gran Qhapaq Ñan''",
+      proyecto: "''CONSTRUCCIÓN DEL PRIMER POZO TUBULAR EN EL COMPLEJO  GRAN Qhapaq Ñan''",
       imagenes: [oyc1,oyc2,oyc3],
     },
      
     {
       id:"8",
-      titulo: "MEJORAMIENTO Y AMPLIACIÓN DE SENCICO CAJAMARCA",
+      titulo: "AMPLIACIÓN Y MEJORAMIENTO DE SENCICO CAJAMARCA",
       imagen: sencico,
-      empresa: "Nombre de la Empresa 2",
+      empresa: "Constructora PARAMAX S.A.C",
       producto: "Cerco Tipo UNI",
-      lugar: "Cajamarca ",
+      lugar: "Qhapaq Ñan - Cajamarca 2023",
       proyecto: "''Mejoramineto y ampliación del servicio de capacitación en la industria de la construcción de la unidad operativo SENCICO Cajamarca''",
       imagenes: [sencico1,sencico4,sencico2,sencico3],
     },

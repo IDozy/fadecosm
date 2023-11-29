@@ -82,7 +82,7 @@ const Servicios = () => {
         className="text-title"
         style={{ textAlign: "center", margin: "7rem 0 " }}
       >
-        Ofrecemos También
+        SERVICIOS
       </h1>
       <div className="servicios-container">
         {serviciosData.map((servicio, index) => (
