@@ -1,13 +1,15 @@
 import React from "react";
 import "./Servicios.css";
-import img from "../../images/Servicios/Grua.jpg";
+import img from "../../images/Servicios/Estructura.jpeg";
 import img1 from "../../images/Servicios/Agua.jpg";
-import img2 from "../../images/Servicios/Portatiles1.jpg";
-import img3 from "../../images/Servicios/EquiposCalidad2.jpg";
+import img2 from "../../images/Servicios/Portatil.jpg";
+import img3 from "../../images/Servicios/Calidad.jpg";
+import img4 from "../../images/Servicios/Construccion.jpg";
+import img5 from "../../images/Servicios/Grua3.png";
 
 const serviciosData = [
   {
-    title: "Fabricación y Alquiler de Estructuras Metálicas",
+    title: "Alquiler de Estructuras Metálicas",
     image: img,
     description: `
         Moldes para buzón.
@@ -18,7 +20,7 @@ const serviciosData = [
   },
   {
     title: "Alquiler de Equipos para Construcción",
-    image: img,
+    image: img4,
     description: `Saltarín - Compactador.
         Plancha Compactadora.
         Mezcladora de Concreto.
@@ -40,15 +42,21 @@ const serviciosData = [
   },
 
   {
-    title: "Abastecimiento",
+    title: "ABASTECIMIENTO",
     image: img1,
     description: `Agua Potable.`,
   },
   {
-    title: "Portátiles",
+    title: "PORTÁTILES",
     image: img2,
     description: `Alquiler de Baños Portátiles.
         Limpieza de Pozos Sépticos.`,
+  },
+  {
+    title: "GRÚA Y TRANSPORTE",
+    image: img5,
+    description: `Servicio de transporte de carga.
+        Alquiler de grúa.`,
   },
 ];
 

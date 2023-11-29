@@ -62,7 +62,7 @@ import fg1 from "../../images/Productos/Fierro Galvanizado/TapaGalvanizada30x60.
 import fg2 from "../../images/Productos/Fierro Galvanizado/TapaGalvanizadaMediana.png";
 
 //TABLAS DE  ESPECIFICACIONES
-import tespc from "../../images/TablasEspecificaciones/Valvulas30x30.png";
+import tespc from "../../images/TablasEspecificaciones/Especificaciones.png";
 import tespc1 from "../../images/TablasEspecificaciones/Caja_de_agua_ceja.png";
 import tespcgras from "../../images/TablasEspecificaciones/Bloc_grass_michi.png";
 import tespecgras8 from "../../images/TablasEspecificaciones/Bloc_grass_8.png";
@@ -77,7 +77,7 @@ const datosProductos = {
       producto1: {
         nombre: "CAJA PARA LLAVE DE PASO DE 30 x 30",
         imagen: preaguapot,
-        descripcion: "Utilizada en las zonas rurales.",
+        descripcion: "Utilizadas para llaves de paso.",
         especificaciones: tespc,
       },
       producto2: {

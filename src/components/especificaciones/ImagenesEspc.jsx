@@ -15,7 +15,7 @@ const ImagenesEspc = ({ datosProductos }) => {
         return (
           <div className="especificacion__card" key={productoId}>
             <div className="especificacion__image">
-              <h3 className="card-text-title-info" style={{fontSize: "1.7vw", color:"var(--colorTextDarker)"}}>{producto.nombre}</h3>
+              <h3 className="card-text-title-info" style={{fontSize: "1.7vw", color:"var(--colorBlack)"}}>{producto.nombre}</h3>
               <img
                 src={producto.imagen}
                 alt={`Imagen de ${producto.nombre}`}

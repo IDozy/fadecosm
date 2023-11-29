@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
-import img from "../../images/Elaboracion/calidad1.jpg";
-import img1 from "../../images/Elaboracion/calidad2.jpg";
+import img from "../../images/Elaboracion/calidad2.jpg";
+import img1 from "../../images/Elaboracion/calidad1.jpg";
 import img2 from "../../images/Elaboracion/Elaboracion1.jpg";
 import img3 from "../../images/Elaboracion/Elaboracion2.jpg";
 
