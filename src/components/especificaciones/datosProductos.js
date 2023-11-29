@@ -57,8 +57,9 @@ import ff5 from "../../images/Productos/Fierro Fundido/PlanchaFF3hornillas.png";
 import ff6 from "../../images/Productos/Fierro Fundido/PlanchaFF4hornillas.png";
 
 //F I E R R O     G A L V A N I Z A D O
-import fg from "../../images/Productos/Fierro Galvanizado/TapaGalvanizada.png";
+import fg from "../../images/Productos/Fierro Galvanizado/TapaGalvanizadaPequeña.png";
 import fg1 from "../../images/Productos/Fierro Galvanizado/TapaGalvanizada30x60.png";
+import fg2 from "../../images/Productos/Fierro Galvanizado/TapaGalvanizadaMediana.png";
 
 //TABLAS DE  ESPECIFICACIONES
 import tespc from "../../images/TablasEspecificaciones/Valvulas30x30.png";
@@ -72,7 +73,7 @@ import separadores from "../../images/TablasEspecificaciones/Separadores.png";
 
 const datosProductos = {
   "Prefabricados-De-Concreto": {
-    Aguapotable: {
+    "Agua-potable": {
       producto1: {
         nombre: "CAJA PARA LLAVE DE PASO DE 30 x 30",
         imagen: preaguapot,
@@ -285,11 +286,11 @@ const datosProductos = {
     // ... más subcategorías
   },
   "Estructuras-Metálicas":{
-    Aguapotable:{
+    "Agua-potable":{
       producto1:{
         nombre: "TAPA PARA RESERVORIO",
         imagen: metalica,
-        descripcion: "Agregar Descripcion",
+        descripcion: "Medidas según el requerimiento del cliente.",
       },
     },
   },
@@ -340,15 +341,20 @@ const datosProductos = {
     // ... más subcategorías
   },
   "Fierro-Galvanizado":{
-    Aguapotable:{
+    "Agua-potable":{
       producto1:{
-        nombre: "TAPA GALVANIZADA ",
+        nombre: "TAPA DE 30 x 35 ",
         imagen: fg,
         descripcion: "Agregar Descripcion",
       },
       producto2:{
         nombre: "TAPA DE 30 x 60",
         imagen: fg1,
+        descripcion: "Agregar Descripcion",
+      },
+      producto3:{
+        nombre: "TAPA DE 30 x 50",
+        imagen: fg2,
         descripcion: "Agregar Descripcion",
       }
 
