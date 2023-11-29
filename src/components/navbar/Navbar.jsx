@@ -40,7 +40,10 @@ const Navbar = () => {
       "Separadores",
     ],
     "Termoplásticos": ["Aguapotable", "Saneamiento"],
+    "Estructuras-Metálicas": ["Aguapotable"],
     "Fierro-Fundido": ["Saneamiento"],
+    "Fierro-Galvanizado": ["Aguapotable"],
+    
   };
 
   //FUNCION PARA EL TEXTO EN CATEGORÍAS

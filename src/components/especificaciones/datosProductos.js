@@ -40,6 +40,12 @@ import termo_aguap5 from "../../images/Productos/Plasticos/TapaTermoplasticaPara
 //saneamiento
 import termo_san from "../../images/Productos/Plasticos/TapaParaRegistroDeDesague35x60.png";
 import termo_san1 from "../../images/Productos/Plasticos/TapaParaRegistroDeDesague40x70.png";
+
+//E S T R U C T U R A S    M E T A L I C A S
+import metalica from "../../images/Productos/Estructuras Metalicas/TapaParaReservorio.png"
+
+
+
 //F I E R R O F U N D I D O
 //saneamieno
 import ff from "../../images/Productos/Fierro Fundido/MarcoyTapadeFFparaBuzon.png";
@@ -49,6 +55,11 @@ import ff3 from "../../images/Productos/Fierro Fundido/TapaFFparaAgua.png";
 import ff4 from "../../images/Productos/Fierro Fundido/PlanchaFF2hornillas.png";
 import ff5 from "../../images/Productos/Fierro Fundido/PlanchaFF3hornillas.png";
 import ff6 from "../../images/Productos/Fierro Fundido/PlanchaFF4hornillas.png";
+
+//F I E R R O     G A L V A N I Z A D O
+import fg from "../../images/Productos/Fierro Galvanizado/TapaGalvanizada.png";
+import fg1 from "../../images/Productos/Fierro Galvanizado/TapaGalvanizada30x60.png";
+
 //TABLAS DE  ESPECIFICACIONES
 import tespc from "../../images/TablasEspecificaciones/Valvulas30x30.png";
 import tespc1 from "../../images/TablasEspecificaciones/Caja_de_agua_ceja.png";
@@ -273,6 +284,15 @@ const datosProductos = {
     },
     // ... más subcategorías
   },
+  "Estructuras-Metálicas":{
+    Aguapotable:{
+      producto1:{
+        nombre: "TAPA PARA RESERVORIO",
+        imagen: metalica,
+        descripcion: "Agregar Descripcion",
+      },
+    },
+  },
   "Fierro-Fundido": {
     Saneamiento: {
       producto1: {
@@ -319,7 +339,25 @@ const datosProductos = {
     },
     // ... más subcategorías
   },
+  "Fierro-Galvanizado":{
+    Aguapotable:{
+      producto1:{
+        nombre: "TAPA GALVANIZADA ",
+        imagen: fg,
+        descripcion: "Agregar Descripcion",
+      },
+      producto2:{
+        nombre: "TAPA DE 30 x 60",
+        imagen: fg1,
+        descripcion: "Agregar Descripcion",
+      }
+
+    },
+
+  },
+
   // ... más categorías
+  
 };
 
 export default datosProductos;
