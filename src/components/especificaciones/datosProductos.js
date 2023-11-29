@@ -1,28 +1,29 @@
 // datosProductos.js
 //PREFABRICADOS
 //aguapotable
-import preaguapot from "../../images/Productos/Prefabricados/Aguapotable/Caja_de_valvulas_30x30.png";
-import preaguapot1 from "../../images/Productos/Prefabricados/Aguapotable/Caja_para_medidor_de_agua_30x60.png";
-import preaguapot2 from "../../images/Productos/Prefabricados/Aguapotable/Caja_para_valvula_30x40.png";
+import preaguapot from "../../images/Productos/Prefabricados/Aguapotable/CajaParaLlaveDePaso30x30.png";
+import preaguapot1 from "../../images/Productos/Prefabricados/Aguapotable/CajaparaRegistrodeAgua30x60.png";
+import preaguapot2 from "../../images/Productos/Prefabricados/Aguapotable/CajaParaValvula30x40.png";
+import preaguapot3 from "../../images/Productos/Prefabricados/Aguapotable/Caja40x60paraAgua.png"
 //alcatarillado
 import prealcan from "../../images/Productos/Prefabricados/Alcantarillado/Buzoncircular.png";
 import prealcan1 from "../../images/Productos/Prefabricados/Alcantarillado/Buzoncuadrado.png";
-import prealcan2 from "../../images/Productos/Prefabricados/Alcantarillado/Aro_FF_Tapa_de_concreto.png";
-import prealcan3 from "../../images/Productos/Prefabricados/Alcantarillado/Caja_Condominial.png";
-import prealcan4 from "../../images/Productos/Prefabricados/Alcantarillado/Conexion_prefabriacada_40x70.png";
-import prealcan5 from "../../images/Productos/Prefabricados/Alcantarillado/Conexion_Prefabricada_caja_de_lodos_60x60.png";
+import prealcan2 from "../../images/Productos/Prefabricados/Alcantarillado/aro_de_ff_tapa_deconcretoarmadopara_buzon.png";
+import prealcan3 from "../../images/Productos/Prefabricados/Alcantarillado/CajaCondominial.png";
+import prealcan4 from "../../images/Productos/Prefabricados/Alcantarillado/Conexionparadesague 40X70.png";
+import prealcan5 from "../../images/Productos/Prefabricados/Alcantarillado/ConexionCajaparaLodos60x60.png";
 import prealcan6 from "../../images/Productos/Prefabricados/Alcantarillado/Conexion_Prefabricada_35_x_60.png";
 //cercos perimetricos
 import cercop from "../../images/Productos/Prefabricados/Cercosperimetricos/cercop1.JPG";
 //jardineria y edificaciones
-import jardineria from "../../images/Productos/Prefabricados/JardineriaEdific/Bloc_grass_tipo_michi.png";
+import jardineria from "../../images/Productos/Prefabricados/JardineriaEdific/BlocGrassTipoMichi.png";
 import jardineria1 from "../../images/Productos/Prefabricados/JardineriaEdific/Bloc_Grass_tipo8.png";
-import jardineria2 from "../../images/Productos/Prefabricados/JardineriaEdific/Adoquines.jpg";
+import jardineria2 from "../../images/Productos/Prefabricados/JardineriaEdific/Adoquines.png";
 //electrificación
-import electric from "../../images/Productos/Prefabricados/Electrificacion/Ducto_cuatro_vias.png";
+import electric from "../../images/Productos/Prefabricados/Electrificacion/Ducto4vias.png";
 import electric1 from "../../images/Productos/Prefabricados/Electrificacion/Ducto_de_dos_vias.png";
-import electric2 from "../../images/Productos/Prefabricados/Electrificacion/Pozo_a_tierra_circular.png";
-import electric3 from "../../images/Productos/Prefabricados/Electrificacion/Pozo_a_tierra_cuadrado.png";
+import electric2 from "../../images/Productos/Prefabricados/Electrificacion/CajaCircularPozoATierra.png";
+import electric3 from "../../images/Productos/Prefabricados/Electrificacion/CajaCuadradaPozoaTierra.png";
 import electric4 from "../../images/Productos/Prefabricados/Electrificacion/Retenidas.png";
 //pistasycarreteras
 import pistas from "../../images/Productos/Prefabricados/PistasyCarreteras/Hitos_Kilometricos.png";
@@ -30,20 +31,24 @@ import pistas from "../../images/Productos/Prefabricados/PistasyCarreteras/Hitos
 import sepa from "../../images/Productos/Prefabricados/Separadores/Separadores.png";
 //TERMOPLÁSTICOS
 import termo_aguap from "../../images/Productos/Plasticos/Caja_de_valvulas_termoplastica_33x26.png";
-import termo_aguap1 from "../../images/Productos/Plasticos/Tapa_sin_visor_para_agua.png";
-import termo_aguap2 from "../../images/Productos/Plasticos/Tapa_con_visor_para_agua.png";
-import termo_aguap3 from "../../images/Productos/Plasticos/Caja_de_pared_para_medidor.png";
-import termo_aguap4 from "../../images/Productos/Plasticos/Caja_termoplastica_para.png";
+import termo_aguap1 from "../../images/Productos/Plasticos/TapaSinVisorParaAgua.png";
+import termo_aguap2 from "../../images/Productos/Plasticos/TapaConVisorParaAgua.png";
+import termo_aguap3 from "../../images/Productos/Plasticos/CajaDeParedParaMedidor.png";
+import termo_aguap4 from "../../images/Productos/Plasticos/CajaParaRegistroDeAgua.png";
+import termo_aguap5 from "../../images/Productos/Plasticos/TapaTermoplasticaParaCisterna.png";
 
 //saneamiento
-import termo_san from "../../images/Productos/Plasticos/Tapa_para_registro_de_desague.png";
+import termo_san from "../../images/Productos/Plasticos/TapaParaRegistroDeDesague35x60.png";
+import termo_san1 from "../../images/Productos/Plasticos/TapaParaRegistroDeDesague40x70.png";
 //F I E R R O F U N D I D O
 //saneamieno
-import ff from "../../images/Productos/Fierro Fundido/Marco_y_Tapa_de_FF_para_buzon.png";
-import ff1 from "../../images/Productos/Fierro Fundido/Tapa_de_FF_para_registro_de_desague.png";
-import ff2 from "../../images/Productos/Fierro Fundido/Tapa_de_FF_para_valvula.png";
-import ff3 from "../../images/Productos/Fierro Fundido/Tapa_y_Marco_de_fierro_fundido.png";
-import ff4 from "../../images/Productos/Fierro Fundido/Tapa_para_reservorio.png";
+import ff from "../../images/Productos/Fierro Fundido/MarcoyTapadeFFparaBuzon.png";
+import ff1 from "../../images/Productos/Fierro Fundido/TapaParaRegistroDeDesague.png";
+import ff2 from "../../images/Productos/Fierro Fundido/TapaFFParaValvula.png";
+import ff3 from "../../images/Productos/Fierro Fundido/TapaFFparaAgua.png";
+import ff4 from "../../images/Productos/Fierro Fundido/PlanchaFF2hornillas.png";
+import ff5 from "../../images/Productos/Fierro Fundido/PlanchaFF3hornillas.png";
+import ff6 from "../../images/Productos/Fierro Fundido/PlanchaFF4hornillas.png";
 //TABLAS DE  ESPECIFICACIONES
 import tespc from "../../images/TablasEspecificaciones/Valvulas30x30.png";
 import tespc1 from "../../images/TablasEspecificaciones/Caja_de_agua_ceja.png";
@@ -70,8 +75,8 @@ const datosProductos = {
         especificaciones: tespc1,
       },
       producto3:{
-        nombre: "CAJA PARA REGISTRO DE AGUA DE 40 X 60 Falta FOTO",
-        imagen: preaguapot1,
+        nombre: "CAJA PARA REGISTRO DE AGUA DE 40 X 60",
+        imagen: preaguapot3,
         descripcion: "Utilizada para almacenar el medidor, válvula de aire y llave de paso. ",
 
       },
@@ -95,7 +100,7 @@ const datosProductos = {
         descripcion: "Se utilizan en obras de saneamiento y alcantarillado, principalmente, en el tendido y restructuración de sistemas de redes primarias y secundarias que abastecen los servicios básicos de agua y desagüe para una ciudad.",
       },
       producto2:{
-        nombre: "ARO DE FF CON TAPA DE CONCRETO ARMADO PARA BUZÓN. ",
+        nombre: "BUZÓN ELÉCTRICO",
         imagen: prealcan1,
         descripcion: "Se utiliza para cubrir y proteger las cajas de registro de cables de comunicación y electricidad. Estos elementos son utilizados en la construcción de infraestructuras de comunicación y electricidad para asegurar la integridad y seguridad de los cables y conexiones."
       },
@@ -216,30 +221,36 @@ const datosProductos = {
   "Termoplásticos": {
     Aguapotable: {
       producto1: {
-        nombre: "Caja de válvulas termoplástica 33 x 26",
+        nombre: "CAJA DE VÁLVULAS DE 33 x 26",
         imagen: termo_aguap,
         descripcion: "Descripción del producto 1",
       },
       producto2:{
-        nombre: "Tapa sin visor para medidor de agua",
+        nombre: "TAPA SIN VISOR PARA MEDIDOR DE AGUA",
         imagen: termo_aguap1,
         descripcion: "",
       },
       producto3:{
-        nombre: "Tapa con visor para medidor de agua ",
+        nombre: "TAPA CON VISOR PARA MEDIDOR DE AGUA ",
         imagen: termo_aguap2,
         descripcion: "",
       },
       producto4:{
-        nombre:"Caja de pared para medidor de agua",
+        nombre:"CAJA DE PARED PARA MEDIDOR DE AGUA",
         imagen: termo_aguap3,
         descripcion: "La caja de medidor termoplástica para pared ",
 
       },
       producto5:{
-        nombre: "Caja termoplática para registro de agua",
+        nombre: "CAJA TERMOPLÁSTICA PARA REGISTRO DE AGUA",
         imagen: termo_aguap4,
         descripcion: "",
+      },
+      producto6:{
+        nombre: "CAJA TERMOPLÁSTICA PARA CISTERNA",
+        imagen: termo_aguap5,
+        descripcion: "",
+
       },
      
       
@@ -247,9 +258,15 @@ const datosProductos = {
     },
     Saneamiento: {
       producto1: {
-        nombre: "Tapa para Registro de Desagüe DE 70 x 40",
+        nombre: "TAPA PARA REGISTRO DE DESAGÜE DE 35 x 60",
         imagen: termo_san,
         descripcion: "Descripción del producto 1",
+      },
+      producto2:{
+        nombre: "TAPA PARA REGISTRO DE DESAGÜE DE 70 x 40",
+        imagen: termo_san1,
+        descripcion: "Descripción del producto 1",
+
       },
 
       // ... más productos
@@ -259,30 +276,42 @@ const datosProductos = {
   "Fierro-Fundido": {
     Saneamiento: {
       producto1: {
-        nombre: "Marco y Tapa para buzón ",
+        nombre: "MARCO Y TAPA PARA BUZÓN ",
         imagen: ff,
         descripcion: "Tapa para reservorio de agua ",
       },
       producto2:{
-        nombre: "Tapa para registro de desagüe",
+        nombre: "TAPA PARA REGISTRO DE DESAGÜE",
         imagen: ff1,
         descripcion: "",
 
       },
       producto3:{
-        nombre: "Tapa para válvula",
+        nombre: "TAPA PARA VÁLVULA",
         imagen: ff2,
         descripcion: "",
 
       },
       producto4:{
-        nombre: "Tapa y marco de Fierro Fundido",
+        nombre: "TAPA PARA AGUA",
         imagen: ff3,
         descripcion: "",
       },
       producto5:{
-        nombre: "Tapa para reservorio de agua",
+        nombre: "PLANCHA DE DOS HORNILLAS PARA COCINA MEJORADA",
         imagen: ff4,
+        descripcion:"",
+
+      },
+      producto6:{
+        nombre: "PLANCHA DE TRES HORNILLAS PARA COCINA MEJORADA",
+        imagen: ff5,
+        descripcion:"",
+
+      },
+      producto7:{
+        nombre: "PLANCHA DE CUATRO HORNILLAS PARA COCINA MEJORADA",
+        imagen: ff6,
         descripcion:"",
 
       },
