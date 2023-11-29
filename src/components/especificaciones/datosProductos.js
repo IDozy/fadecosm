@@ -21,12 +21,12 @@ import jardineria1 from "../../images/Productos/Prefabricados/JardineriaEdific/B
 import jardineria2 from "../../images/Productos/Prefabricados/JardineriaEdific/Adoquines.png";
 //electrificación
 import electric from "../../images/Productos/Prefabricados/Electrificacion/Ducto4vias.png";
-import electric1 from "../../images/Productos/Prefabricados/Electrificacion/Ducto_de_dos_vias.png";
+import electric1 from "../../images/Productos/Prefabricados/Electrificacion/Ducto2vias.png";
 import electric2 from "../../images/Productos/Prefabricados/Electrificacion/CajaCircularPozoATierra.png";
 import electric3 from "../../images/Productos/Prefabricados/Electrificacion/CajaCuadradaPozoaTierra.png";
 import electric4 from "../../images/Productos/Prefabricados/Electrificacion/Retenidas.png";
 //pistasycarreteras
-import pistas from "../../images/Productos/Prefabricados/PistasyCarreteras/Hitos_Kilometricos.png";
+import pistas from "../../images/Productos/Prefabricados/PistasyCarreteras/HitosKilometricos.png";
 //separadores
 import sepa from "../../images/Productos/Prefabricados/Separadores/Separadores.png";
 //TERMOPLÁSTICOS
