@@ -81,11 +81,12 @@ html {
   font-family: "Fuente3", sans-serif;
 }
 
-.text-title {
+.text-title, 
+.card-text-title-info {
   font-family: "Fuente4", sans-serif;
   font-weight: bold;
 }
-.card-text-title-info {
+.h3-nombre-prod {
   font-size: 1.7vw;
   color: #000;
   font-family: "Fuente3", sans-serif;
