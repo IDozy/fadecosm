@@ -41,18 +41,18 @@ import balip3 from "../../images/Proyectos/BALIP/Balip4.png";
 import balip4 from "../../images/Proyectos/BALIP/Balip5.png";
 import balip5 from "../../images/Proyectos/BALIP/Balip6.png";
 //STHELEC 
-import sthelec from "../../images/Proyectos/STHELEC/STHELEC.png";
+import sthelec from "../../images/Proyectos/STHELEC/Chaq.png";
 import sthelec1 from "../../images/Proyectos/STHELEC/STHELEC1.png";
 import sthelec2 from "../../images/Proyectos/STHELEC/STHELEC2.png";
 import sthelec3 from "../../images/Proyectos/STHELEC/STHELEC3.png";
 import sthelec4 from "../../images/Proyectos/STHELEC/STHELEC4.png";
 //O & C
-import oyc from "../../images/Proyectos/OyC/oyc.png";
+import oyc from "../../images/Proyectos/OyC/oyc8.png";
 import oyc1 from "../../images/Proyectos/OyC/oyc1.jpg";
 import oyc2 from "../../images/Proyectos/OyC/oyc2.jpg";
 import oyc3 from "../../images/Proyectos/OyC/oyc3.jpg";
 //SENCICO
-import sencico from "../../images/Proyectos/SENCICO/Sencico.png";
+import sencico from "../../images/Proyectos/SENCICO/Sencico9.png";
 import sencico1 from "../../images/Proyectos/SENCICO/SENCICO1.jpg";
 import sencico2 from "../../images/Proyectos/SENCICO/SENCICO2.jpg";
 import sencico3 from "../../images/Proyectos/SENCICO/SENCICO3.jpg";
