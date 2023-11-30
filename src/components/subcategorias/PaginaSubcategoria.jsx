@@ -6,6 +6,10 @@ import datosProductos from "../especificaciones/datosProductos";
 import { Helmet } from "react-helmet";
 
 const PaginaSubcategoria = () => {
+  const formatSubcategoria = (subcategoria) => {
+    return subcategoria.replace(/-/g, " ");
+  };
+
   const { categoria, subcategoria } = useParams();
 
   const datosSubcategoria = datosProductos[categoria]?.[subcategoria];
@@ -19,13 +23,13 @@ const PaginaSubcategoria = () => {
   return (
     <div>
       <Helmet>
-      <title>FADECO SAN MARTIN - Productos</title>
+        <title>FADECO SAN MARTIN - Productos</title>
         <meta
           name="description"
           content="Explora nuestra amplia gama de prefabricados de concreto en FADECO SAN MARTIN. Productos de calidad con más de 10 años de experiencia. Optimiza tiempo y reduce costos en tus proyectos y construcciones."
         />
       </Helmet>
-      <h2 className="text-title title-categoria">{`Subcategoría: ${subcategoria}`}</h2>
+      <h2 className="text-title title-categoria">{`Subcategoría: ${formatSubcategoria(subcategoria)}`}</h2>
       {/* Utiliza el componente ImagenEspecificaciones */}
       <ImagenesEspc datosProductos={datosSubcategoria} />
     </div>
