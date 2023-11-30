@@ -4,7 +4,8 @@
 import preaguapot from "../../images/Productos/Prefabricados/Aguapotable/CajaParaLlaveDePaso30x30.png";
 import preaguapot1 from "../../images/Productos/Prefabricados/Aguapotable/CajaparaRegistrodeAgua30x60.png";
 import preaguapot2 from "../../images/Productos/Prefabricados/Aguapotable/CajaParaValvula30x40.png";
-import preaguapot3 from "../../images/Productos/Prefabricados/Aguapotable/Caja40x60paraAgua.png"
+import preaguapot3 from "../../images/Productos/Prefabricados/Aguapotable/Caja40x60paraAgua.png";
+import preaguapot4 from "../../images/Productos/Prefabricados/Aguapotable/CajaParaValvulas30x50.png";
 //alcatarillado
 import prealcan from "../../images/Productos/Prefabricados/Alcantarillado/Buzoncircular.png";
 import prealcan1 from "../../images/Productos/Prefabricados/Alcantarillado/Buzoncuadrado.png";
@@ -14,7 +15,7 @@ import prealcan4 from "../../images/Productos/Prefabricados/Alcantarillado/Conex
 import prealcan5 from "../../images/Productos/Prefabricados/Alcantarillado/ConexionCajaparaLodos60x60.png";
 //import prealcan6 from "../../images/Productos/Prefabricados/Alcantarillado/Conexion_Prefabricada_35_x_60.png";
 //cercos perimetricos
-import cercop from "../../images/Productos/Prefabricados/Cercosperimetricos/cercop1.JPG";
+import cercop from "../../images/Productos/Prefabricados/Cercosperimetricos/Cercos1.jpg";
 //jardineria y edificaciones
 import jardineria from "../../images/Productos/Prefabricados/JardineriaEdific/BlocGrassTipoMichi.png";
 import jardineria1 from "../../images/Productos/Prefabricados/JardineriaEdific/Bloc_Grass_tipo8.png";
@@ -30,7 +31,7 @@ import pistas from "../../images/Productos/Prefabricados/PistasyCarreteras/Hitos
 //separadores
 import sepa from "../../images/Productos/Prefabricados/Separadores/Separadores.png";
 //TERMOPLÁSTICOS
-import termo_aguap from "../../images/Productos/Plasticos/Caja_de_valvulas_termoplastica_33x26.png";
+import termo_aguap from "../../images/Productos/Plasticos/CajaParaValvulas33X26.png";
 import termo_aguap1 from "../../images/Productos/Plasticos/TapaSinVisorParaAgua.png";
 import termo_aguap2 from "../../images/Productos/Plasticos/TapaConVisorParaAgua.png";
 import termo_aguap3 from "../../images/Productos/Plasticos/CajaDeParedParaMedidor.png";
@@ -64,7 +65,6 @@ import fg2 from "../../images/Productos/Fierro Galvanizado/TapaGalvanizadaMedian
 //TABLAS DE  ESPECIFICACIONES
 import tespc from "../../images/TablasEspecificaciones/Especificaciones.png";
 import tcondominial from "../../images/TablasEspecificaciones/CajaCondominial.png";
-//import tespc1 from "../../images/TablasEspecificaciones/Caja_de_agua_ceja.png";
 import tespcgras from "../../images/TablasEspecificaciones/BlocGrassMichi.png";
 import tespecgras8 from "../../images/TablasEspecificaciones/BlocGrass8.png";
 import tespecadoquines from "../../images/TablasEspecificaciones/Adoquines.png";
@@ -72,8 +72,6 @@ import tespecducto2v from "../../images/TablasEspecificaciones/DuctoDeDosVias.pn
 import separadores from "../../images/TablasEspecificaciones/Separadores.png";
 import tbuzoncircular from "../../images/TablasEspecificaciones/BuzonCircular.png";
 import tbuzonelectrico from "../../images/TablasEspecificaciones/BuzonElectrico.png";
-import ttapasinvisor from "../../images/TablasEspecificaciones/TapaSinVisor.png";
-import ttapaconvisor from "../../images/TablasEspecificaciones/TapaConVisor.png";
 import tcajacuadrada from "../../images/TablasEspecificaciones/CajaCuadradaPuestTierra.png";
 import tcajacircular from "../../images/TablasEspecificaciones/CajaCircularPuestaTierra.png";
 import tretenidas from "../../images/TablasEspecificaciones/Retenidas.png";
@@ -104,13 +102,13 @@ const datosProductos = {
         imagen: preaguapot2,
         descripcion: "Utilizada para la protección de llaves de paso y válvulas. ",
       },
-      /*
+      
       producto5:{
-        nombre: "CAJA PARA VÁLVULA DE 30x50 Falta FOTO",
-        imagen: preaguapot2,
+        nombre: "CAJA PARA VÁLVULA DE 30x50",
+        imagen: preaguapot4,
         descripcion: "Utilizada para la protección de llaves de paso, válvulas, mangueras de riego. ",
 
-      },*/
+      },
       // ... más productos
     },
     Alcantarillado:{
@@ -160,7 +158,7 @@ const datosProductos = {
       producto1:{
         nombre: "Cerco perimétrico tipo cuadrado",
         imagen: cercop ,
-        descripcion:"Los cercos perimétricos son ",
+        descripcion:"Son estructuras de seguridad utilizadas para delimitar y proteger una propiedad. Estos cercos están diseñados en forma de cuadrado, lo que les brinda una apariencia estética y moderna. ",
 
 
       },
@@ -177,21 +175,21 @@ const datosProductos = {
     },
     "Jardinería-para-edificaciones":{
       producto1:{
-        nombre:"Bloc grass Tipo #",
+        nombre:"BLOCK GRASS TIPO #",
         imagen:jardineria,
-        descripcion:"",
+        descripcion:"Los block grass permiten la coexistencia de pisos de concreto y áreas verdes, lo que los convierte en bloques ecológicos.",
         especificaciones:tespcgras,
       },
       producto2:{
-        nombre:"Bloc Grass tipo 8",
+        nombre:"BLOCK GRASS TIPO 8",
         imagen:jardineria1,
-        descripcion:"",
+        descripcion:"Son recomendados para calles, pisos decorativos y pisos de instalación rápida y fácil.",
         especificaciones:tespecgras8,
       },
       producto3:{
-        nombre: "Adoquines",
+        nombre: "ADOQUINES",
         imagen:jardineria2,
-        descripcion:"",
+        descripcion:"Son utilizados en una variedad de aplicaciones, como calles, aceras, patios y plazas, son duraderos y resistentes, lo que los hace ideales para soportar el tráfico peatonal y vehicular.",
         especificaciones:tespecadoquines,
 
       },
@@ -212,21 +210,21 @@ const datosProductos = {
       producto3:{
         nombre: "CAJA DE POZO A TIERRA CIRCULAR",
         imagen: electric2,
-        descripcion: "La caja de pozo a tierra",
+        descripcion: "Se utilizan para albergar los componentes de conexión a tierra, como los conectores de compresión y los cables de puesta a tierra.",
         especificaciones: tcajacircular,
 
       },
       producto4: {
         nombre: "CAJA DE POZO A TIERRA CUADRADA",
         imagen: electric3,
-        descripcion: "La caja de pozo a tierra cuadrada",
+        descripcion: "Son elementos utilizados en sistemas de puesta a tierra para proteger y conectar los conductores de tierra. Estas cajas están fabricadas con materiales duraderos acorde a las normas.",
         especificaciones: tcajacuadrada,
 
       },
       producto5:{
         nombre: "RETENIDAS",
         imagen: electric4,
-        descripcion: "Las retenidas son empleadas",
+        descripcion: "Son utilizadas en estructuras eléctricas y de comunicación para asegurar y sostener los cables y conductores. Estas retenidas se fabrican con concreto de alta resistencia y se utilizan para fijar y mantener en su lugar los cables y conductores en postes y estructuras.",
         especificaciones: tretenidas,
 
       },
@@ -236,7 +234,7 @@ const datosProductos = {
       producto1:{
         nombre: "Separadores de concreto",
         imagen:sepa,
-        descripcion:"Los separadores de concreto son empleados",
+        descripcion:"Son elementos utilizados en la construcción para mantener las barras de refuerzo alejadas de la superficie del hormigón.",
         especificaciones: separadores,
       }
 
@@ -249,35 +247,35 @@ const datosProductos = {
       producto1: {
         nombre: "CAJA DE VÁLVULAS DE 33 x 26",
         imagen: termo_aguap,
-        descripcion: "Descripción del producto 1",
+        descripcion: "Empleados en sistemas de tuberías y plomería para alojar y proteger las válvulas de control de flujo.",
       },
       producto2:{
-        nombre: "TAPA SIN VISOR PARA MEDIDOR DE AGUA",
+        nombre: "TAPA SIN VISOR PARA MEDIDOR DE AGUA DE 36 x 30",
         imagen: termo_aguap1,
-        descripcion: "",
-        especificaciones: ttapasinvisor,
+        descripcion: "Accesorios utilizados como tapas en cajas porta medidores de conexiones domiciliarias de agua.",
+       
       },
       producto3:{
-        nombre: "TAPA CON VISOR PARA MEDIDOR DE AGUA ",
+        nombre: "TAPA CON VISOR PARA MEDIDOR DE AGUA DE 36 x 30",
         imagen: termo_aguap2,
-        descripcion: "",
-        especificaciones: ttapaconvisor,
+        descripcion: "Accesorios utilizados como tapas en cajas porta medidores de conexiones domiciliarias de agua.",
+       
       },
       producto4:{
         nombre:"CAJA DE PARED PARA MEDIDOR DE AGUA",
         imagen: termo_aguap3,
-        descripcion: "La caja de medidor termoplástica para pared ",
+        descripcion: "Se utilizan para montar los medidores de agua en la pared de una estructura, proporcionando un espacio seguro y protegido para el medidor. ",
 
       },
       producto5:{
         nombre: "CAJA TERMOPLÁSTICA PARA REGISTRO DE AGUA",
         imagen: termo_aguap4,
-        descripcion: "",
+        descripcion: "Se utilizan para proteger y asegurar las conexiones y medidores de agua, proporcionando un espacio seguro y protegido.",
       },
       producto6:{
-        nombre: "CAJA TERMOPLÁSTICA PARA CISTERNA",
+        nombre: "TAPA TERMOPLÁSTICA PARA CISTERNA",
         imagen: termo_aguap5,
-        descripcion: "",
+        descripcion: "Utilizadas para cubrir y proteger la abertura de acceso a una cisterna de agua, se colocan sobre la abertura de la cisterna y se aseguran para evitar la entrada de suciedad, insectos u otros elementos no deseados.",
 
       },
      
@@ -288,12 +286,12 @@ const datosProductos = {
       producto1: {
         nombre: "TAPA PARA REGISTRO DE DESAGÜE DE 35 x 60",
         imagen: termo_san,
-        descripcion: "Descripción del producto 1",
+        descripcion: "Son utilizadas en sistemas de alcantarillado y desagüe para cubrir las cajas de registro.",
       },
       producto2:{
-        nombre: "TAPA PARA REGISTRO DE DESAGÜE DE 70 x 40",
+        nombre: "TAPA PARA REGISTRO DE DESAGÜE DE 40 x 70",
         imagen: termo_san1,
-        descripcion: "Descripción del producto 1",
+        descripcion: "Su función principal es proporcionar acceso a las cajas de registro para inspección, mantenimiento y limpieza del sistema de desagüe.",
 
       },
 
@@ -315,24 +313,24 @@ const datosProductos = {
       producto1: {
         nombre: "MARCO Y TAPA PARA BUZÓN ",
         imagen: ff,
-        descripcion: "Tapa para reservorio de agua ",
+        descripcion: "Utilizada para los techos de buzones, para alcantarillados y buzones eléctricos.",
       },
       producto2:{
         nombre: "TAPA PARA REGISTRO DE DESAGÜE",
         imagen: ff1,
-        descripcion: "",
+        descripcion: "Utilizada en sistemas de alcantarillado y desagüe para el hogar, al ser de fierro fundido confiere resistencia y durabilidad.",
 
       },
       producto3:{
         nombre: "TAPA PARA VÁLVULA",
         imagen: ff2,
-        descripcion: "",
+        descripcion: "Utilizadas para cubrir y proteger los sistemas de tuberías y válvulas, aparte de proporcionar acceso a la válvula para inspeccion, mantenimiento. ",
 
       },
       producto4:{
         nombre: "TAPA PARA AGUA",
         imagen: ff3,
-        descripcion: "",
+        descripcion: "Accesorios utilizados como tapas en cajas porta medidores de conexiones domiciliarias de agua.",
       },
       producto5:{
         nombre: "PLANCHA DE DOS HORNILLAS PARA COCINA MEJORADA",
@@ -361,17 +359,17 @@ const datosProductos = {
       producto1:{
         nombre: "TAPA DE 30 x 35 ",
         imagen: fg,
-        descripcion: "Agregar Descripcion",
+        descripcion: "Utilizadas para cubrir y proteger las conexiones de llave de paso y medidor.",
       },
       producto2:{
         nombre: "TAPA DE 30 x 60",
         imagen: fg1,
-        descripcion: "Agregar Descripcion",
+        descripcion: "Utilizados en sistemas de tuberías de agua potable.",
       },
       producto3:{
         nombre: "TAPA DE 30 x 50",
         imagen: fg2,
-        descripcion: "Agregar Descripcion",
+        descripcion: "Utilizada para proteger válvula de aire y medidor.",
       }
 
     },

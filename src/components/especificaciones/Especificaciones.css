@@ -89,4 +89,8 @@
   .especificacion__image img {
     max-width: 100%; /* Hace que la imagen ocupe el 100% del ancho en dispositivos móviles */
   }
+  .especificacion__image h3,
+  .especificacion__image p {
+    font-size: 3vw !important; /* Ajusta el tamaño de la fuente para dispositivos móviles */
+  }
 }

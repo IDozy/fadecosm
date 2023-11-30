@@ -20,7 +20,7 @@ const ImagenesEspc = ({ datosProductos }) => {
                 src={producto.imagen}
                 alt={`Imagen de ${producto.nombre}`}
               />
-              <p className="h3-nombre-prod" style={{width:"50%", textAlign:"center", margin:"auto", fontSize:"1.3vw"}}>{producto.descripcion}</p>
+              <p className="h3-nombre-prod" style={{width:"50%", textAlign:"justify", margin:"auto", fontSize:"1.3vw"}}>{producto.descripcion}</p>
             </div>
             {producto.especificaciones && (
               <div className="especificacion__text">
