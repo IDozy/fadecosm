@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from "react";
 
-import img from "../../images/Elaboracion/calidad2.jpg";
-import img1 from "../../images/Elaboracion/calidad1.jpg";
-import img2 from "../../images/Elaboracion/Elaboracion1.jpg";
-import img3 from "../../images/Elaboracion/Elaboracion2.jpg";
+
+import img from "../../images/Elaboracion/calidad1.jpg";
+import img1 from "../../images/Elaboracion/Elaboracion2.jpg";
+import img2 from "../../images/Elaboracion/Elaboracion1.png";
 
 import "../../components/historia/Historia.css";
 import SectionPH from "../historia/SectionPH";
 
 export const NuestrosProductos = () => {
-  const images = [img, img1, img2, img3];
+  const images = [img, img1, img2,];
   const imageChangeInterval = 3000;
   const [currentIndex, setCurrentIndex] = useState(0);
 

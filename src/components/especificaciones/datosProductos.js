@@ -12,7 +12,7 @@ import prealcan2 from "../../images/Productos/Prefabricados/Alcantarillado/aro_d
 import prealcan3 from "../../images/Productos/Prefabricados/Alcantarillado/CajaCondominial.png";
 import prealcan4 from "../../images/Productos/Prefabricados/Alcantarillado/Conexionparadesague 40X70.png";
 import prealcan5 from "../../images/Productos/Prefabricados/Alcantarillado/ConexionCajaparaLodos60x60.png";
-import prealcan6 from "../../images/Productos/Prefabricados/Alcantarillado/Conexion_Prefabricada_35_x_60.png";
+//import prealcan6 from "../../images/Productos/Prefabricados/Alcantarillado/Conexion_Prefabricada_35_x_60.png";
 //cercos perimetricos
 import cercop from "../../images/Productos/Prefabricados/Cercosperimetricos/cercop1.JPG";
 //jardineria y edificaciones
