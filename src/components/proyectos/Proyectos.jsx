@@ -1,19 +1,28 @@
-import React from "react";
+import React, { useRef } from "react";
 import styles from "./Proyectos.module.css";
 import { useNavigate } from "react-router-dom";
 import proyectos from "./datosProyectos";
 
 export const Proyectos = () => {
   const navigate = useNavigate();
+  const proyectosContainerRef = useRef(null);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
 
   const handleProyectoClick = (proyecto) => {
     navigate(`/proyectos/${proyecto.id}`, {
       state: { proyecto },
     });
+    scrollToTop();
   };
 
   return (
-    <section className={styles["nuestros-proyectos"]}>
+    <section className={styles["nuestros-proyectos"]} ref={proyectosContainerRef}>
       <h2 className="text-title" style={{ marginBottom: "5rem" }}>
         ÚLTIMOS PROYECTOS{" "}
       </h2>
