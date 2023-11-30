@@ -13,6 +13,8 @@ import img10 from "../../images/Clientes/SEDACAJ.png";
 import img11 from "../../images/Clientes/CCA.png";
 import img12 from "../../images/Clientes/YANACOCHA.png";
 import img13 from "../../images/Clientes/SINOHYDRO.png";
+import img14 from "../../images/Clientes/STHELEC.png";
+import img15 from "../../images/Clientes/ConstructoraParamax.png";
 
 export const Clientes = () => {
   const images = [
@@ -29,6 +31,8 @@ export const Clientes = () => {
     img11,
     img12,
     img13,
+    img14,
+    img15,
     img1,
     img2,
     img3,
@@ -42,6 +46,8 @@ export const Clientes = () => {
     img11,
     img12,
     img13,
+    img14,
+    img15,
   ];
 
   return (
