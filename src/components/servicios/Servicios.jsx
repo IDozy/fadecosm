@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Servicios.css";
 import img from "../../images/Servicios/Estructura.jpeg";
 import img1 from "../../images/Servicios/Agua.jpg";
@@ -61,16 +61,30 @@ const serviciosData = [
 ];
 
 const Servicio = ({ title, image, description, imageClassName }) => {
+  const [isTouched, setIsTouched] = useState(false);
+
+  const handleTouch = () => {
+    setIsTouched(!isTouched);
+  };
+
   const descriptionList = description
     .split("\n")
     .filter((item) => item.trim() !== "");
 
   return (
-    <div className="servicio">
+    <div
+      className={`servicio ${isTouched ? "stop-animation rotate-text" : ""}`}
+      onClick={handleTouch}
+    >
       <div className="servicio-front">
-        <img src={image} alt={title} className={imageClassName}  style={{height:"30rem ",width:"auto", maxWidth:"40rem"}} />
+        <img
+          src={image}
+          alt={title}
+          className={imageClassName}
+          style={{ height: "30rem ", width: "auto", maxWidth: "40rem" }}
+        />
       </div>
-      <div className="servicio-back">
+      <div className={`servicio-back ${isTouched ? "rotate-text" : ""}`}>
         <h2>{title}</h2>
 
         <ul>
@@ -90,7 +104,7 @@ const Servicios = () => {
         className="text-title"
         style={{ textAlign: "center", margin: "7rem 0 " }}
       >
-        SERVICIOS
+        DESCUBRE NUESTROS SERVICIOS
       </h1>
       <div className="servicios-container">
         {serviciosData.map((servicio, index) => (

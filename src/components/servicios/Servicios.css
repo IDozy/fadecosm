@@ -81,8 +81,29 @@
     margin-bottom: 4rem;
     height: auto;
   }
+  .servicio .servicio-back {
+    animation: rotateAnimation 10s linear infinite; /* Ajusta la duración según tus preferencias */
+    
+  }
+    .rotate-text {
+    transform: none; /* Ajusta el valor según sea necesario */
+  }
 
  
+}
+
+.servicio.stop-animation .servicio-back {
+  animation-play-state: paused;
+}
+
+/* Define la animación de rotación continua */
+@keyframes rotateAnimation {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
 }
 
 
