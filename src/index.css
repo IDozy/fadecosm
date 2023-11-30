@@ -81,11 +81,23 @@ html {
   font-family: "Fuente3", sans-serif;
 }
 
-.text-title,
-.card-text-title-info {
+.text-title {
   font-family: "Fuente4", sans-serif;
   font-weight: bold;
 }
+.card-text-title-info {
+  font-size: 1.7vw;
+  color: #000;
+  font-family: "Fuente3", sans-serif;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+.title-categoria{
+  color: red;
+}
+
+
 
 .cards p,
 .card-1 p {
@@ -139,7 +151,6 @@ body {
 }
 @media screen and (min-width: 1500px) and (max-width: 1920px) {
   .nav__letter {
-    
     margin: 0 4rem;
     display: flex;
     height: 100%;
@@ -152,8 +163,6 @@ body {
   letter-spacing: 0;
 }
 
-
-.content-p{
+.content-p {
   font-family: "Fuente3", sans-serif;
-
 }

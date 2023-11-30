@@ -15,12 +15,12 @@ const ImagenesEspc = ({ datosProductos }) => {
         return (
           <div className="especificacion__card" key={productoId}>
             <div className="especificacion__image">
-              <h3 className="card-text-title-info" style={{fontSize: "1.7vw", color:"var(--colorBlack)"}}>{producto.nombre}</h3>
+              <h3 className="card-text-title-info" >{producto.nombre}</h3>
               <img
                 src={producto.imagen}
                 alt={`Imagen de ${producto.nombre}`}
               />
-              <p className="text-info" style={{width:"50%", textAlign:"center", margin:"auto"}}>{producto.descripcion}</p>
+              <p className="card-text-title-info" style={{width:"50%", textAlign:"center", margin:"auto", fontSize:"1.3vw"}}>{producto.descripcion}</p>
             </div>
             {producto.especificaciones && (
               <div className="especificacion__text">
