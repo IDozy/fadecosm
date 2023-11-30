@@ -9,7 +9,7 @@ import eigr6 from "../../images/Proyectos/EIGR/EIGR-7.png";
 
 //TECNOFAST
 import tecnof from "../../images/Proyectos/TECNOFAST/tecnofast.png";
-import tecnof1 from "../../images/Proyectos/TECNOFAST/tecnofast-1.jpg";
+import tecnof1 from "../../images/Proyectos/TECNOFAST/tecnofast1.jpg";
 import tecnof2 from "../../images/Proyectos/TECNOFAST/tecnofast-2.png";
 import tecnof3 from "../../images/Proyectos/TECNOFAST/tecnofast-3.png";
 import tecnof4 from "../../images/Proyectos/TECNOFAST/tecnofast-4.png";
