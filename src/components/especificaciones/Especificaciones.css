@@ -17,7 +17,7 @@
     max-width: 50%;
     height: auto;
     border-radius: 5%;
-    border: 1rem ridge var(--color-nav);
+    border: 1rem ridge var(--colorText);
    
    
   }
@@ -37,7 +37,7 @@
   .title-categoria{
     text-align: center;
     margin: 5rem 0 1rem 0;
-   
+    
   }
   
   @media (max-width: 768px) {
@@ -58,6 +58,10 @@
     margin: 0;
     padding-top: 15rem;
    
+  }
+
+  .card-text-title-info{
+    font-size: 3vw !important;
   }
   }
   
