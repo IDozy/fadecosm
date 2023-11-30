@@ -31,7 +31,7 @@ const Navbar = () => {
   // CATEGORÍAS DE PRODUCTOS
   const categorias = {
     "Prefabricados-De-Concreto": [
-      "Agua-potable",
+      "Agua-Potable",
       "Alcantarillado",
       "Cercosperimétricos",
       "Pistas-y-carreteras",
@@ -39,10 +39,10 @@ const Navbar = () => {
       "Electrificación",
       "Separadores",
     ],
-    "Termoplásticos": ["Agua-potable", "Saneamiento"],
-    "Estructuras-Metálicas": ["Agua-potable"],
+    "Termoplásticos": ["Agua-Potable", "Saneamiento"],
+    "Estructuras-Metálicas": ["Agua-Potable"],
     "Fierro-Fundido": ["Saneamiento"],
-    "Fierro-Galvanizado": ["Agua-potable"],
+    "Fierro-Galvanizado": ["Agua-Potable"],
     
   };
 

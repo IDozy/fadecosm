@@ -63,17 +63,24 @@ import fg2 from "../../images/Productos/Fierro Galvanizado/TapaGalvanizadaMedian
 
 //TABLAS DE  ESPECIFICACIONES
 import tespc from "../../images/TablasEspecificaciones/Especificaciones.png";
+import tcondominial from "../../images/TablasEspecificaciones/CajaCondominial.png";
 import tespc1 from "../../images/TablasEspecificaciones/Caja_de_agua_ceja.png";
-import tespcgras from "../../images/TablasEspecificaciones/Bloc_grass_michi.png";
-import tespecgras8 from "../../images/TablasEspecificaciones/Bloc_grass_8.png";
+import tespcgras from "../../images/TablasEspecificaciones/BlocGrassMichi.png";
+import tespecgras8 from "../../images/TablasEspecificaciones/BlocGrass8.png";
 import tespecadoquines from "../../images/TablasEspecificaciones/Adoquines.png";
-import tespecducto2v from "../../images/TablasEspecificaciones/Ducto_dos_vias.png";
+import tespecducto2v from "../../images/TablasEspecificaciones/DuctoDeDosVias.png";
 import separadores from "../../images/TablasEspecificaciones/Separadores.png";
-
+import tbuzoncircular from "../../images/TablasEspecificaciones/BuzonCircular.png";
+import tbuzonelectrico from "../../images/TablasEspecificaciones/BuzonElectrico.png";
+import ttapasinvisor from "../../images/TablasEspecificaciones/TapaSinVisor.png";
+import ttapaconvisor from "../../images/TablasEspecificaciones/TapaConVisor.png";
+import tcajacuadrada from "../../images/TablasEspecificaciones/CajaCuadradaPuestTierra.png";
+import tcajacircular from "../../images/TablasEspecificaciones/CajaCircularPuestaTierra.png";
+import tretenidas from "../../images/TablasEspecificaciones/Retenidas.png";
 
 const datosProductos = {
   "Prefabricados-De-Concreto": {
-    "Agua-potable": {
+    "Agua-Potable": {
       producto1: {
         nombre: "CAJA PARA LLAVE DE PASO DE 30 x 30",
         imagen: preaguapot,
@@ -110,27 +117,30 @@ const datosProductos = {
         nombre: "BUZÓN PREFABRICADO CIRCULAR ",
         imagen: prealcan,
         descripcion: "Se utilizan en obras de saneamiento y alcantarillado, principalmente, en el tendido y restructuración de sistemas de redes primarias y secundarias que abastecen los servicios básicos de agua y desagüe para una ciudad.",
+        especificaciones: tbuzoncircular,
       },
       producto2:{
         nombre: "BUZÓN ELÉCTRICO",
         imagen: prealcan1,
-        descripcion: "Se utiliza para cubrir y proteger las cajas de registro de cables de comunicación y electricidad. Estos elementos son utilizados en la construcción de infraestructuras de comunicación y electricidad para asegurar la integridad y seguridad de los cables y conexiones."
+        descripcion: "Se utiliza para cubrir y proteger las cajas de registro de cables de comunicación y electricidad. Estos elementos son utilizados en la construcción de infraestructuras de comunicación y electricidad para asegurar la integridad y seguridad de los cables y conexiones.",
+        especificaciones: tbuzonelectrico,
       },
       producto3:{
         nombre: "ARO DE FF CON TAPA DE CONCRETO ARMADO PARA BUZÓN. ",
         imagen: prealcan2,
-        descripcion: "Se utiliza para cubrir y proteger las cajas de registro de cables de comunicación y electricidad. Estos elementos son utilizados en la construcción de infraestructuras de comunicación y electricidad para asegurar la integridad y seguridad de los cables y conexiones."
+        descripcion: "Se utiliza para cubrir y proteger las cajas de registro de cables de comunicación y electricidad. Estos elementos son utilizados en la construcción de infraestructuras de comunicación y electricidad para asegurar la integridad y seguridad de los cables y conexiones.",
       },
       producto4:{
         nombre: "CAJA CONDOMINIAL de 400 mm y 600 mm",
         imagen: prealcan3,
-        descripcion: "Se utiliza en sistemas de alcantarillado sanitario para la recolección y transporte de aguas residuales y pluviales."
+        descripcion: "Se utiliza en sistemas de alcantarillado sanitario para la recolección y transporte de aguas residuales y pluviales.",
+        especificaciones: tcondominial,
 
       },
       producto5:{
         nombre: "CONEXIÓN DE REGISTRO PARA DESAGÜE DE 40 x 70",
         imagen: prealcan4,
-        descripcion: "Estas conexiones permiten unir de manera segura y eficiente diferentes componentes, como tuberías, cables o estructuras, facilitando la instalación y el mantenimiento de sistemas."
+        descripcion: "Estas conexiones permiten unir de manera segura y eficiente diferentes componentes, como tuberías, cables o estructuras, facilitando la instalación y el mantenimiento de sistemas.",
       },
       producto6: {
         nombre:"CONEXIÓN DE CAJA PARA LODOS DE 60 x 60",
@@ -193,27 +203,30 @@ const datosProductos = {
         descripcion:"Los ductos de cuatro vias son esenciales para trabajos con cableado eléctrico y fibra óptica",
       },
       producto2:{
-        nombre:"Ductos de dos vías",
+        nombre:"DUCTO DE DOS VÍAS",
         imagen:electric1,
         descripcion:"Los ductos de dos vías son empleados en trabajos con cableado eléctrico y fibra óptica",
         especificaciones: tespecducto2v,
       },
       producto3:{
-        nombre: "Caja de pozo a Tierra Circular",
+        nombre: "CAJA DE POZO A TIERRA CIRCULAR",
         imagen: electric2,
         descripcion: "La caja de pozo a tierra",
+        especificaciones: tcajacircular,
 
       },
       producto4: {
-        nombre: "Caja de pozo a Tierra Cuadrado",
+        nombre: "CAJA DE POZO A TIERRA CUADRADA",
         imagen: electric3,
         descripcion: "La caja de pozo a tierra cuadrada",
+        especificaciones: tcajacuadrada,
 
       },
       producto5:{
-        nombre: "Retenidas",
+        nombre: "RETENIDAS",
         imagen: electric4,
         descripcion: "Las retenidas son empleadas",
+        especificaciones: tretenidas,
 
       },
 
@@ -231,7 +244,7 @@ const datosProductos = {
     // ... más subcategorías
   },
   "Termoplásticos": {
-    Aguapotable: {
+    "Agua-Potable": {
       producto1: {
         nombre: "CAJA DE VÁLVULAS DE 33 x 26",
         imagen: termo_aguap,
@@ -241,11 +254,13 @@ const datosProductos = {
         nombre: "TAPA SIN VISOR PARA MEDIDOR DE AGUA",
         imagen: termo_aguap1,
         descripcion: "",
+        especificaciones: ttapasinvisor,
       },
       producto3:{
         nombre: "TAPA CON VISOR PARA MEDIDOR DE AGUA ",
         imagen: termo_aguap2,
         descripcion: "",
+        especificaciones: ttapaconvisor,
       },
       producto4:{
         nombre:"CAJA DE PARED PARA MEDIDOR DE AGUA",
@@ -286,7 +301,7 @@ const datosProductos = {
     // ... más subcategorías
   },
   "Estructuras-Metálicas":{
-    "Agua-potable":{
+    "Agua-Potable":{
       producto1:{
         nombre: "TAPA PARA RESERVORIO",
         imagen: metalica,
@@ -341,7 +356,7 @@ const datosProductos = {
     // ... más subcategorías
   },
   "Fierro-Galvanizado":{
-    "Agua-potable":{
+    "Agua-Potable":{
       producto1:{
         nombre: "TAPA DE 30 x 35 ",
         imagen: fg,
