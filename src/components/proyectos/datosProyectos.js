@@ -1,5 +1,5 @@
 //EIGR
-import eigr from "../../images/Proyectos/EIGR/EIGR-5.png";
+import eigr from "../../images/Proyectos/EIGR/EIGR.png";
 import eigr1 from "../../images/Proyectos/EIGR/EIGR-1.jpg";
 import eigr2 from "../../images/Proyectos/EIGR/EIGR-2.jpg";
 import eigr3 from "../../images/Proyectos/EIGR/EIGR-4.jpg";
@@ -16,7 +16,7 @@ import tecnof4 from "../../images/Proyectos/TECNOFAST/tecnofast-4.png";
 
 
 //CAM - EQUANS
-import equans from "../../images/Proyectos/EQUANS/Cam2.png";
+import equans from "../../images/Proyectos/EQUANS/Cam.png";
 import equans2 from "../../images/Proyectos/EQUANS/CAM3.png";
 import equans1 from "../../images/Proyectos/EQUANS/CAM1.png";
 
@@ -27,7 +27,7 @@ import chaq2 from "../../images/Proyectos/Chaquicocha/chaquicocha2.png";
 import chaq3 from "../../images/Proyectos/Chaquicocha/chaquicocha3.png";
 import chaq4 from "../../images/Proyectos/Chaquicocha/chaquicocha4.png";
 //MPC
-import mpc from "../../images/Proyectos/MPC/mpc5.jpg";
+import mpc from "../../images/Proyectos/MPC/mpc.png";
 import mpc1 from "../../images/Proyectos/MPC/mpc1.jpg";
 import mpc2 from "../../images/Proyectos/MPC/mpc2.png";
 import mpc3 from "../../images/Proyectos/MPC/mpc3.jpg";
@@ -41,18 +41,18 @@ import balip3 from "../../images/Proyectos/BALIP/Balip4.png";
 import balip4 from "../../images/Proyectos/BALIP/Balip5.png";
 import balip5 from "../../images/Proyectos/BALIP/Balip6.png";
 //STHELEC 
-import sthelec from "../../images/Proyectos/STHELEC/Chaq.png";
+import sthelec from "../../images/Proyectos/STHELEC/STHELEC.png";
 import sthelec1 from "../../images/Proyectos/STHELEC/STHELEC1.png";
 import sthelec2 from "../../images/Proyectos/STHELEC/STHELEC2.png";
 import sthelec3 from "../../images/Proyectos/STHELEC/STHELEC3.png";
 import sthelec4 from "../../images/Proyectos/STHELEC/STHELEC4.png";
 //O & C
-import oyc from "../../images/Proyectos/OyC/oyc8.png";
+import oyc from "../../images/Proyectos/OyC/oyc.png";
 import oyc1 from "../../images/Proyectos/OyC/oyc1.jpg";
 import oyc2 from "../../images/Proyectos/OyC/oyc2.jpg";
 import oyc3 from "../../images/Proyectos/OyC/oyc3.jpg";
 //SENCICO
-import sencico from "../../images/Proyectos/SENCICO/Sencico9.png";
+import sencico from "../../images/Proyectos/SENCICO/Sencico.png";
 import sencico1 from "../../images/Proyectos/SENCICO/SENCICO1.jpg";
 import sencico2 from "../../images/Proyectos/SENCICO/SENCICO2.jpg";
 import sencico3 from "../../images/Proyectos/SENCICO/SENCICO3.jpg";
