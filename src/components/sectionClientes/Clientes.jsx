@@ -45,7 +45,7 @@ export const Clientes = () => {
   ];
 
   return (
-    <div className="container-client container-valores">
+    <div className="container-client">
       <h1 className="text-title">CONFÍAN EN NOSOTROS</h1>
       <div className="slider">
         <div className="slide-track">
