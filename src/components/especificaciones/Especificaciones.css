@@ -1,68 +1,92 @@
 .especificacion__card {
-    display: flex;
+  display: flex;
+  align-items: center;
+  margin: 5em 8rem;
+  /* Espacio entre las tarjetas */
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.especificacion__image {
+  flex: 2;
+  /* Ocupa una fracción del espacio disponible */
+  text-align: center;
+
+
+}
+
+.especificacion__image img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 5%;
+  border: 4px ridge var(--colorText);
+
+
+}
+
+.especificacion__text {
+  flex: 2;
+  /* Ocupa dos fracciones del espacio disponible */
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.especificacion__text img {
+  max-width: 80%;
+  max-height: 400px;
+  padding-left: 2%;
+}
+
+.title-categoria {
+  text-align: center;
+  margin: 5rem 0 1rem 0;
+
+}
+
+/* Para pantallas grandes, limita el tamaño máximo de las imágenes */
+@media (min-width: 1200px) {
+  .especificacion__image img {
+    max-width: 30%;
+    /* Puedes ajustar el porcentaje según tus necesidades */
+  }
+}
+
+@media (max-width: 768px)  and (max-width: 1199px) {
+  .especificacion__card {
+    flex-direction: column;
+    /* Cambia a diseño de columna */
     align-items: center;
-    margin: 5em 8rem; /* Espacio entre las tarjetas */
-    box-sizing: border-box;
-    text-align: center;
   }
- 
-  .especificacion__image{
-    flex: 2; /* Ocupa una fracción del espacio disponible */
-    text-align: center;
 
-   
-  }
-  
-  .especificacion__image img  {
-    max-width: 50%;
-    height: auto;
-    border-radius: 5%;
-    border: 1rem ridge var(--colorText);
-   
-   
-  }
-  
-  .especificacion__text {
-    flex: 2; /* Ocupa dos fracciones del espacio disponible */
-    
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    
-  }
-  .especificacion__text img{
-    max-width: 80%;
-    max-height: 400px;
-    padding-left: 2%;
-  }
-  
-  .title-categoria{
+  .especificacion__image {
+    margin-left: 0;
+    /* Elimina el espacio entre el texto y la imagen en pantallas pequeñas */
+    margin-top: 20px;
+    /* Agrega espacio arriba de la imagen */
     text-align: center;
-    margin: 5rem 0 1rem 0;
-    
   }
-  
-  @media (max-width: 768px) {
-    .especificacion__card {
-      flex-direction: column; /* Cambia a diseño de columna */
-      align-items: center;
-    }
-  
-    .especificacion__image {
-      margin-left: 0; /* Elimina el espacio entre el texto y la imagen en pantallas pequeñas */
-      margin-top: 20px; /* Agrega espacio arriba de la imagen */
-      text-align: center;
-    }
+  .especificacion__image img {
+    max-width: 80%; /* Ajusta el porcentaje según tus necesidades */
+  }
 
-    
-  .title-categoria{
+  .title-categoria {
     text-align: center;
     margin: 0;
     padding-top: 15rem;
-   
+
   }
 
-  .card-text-title-info{
+  .card-text-title-info {
     font-size: 3vw !important;
   }
-  }
-  
 
+
+}
+
+/* Estilo para pantallas pequeñas o dispositivos móviles */
+@media (max-width: 767px) {
+  .especificacion__image img {
+    max-width: 100%; /* Hace que la imagen ocupe el 100% del ancho en dispositivos móviles */
+  }
+}

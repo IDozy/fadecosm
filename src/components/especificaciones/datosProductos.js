@@ -64,7 +64,7 @@ import fg2 from "../../images/Productos/Fierro Galvanizado/TapaGalvanizadaMedian
 //TABLAS DE  ESPECIFICACIONES
 import tespc from "../../images/TablasEspecificaciones/Especificaciones.png";
 import tcondominial from "../../images/TablasEspecificaciones/CajaCondominial.png";
-import tespc1 from "../../images/TablasEspecificaciones/Caja_de_agua_ceja.png";
+//import tespc1 from "../../images/TablasEspecificaciones/Caja_de_agua_ceja.png";
 import tespcgras from "../../images/TablasEspecificaciones/BlocGrassMichi.png";
 import tespecgras8 from "../../images/TablasEspecificaciones/BlocGrass8.png";
 import tespecadoquines from "../../images/TablasEspecificaciones/Adoquines.png";
@@ -91,7 +91,7 @@ const datosProductos = {
         nombre: "CAJA PARA REGISTRO DE AGUA DE 30 x 60",
         imagen: preaguapot1,
         descripcion: "Utilizada para almacenar el medidor, válvula de aire y llave de paso.",
-        especificaciones: tespc1,
+        
       },
       producto3:{
         nombre: "CAJA PARA REGISTRO DE AGUA DE 40 X 60",
@@ -104,12 +104,13 @@ const datosProductos = {
         imagen: preaguapot2,
         descripcion: "Utilizada para la protección de llaves de paso y válvulas. ",
       },
+      /*
       producto5:{
         nombre: "CAJA PARA VÁLVULA DE 30x50 Falta FOTO",
         imagen: preaguapot2,
         descripcion: "Utilizada para la protección de llaves de paso, válvulas, mangueras de riego. ",
 
-      },
+      },*/
       // ... más productos
     },
     Alcantarillado:{
@@ -147,13 +148,13 @@ const datosProductos = {
         imagen: prealcan5,
         descripcion: "Se utiliza en aplicaciones relacionadas con el manejo de lodos, como en sistemas de tratamiento de aguas residuales o en la industria de la minería, por lo que también tienen como finalidad recibir y almacenar los lodos tratados por el Biodigestor Rotoplas.",
       },
+      /*
       producto7: {
         nombre: "CONEXIÓN DE REGISTRO PARA DESAGÜE DE 35 x 60 ",
         imagen: prealcan6,
         descripcion: "FALTA FOTO",
-
       },
-      
+      */
     },
     Cercosperimétricos:{
       producto1:{
