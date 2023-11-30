@@ -8,7 +8,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import "./ContactForm.css";
 const ContactForm = () => {
-
   return (
     <div>
       <section className="contact">
@@ -87,7 +86,6 @@ const ContactForm = () => {
                   placeholder="Email"
                   autoComplete="email"
                 />
-                
               </div>
               <div className="inputBox">
                 <label htmlFor="empresa">Su empresa:</label>
@@ -98,7 +96,16 @@ const ContactForm = () => {
                   required="required"
                   placeholder="Empresa"
                 />
-                
+              </div>
+              <div className="inputBox">
+                <label htmlFor="phone">Su teléfono:</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="Número de teléfono"
+                  autoComplete="tel"
+                />
               </div>
               <div className="inputBox">
                 <label htmlFor="message">Coméntanos:</label>
@@ -110,9 +117,10 @@ const ContactForm = () => {
                   required="required"
                   placeholder="Escribe tu Mensaje"
                 />
-                
               </div>
+             
               <div className="inputBox">
+              
                 <input type="submit" name="" value="Enviar" />
               </div>
             </form>
