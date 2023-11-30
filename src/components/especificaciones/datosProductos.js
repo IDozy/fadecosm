@@ -73,7 +73,7 @@ import separadores from "../../images/TablasEspecificaciones/Separadores.png";
 
 const datosProductos = {
   "Prefabricados-De-Concreto": {
-    "Agua-potable": {
+    "Agua-Potable": {
       producto1: {
         nombre: "CAJA PARA LLAVE DE PASO DE 30 x 30",
         imagen: preaguapot,
@@ -231,7 +231,7 @@ const datosProductos = {
     // ... más subcategorías
   },
   "Termoplásticos": {
-    Aguapotable: {
+    "Agua-Potable": {
       producto1: {
         nombre: "CAJA DE VÁLVULAS DE 33 x 26",
         imagen: termo_aguap,
@@ -286,7 +286,7 @@ const datosProductos = {
     // ... más subcategorías
   },
   "Estructuras-Metálicas":{
-    "Agua-potable":{
+    "Agua-Potable":{
       producto1:{
         nombre: "TAPA PARA RESERVORIO",
         imagen: metalica,
@@ -341,7 +341,7 @@ const datosProductos = {
     // ... más subcategorías
   },
   "Fierro-Galvanizado":{
-    "Agua-potable":{
+    "Agua-Potable":{
       producto1:{
         nombre: "TAPA DE 30 x 35 ",
         imagen: fg,
