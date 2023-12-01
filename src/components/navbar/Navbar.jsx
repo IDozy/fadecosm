@@ -40,7 +40,7 @@ const Navbar = () => {
       "Separadores",
     ],
     "Termoplásticos": ["Agua-Potable", "Saneamiento"],
-    "Estructuras-Metálicas": ["Agua-Potable"],
+    "Estructuras-Metálicas": ["Agua-Potable","Otros"],
     "Fierro-Fundido": ["Saneamiento"],
     "Fierro-Galvanizado": ["Agua-Potable"],
     

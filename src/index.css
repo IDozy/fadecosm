@@ -147,7 +147,7 @@ html {
 }
 
 body {
-  background: rgb(244, 251, 255);
+  background: rgb(255, 255, 255);
   color: var(--color-text-default);
 }
 @media screen and (min-width: 1500px) and (max-width: 1920px) {

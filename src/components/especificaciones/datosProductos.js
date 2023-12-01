@@ -44,8 +44,10 @@ import termo_san1 from "../../images/Productos/Plasticos/TapaParaRegistroDeDesag
 
 //E S T R U C T U R A S    M E T A L I C A S
 import metalica from "../../images/Productos/Estructuras Metalicas/TapaParaReservorio.png"
-
-
+import metalica1 from "../../images/Productos/Estructuras Metalicas/Compuertas.png";
+import metalica2 from "../../images/Productos/Estructuras Metalicas/TapasMetalicas.png";
+import metalica3 from "../../images/Productos/Estructuras Metalicas/CocinaMejorada.png";
+import metalica4 from "../../images/Productos/Estructuras Metalicas/TapaParaBuzonDielectrico.png";
 
 //F I E R R O F U N D I D O
 //saneamieno
@@ -304,6 +306,30 @@ const datosProductos = {
         nombre: "TAPA PARA RESERVORIO",
         imagen: metalica,
         descripcion: "Medidas según el requerimiento del cliente.",
+      },
+      producto2:{
+        nombre: "COMPUERTAS",
+        imagen: metalica1,
+        descripcion: "Medidas según el requerimiento del cliente.",
+
+      },
+      producto3:{
+        nombre: "TAPAS METÁLICAS",
+        imagen: metalica2,
+        descripcion: "Medidas según el requerimiento del cliente."
+
+      },
+    },
+    "Otros":{
+      producto1:{
+        nombre: "PLANCHA DE COCINA MEJORADA",
+        imagen: metalica3,
+        descripcion: "",
+      },
+      producto2:{
+        nombre: "PLANCHA PARA BUZÓN DIELÉCTRICO",
+        imagen: metalica4,
+        descripcion: "",
       },
     },
   },
