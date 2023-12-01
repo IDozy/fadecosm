@@ -63,7 +63,7 @@ import fg1 from "../../images/Productos/Fierro Galvanizado/TapaGalvanizada30x60.
 import fg2 from "../../images/Productos/Fierro Galvanizado/TapaGalvanizadaMediana.png";
 
 //TABLAS DE  ESPECIFICACIONES
-import tespc from "../../images/TablasEspecificaciones/Especificaciones.png";
+
 import tcondominial from "../../images/TablasEspecificaciones/CajaCondominial.png";
 import tespcgras from "../../images/TablasEspecificaciones/BlocGrassMichi.png";
 import tespecgras8 from "../../images/TablasEspecificaciones/BlocGrass8.png";
@@ -82,8 +82,7 @@ const datosProductos = {
       producto1: {
         nombre: "CAJA PARA LLAVE DE PASO DE 30 x 30",
         imagen: preaguapot,
-        descripcion: "Utilizadas para llaves de paso.",
-        especificaciones: tespc,
+        descripcion: "Utilizadas para llaves de paso y proteger conexiones domiciliarias.",
       },
       producto2: {
         nombre: "CAJA PARA REGISTRO DE AGUA DE 30 x 60",
@@ -164,7 +163,7 @@ const datosProductos = {
       },
 
     },
-    "Pistas-y-carreteras":{
+    "Pistas-y-Carreteras":{
       producto1:{
         nombre:"HITOS KILOMÉTRICOS",
         imagen:pistas,
@@ -173,7 +172,7 @@ const datosProductos = {
       },
 
     },
-    "Jardinería-para-edificaciones":{
+    "Jardinería-para-Edificaciones":{
       producto1:{
         nombre:"BLOCK GRASS TIPO #",
         imagen:jardineria,
