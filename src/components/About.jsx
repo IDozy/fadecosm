@@ -30,10 +30,10 @@ export const About = () => {
       title: "VISIÓN",
       text: `Ser una empresa reconocida a nivel 
       nacional ofreciendo productos de calidad 
-      de acuerdo a los estándares de calidad y las 
+      de acuerdo a los estándares requeridos y las 
       normas vigentes incursionando en los 
-      diversos campos como los de 
-      pavimentación, y servicios de saneamiento.`,
+      diversos campos como son obras de alcantarillado 
+      y saneamiento de agua potable.`,
     },
   ]);
   return (

@@ -42,7 +42,7 @@ const ProyectoDetalle = () => {
       {/* Otros detalles según sea necesario */}
       {Array.isArray(proyecto.imagenes) && proyecto.imagenes.length > 0 && (
         <section className="imagenes-section">
-          <h3>Llamanos: 955445875 - 952066393 - 976631901</h3>
+          <h3>Llamanos: 955445875 - 952066393 - 957868008 -976631901 </h3>
           <div
             className="servicios-container"
             style={{

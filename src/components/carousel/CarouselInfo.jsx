@@ -12,11 +12,11 @@ const CarouselInfo = ({ titulo1, titulo2 }) => {
         <div className="text-slide__buttons">
           <button className="button-slide ">
             <a className="" href="/contacto">
-              Cotiza ahora
+              Cotizar ahora
             </a>
           </button>
           <button className="button-slide">
-            <a href="/acercade">más información</a>
+            <a href="/nosotros">Conócenos</a>
           </button>
         </div>
       </div>

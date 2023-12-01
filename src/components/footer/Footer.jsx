@@ -14,10 +14,10 @@ const Footer = () => {
 
   const links = [
     {
-      title: "Fadeco San Martin",
+      title: "Profesionales en Concreto",
       items: [
         <img
-          style={{ width: "90%" }}
+          style={{ width: "80%" }}
           src={logo}
           alt="Descripción de la imagen"
           key="imagen"
@@ -40,6 +40,7 @@ const Footer = () => {
       items: [
         "+51 955 445 875",
         "+51 952 066 393",
+        "+51 957 868 008",
         "+51 976 631 901",
         "ventas@fadecosanmartin.com.pe",
         "fadecosanmartin321@gmail.com",
@@ -68,6 +69,10 @@ const Footer = () => {
 
   const renderSocialMediaIcons = () => (
     <div className="sb__footer-links-div">
+      <h4>Ubícanos</h4>
+      <p className="sb__footer-link-item">Jr. Alfonso Ugarte 2069 Mza. H Lote. 2 Barrio Nuevo Cajamarca</p>
+      <p className="sb__footer-link-item">Esquina con Héroes del Cenepa cdra 17, Cajamarca - Perú</p>
+      <br />
       <h4>Síguenos</h4>
       <div className="socialmedia">
         {socialMediaIcons.map((item, index) => (

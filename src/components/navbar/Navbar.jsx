@@ -33,7 +33,7 @@ const Navbar = () => {
     "Prefabricados-De-Concreto": [
       "Agua-Potable",
       "Alcantarillado",
-      "Cercosperimétricos",
+      "Cerco-Perimétrico",
       "Pistas-y-Carreteras",
       "Jardinería-para-Edificaciones",
       "Electrificación",

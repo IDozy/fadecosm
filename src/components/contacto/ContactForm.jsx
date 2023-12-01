@@ -33,7 +33,7 @@ const ContactForm = () => {
               </div>
               <div className="text-contact">
                 <h3>Dirección</h3>
-                <p>Jr. Alfonso Ugarte 2069 y Av. Héroes del Cenepa c17</p>
+                <p>Jr. Alfonso Ugarte 2069 esquina con Av. Héroes del Cenepa c17</p>
               </div>
             </div>
 

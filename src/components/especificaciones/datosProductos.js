@@ -8,7 +8,6 @@ import preaguapot3 from "../../images/Productos/Prefabricados/Aguapotable/Caja40
 import preaguapot4 from "../../images/Productos/Prefabricados/Aguapotable/CajaParaValvulas30x50.png";
 //alcatarillado
 import prealcan from "../../images/Productos/Prefabricados/Alcantarillado/Buzoncircular.png";
-import prealcan1 from "../../images/Productos/Prefabricados/Alcantarillado/Buzoncuadrado.png";
 import prealcan2 from "../../images/Productos/Prefabricados/Alcantarillado/aro_de_ff_tapa_deconcretoarmadopara_buzon.png";
 import prealcan3 from "../../images/Productos/Prefabricados/Alcantarillado/CajaCondominial.png";
 import prealcan4 from "../../images/Productos/Prefabricados/Alcantarillado/Conexionparadesague 40X70.png";
@@ -26,6 +25,7 @@ import electric1 from "../../images/Productos/Prefabricados/Electrificacion/Duct
 import electric2 from "../../images/Productos/Prefabricados/Electrificacion/CajaCircularPozoATierra.png";
 import electric3 from "../../images/Productos/Prefabricados/Electrificacion/CajaCuadradaPozoaTierra.png";
 import electric4 from "../../images/Productos/Prefabricados/Electrificacion/Retenidas.png";
+import electric5 from "../../images/Productos/Prefabricados/Electrificacion/BuzonElectricoCuadrado.png";
 //pistasycarreteras
 import pistas from "../../images/Productos/Prefabricados/PistasyCarreteras/HitosKilometricos.png";
 //separadores
@@ -60,7 +60,7 @@ import ff5 from "../../images/Productos/Fierro Fundido/PlanchaFF3hornillas.png";
 import ff6 from "../../images/Productos/Fierro Fundido/PlanchaFF4hornillas.png";
 
 //F I E R R O     G A L V A N I Z A D O
-import fg from "../../images/Productos/Fierro Galvanizado/TapaGalvanizadaPequeña.png";
+import fg from "../../images/Productos/Fierro Galvanizado/TapaGalvanizadaPeq.png";
 import fg1 from "../../images/Productos/Fierro Galvanizado/TapaGalvanizada30x60.png";
 import fg2 from "../../images/Productos/Fierro Galvanizado/TapaGalvanizadaMediana.png";
 
@@ -120,29 +120,23 @@ const datosProductos = {
         especificaciones: tbuzoncircular,
       },
       producto2:{
-        nombre: "BUZÓN ELÉCTRICO",
-        imagen: prealcan1,
-        descripcion: "Se utiliza para cubrir y proteger las cajas de registro de cables de comunicación y electricidad. Estos elementos son utilizados en la construcción de infraestructuras de comunicación y electricidad para asegurar la integridad y seguridad de los cables y conexiones.",
-        especificaciones: tbuzonelectrico,
-      },
-      producto3:{
         nombre: "ARO DE FF CON TAPA DE CONCRETO ARMADO PARA BUZÓN. ",
         imagen: prealcan2,
         descripcion: "Se utiliza para cubrir y proteger las cajas de registro de cables de comunicación y electricidad. Estos elementos son utilizados en la construcción de infraestructuras de comunicación y electricidad para asegurar la integridad y seguridad de los cables y conexiones.",
       },
-      producto4:{
+      producto3:{
         nombre: "CAJA CONDOMINIAL de 400 mm y 600 mm",
         imagen: prealcan3,
         descripcion: "Se utiliza en sistemas de alcantarillado sanitario para la recolección y transporte de aguas residuales y pluviales.",
         especificaciones: tcondominial,
 
       },
-      producto5:{
+      producto4:{
         nombre: "CONEXIÓN DE REGISTRO PARA DESAGÜE DE 40 x 70",
         imagen: prealcan4,
         descripcion: "Estas conexiones permiten unir de manera segura y eficiente diferentes componentes, como tuberías, cables o estructuras, facilitando la instalación y el mantenimiento de sistemas.",
       },
-      producto6: {
+      producto5: {
         nombre:"CONEXIÓN DE CAJA PARA LODOS DE 60 x 60",
         imagen: prealcan5,
         descripcion: "Se utiliza en aplicaciones relacionadas con el manejo de lodos, como en sistemas de tratamiento de aguas residuales o en la industria de la minería, por lo que también tienen como finalidad recibir y almacenar los lodos tratados por el Biodigestor Rotoplas.",
@@ -155,7 +149,7 @@ const datosProductos = {
       },
       */
     },
-    Cercosperimétricos:{
+    "Cerco-Perimétrico":{
       producto1:{
         nombre: "Cerco perimétrico tipo cuadrado",
         imagen: cercop ,
@@ -176,19 +170,19 @@ const datosProductos = {
     },
     "Jardinería-para-Edificaciones":{
       producto1:{
-        nombre:"BLOCK GRASS TIPO #",
+        nombre:"BLOCK GRASS TIPO NUMERAL",
         imagen:jardineria,
         descripcion:"Los block grass permiten la coexistencia de pisos de concreto y áreas verdes, lo que los convierte en bloques ecológicos.",
         especificaciones:tespcgras,
       },
       producto2:{
-        nombre:"BLOCK GRASS TIPO 8",
+        nombre:"BLOCK GRASS TIPO OCHO",
         imagen:jardineria1,
         descripcion:"Son recomendados para calles, pisos decorativos y pisos de instalación rápida y fácil.",
         especificaciones:tespecgras8,
       },
       producto3:{
-        nombre: "ADOQUINES",
+        nombre: "ADOQUINES (BLOQUETA PARA PISO)",
         imagen:jardineria2,
         descripcion:"Son utilizados en una variedad de aplicaciones, como calles, aceras, patios y plazas, son duraderos y resistentes, lo que los hace ideales para soportar el tráfico peatonal y vehicular.",
         especificaciones:tespecadoquines,
@@ -227,7 +221,12 @@ const datosProductos = {
         imagen: electric4,
         descripcion: "Son utilizadas en estructuras eléctricas y de comunicación para asegurar y sostener los cables y conductores. Estas retenidas se fabrican con concreto de alta resistencia y se utilizan para fijar y mantener en su lugar los cables y conductores en postes y estructuras.",
         especificaciones: tretenidas,
-
+      },
+      producto6:{
+        nombre: "BUZÓN ELÉCTRICO",
+        imagen: electric5,
+        descripcion: "Se utiliza para cubrir y proteger las cajas de registro de cables de comunicación y electricidad. Estos elementos son utilizados en la construcción de infraestructuras de comunicación y electricidad para asegurar la integridad y seguridad de los cables y conexiones.",
+        especificaciones: tbuzonelectrico,
       },
 
     },
@@ -303,7 +302,7 @@ const datosProductos = {
   "Estructuras-Metálicas":{
     "Agua-Potable":{
       producto1:{
-        nombre: "TAPA PARA RESERVORIO",
+        nombre: "TAPA METÁLICA SANITARIA",
         imagen: metalica,
         descripcion: "Medidas según el requerimiento del cliente.",
       },
