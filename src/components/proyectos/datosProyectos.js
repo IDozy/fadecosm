@@ -17,8 +17,10 @@ import tecnof4 from "../../images/Proyectos/TECNOFAST/tecnofast-4.png";
 
 //CAM - EQUANS
 import equans from "../../images/Proyectos/EQUANS/Cam.png";
-import equans2 from "../../images/Proyectos/EQUANS/CAM3.png";
-import equans1 from "../../images/Proyectos/EQUANS/CAM1.png";
+import equans1 from "../../images/Proyectos/EQUANS/Cam1.png";
+import equans2 from "../../images/Proyectos/EQUANS/Cam2.png";
+import equans3 from "../../images/Proyectos/EQUANS/Cam3.png";
+import equans4 from "../../images/Proyectos/EQUANS/Cam4.png";
 
 //CHAQUICOCHA
 import chaq from "../../images/Proyectos/Chaquicocha/chaqui.png";
@@ -87,7 +89,7 @@ const proyectos = [
       producto: "Bloques de concreto armado",
       lugar: "Cajamarca - 2023 ",
       proyecto: "''PROYECTO WTP, Yanacocha''",
-      imagenes: [equans1, equans2],
+      imagenes: [equans1, equans2,equans3,equans4],
     },
 
     {
