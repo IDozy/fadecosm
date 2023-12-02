@@ -333,7 +333,7 @@ const datosProductos = {
     },
   },
   "Fierro-Fundido": {
-    Saneamiento: {
+    "Fundición-para-Infraestructuras": {
       producto1: {
         nombre: "MARCO Y TAPA PARA BUZÓN ",
         imagen: ff,

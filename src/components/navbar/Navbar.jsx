@@ -41,7 +41,7 @@ const Navbar = () => {
     ],
     "Termoplásticos": ["Agua-Potable", "Saneamiento"],
     "Estructuras-Metálicas": ["Agua-Potable","Otros"],
-    "Fierro-Fundido": ["Saneamiento"],
+    "Fierro-Fundido": ["Fundición-para-Infraestructuras"],
     "Fierro-Galvanizado": ["Agua-Potable"],
     
   };
