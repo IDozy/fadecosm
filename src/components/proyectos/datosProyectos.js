@@ -42,6 +42,7 @@ import balip2 from "../../images/Proyectos/BALIP/Balip3.png";
 import balip3 from "../../images/Proyectos/BALIP/Balip4.png";
 import balip4 from "../../images/Proyectos/BALIP/Balip5.png";
 import balip5 from "../../images/Proyectos/BALIP/Balip6.png";
+import balip6 from "../../images/Proyectos/BALIP/Balip7.jpg";
 //STHELEC 
 import sthelec from "../../images/Proyectos/STHELEC/STHELEC.png";
 import sthelec1 from "../../images/Proyectos/STHELEC/STHELEC1.png";
@@ -122,7 +123,7 @@ const proyectos = [
       producto: "Buzones eléctricos, Techos prefabricados y Ductos de cuatro vías",
       lugar: " Baños del Inca Cajamarca 2023",
       proyecto: "''CONDOMINIO SANTUARIO DEL VALLE - BAÑOS DEL INCA CAJAMARCA''",
-      imagenes: [balip1,balip2,balip3,balip4,balip5],
+      imagenes: [balip1,balip2,balip3,balip4,balip6,balip5],
     },
      
     {
