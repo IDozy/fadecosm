@@ -1,18 +1,18 @@
 //EIGR
 import eigr from "../../images/Proyectos/EIGR/EIGR.png";
-import eigr1 from "../../images/Proyectos/EIGR/EIGR-1.jpg";
-import eigr2 from "../../images/Proyectos/EIGR/EIGR-2.jpg";
-import eigr3 from "../../images/Proyectos/EIGR/EIGR-4.jpg";
+import eigr1 from "../../images/Proyectos/EIGR/EIGR1.jpg";
+import eigr2 from "../../images/Proyectos/EIGR/EIGR2.jpg";
+import eigr3 from "../../images/Proyectos/EIGR/EIGR4.jpg";
 import eigr4 from "../../images/Proyectos/EIGR/EIGR6.jpg";
-import eigr5 from "../../images/Proyectos/EIGR/EIGR-8.png";
-import eigr6 from "../../images/Proyectos/EIGR/EIGR-7.png";
+import eigr5 from "../../images/Proyectos/EIGR/EIGR8.png";
+import eigr6 from "../../images/Proyectos/EIGR/EIGR7.png";
 
 //TECNOFAST
 import tecnof from "../../images/Proyectos/TECNOFAST/tecnofast.png";
 import tecnof1 from "../../images/Proyectos/TECNOFAST/tecnofast1.jpg";
-import tecnof2 from "../../images/Proyectos/TECNOFAST/tecnofast-2.png";
-import tecnof3 from "../../images/Proyectos/TECNOFAST/tecnofast-3.png";
-import tecnof4 from "../../images/Proyectos/TECNOFAST/tecnofast-4.png";
+import tecnof2 from "../../images/Proyectos/TECNOFAST/tecnofast2.png";
+import tecnof3 from "../../images/Proyectos/TECNOFAST/tecnofast3.png";
+import tecnof4 from "../../images/Proyectos/TECNOFAST/tecnofast4.png";
 
 
 //CAM - EQUANS

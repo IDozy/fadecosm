@@ -17,7 +17,7 @@ import prealcan5 from "../../images/Productos/Prefabricados/Alcantarillado/Conex
 import cercop from "../../images/Productos/Prefabricados/Cercosperimetricos/Cercos1.jpg";
 //jardineria y edificaciones
 import jardineria from "../../images/Productos/Prefabricados/JardineriaEdific/BlocGrassTipoMichi.png";
-import jardineria1 from "../../images/Productos/Prefabricados/JardineriaEdific/Bloc_Grass_tipo8.png";
+import jardineria1 from "../../images/Productos/Prefabricados/JardineriaEdific/BlocGrassTipoOcho.png";
 import jardineria2 from "../../images/Productos/Prefabricados/JardineriaEdific/Adoquines.png";
 //electrificación
 import electric from "../../images/Productos/Prefabricados/Electrificacion/Ducto4vias.png";

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Servicios.css";
 import img from "../../images/Servicios/Estructura.jpeg";
-import img1 from "../../images/Servicios/Agua.jpg";
+import img1 from "../../images/Servicios/Agua2.png";
 import img2 from "../../images/Servicios/Portatil.jpg";
 import img3 from "../../images/Servicios/Calidad.jpg";
 import img4 from "../../images/Servicios/Construccion.jpg";
