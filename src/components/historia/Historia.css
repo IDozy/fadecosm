@@ -43,7 +43,10 @@
   .rotated-container , .contenedor-imagen{
     max-height: 400px !important;
     transform: none !important;
+    margin: 0 !important;
+    width: 80vw !important;
   }
+ 
 }
 
 /* Card-NUESTRO PRODUCTOS ESTÁ EN EL HOME */
@@ -127,7 +130,7 @@
 }
 
 .imagen-prod {
- width: 50vw;
+  width: 50vw;
   height: 100%;
   object-fit: cover; /* Ajusta la imagen al tamaño del contenedor */
 }
