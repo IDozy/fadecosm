@@ -20,7 +20,7 @@ const Header = () => {
 
   const links = [
     {
-      title: "955445875 / 952066393 / 957868008 / 976631901",
+      title: "955445875 / 952066393 / 957868008",
       icon: faPhoneFlip,
     },
     {
