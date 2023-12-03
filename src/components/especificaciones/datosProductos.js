@@ -70,8 +70,8 @@ import tcondominial from "../../images/TablasEspecificaciones/CajaCondominial.pn
 import tespcgras from "../../images/TablasEspecificaciones/BlocGrassMichi.png";
 import tespecgras8 from "../../images/TablasEspecificaciones/BlocGrass8.png";
 import tespecadoquines from "../../images/TablasEspecificaciones/Adoquines.png";
+import tespecductos4v from "../../images/TablasEspecificaciones/DuctoDeCuatroVias.png";
 import tespecducto2v from "../../images/TablasEspecificaciones/DuctoDeDosVias.png";
-import separadores from "../../images/TablasEspecificaciones/Separadores.png";
 import tbuzoncircular from "../../images/TablasEspecificaciones/BuzonCircular.png";
 import tbuzonelectrico from "../../images/TablasEspecificaciones/BuzonElectrico.png";
 import tcajacuadrada from "../../images/TablasEspecificaciones/CajaCuadradaPuestTierra.png";
@@ -195,6 +195,7 @@ const datosProductos = {
         nombre:"DUCTO DE CUADRO VÍAS",
         imagen:electric,
         descripcion:"Los ductos de cuatro vias son esenciales para trabajos con cableado eléctrico y fibra óptica",
+        especificaciones: tespecductos4v,
       },
       producto2:{
         nombre:"DUCTO DE DOS VÍAS",
@@ -235,7 +236,6 @@ const datosProductos = {
         nombre: "Separadores de concreto",
         imagen:sepa,
         descripcion:"Son elementos utilizados en la construcción para mantener las barras de refuerzo alejadas de la superficie del hormigón.",
-        especificaciones: separadores,
       }
 
     },
